@@ -2,6 +2,7 @@ Welcome to the Sisyphus group home!
 
 # External Links
 * [SrD home](https://csse.msoe.us/srdsgn/)
+* [Due Dates](https://csse.msoe.us/srdsgn/duedates/)
 
 # Summer Work
 * [Project Proposal](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Project-Proposal)
