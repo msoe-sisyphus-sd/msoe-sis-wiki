@@ -1,6 +1,6 @@
 Welcome to the Sisyphus group home!
 
-#External Links
+# External Links
 
 [SrD home](https://csse.msoe.us/srdsgn/)
 
