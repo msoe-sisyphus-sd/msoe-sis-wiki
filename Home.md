@@ -11,9 +11,8 @@ Welcome to the Sisyphus group home!
 * [Summer Brainstorming](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Summer-Brainstorming)
 
 # Meeting Minutes
-## Fall
-#### Wk 2
-* [T ](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/minutes-2020-09-14)
+### Fall
+* [Tuesday Wk 2](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/minutes-2020-09-14)
 
 # Status Reports
 * [Template](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Status-Report-Template)
