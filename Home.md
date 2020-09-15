@@ -14,4 +14,4 @@ Welcome to the Sisyphus group home!
 # Status Reports
 * [Template](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Status-Report-Template)
 ### Fall
-* [Wk 2](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Wk-2-Status-Report)
+* [Wk 2](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Fall-Wk-2-Status-Report)
