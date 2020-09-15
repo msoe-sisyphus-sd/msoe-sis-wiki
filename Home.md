@@ -12,6 +12,7 @@ Welcome to the Sisyphus group home!
 
 # Meeting Minutes
 * [T Wk 2](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/minutes-2020-09-14)
+* R Wk 2
 
 # Status Reports
 * [Template](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Status-Report-Template)
