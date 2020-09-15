@@ -1,48 +1,56 @@
 # Sprint Goal
 
-<Insert Goal here>
+Insert Goal here
 
 # Burndown Chart
 
-<Link Chart Here>
+Link Chart Here
 
 # Team Commitment
 
 ## Burkhardt, Robert
-#### Hours: X
-##### Rating (0-10): X
+###### Hours: X
+###### Rating (0-10): X
 ###### Summary:
 
-<Insert Summary Here>
+Insert Summary Here
 
 ## Casper, Joseph
-* Hours:
-* Rating (0-10):
-* Summary
+###### Hours: X
+###### Rating (0-10): X
+###### Summary:
+
+Insert Summary Here
 
 ## Enters, Stuart
-* Hours:
-* Rating (0-10):
-* Summary
+###### Hours: X
+###### Rating (0-10): X
+###### Summary:
+
+Insert Summary Here
 
 ## Fleming, Grace
-* Hours:
-* Rating (0-10):
-* Summary
+###### Hours: X
+###### Rating (0-10): X
+###### Summary:
+
+Insert Summary Here
 
 ## Wojciechowski, Andrew
-* Hours:
-* Rating (0-10):
-* Summary
+###### Hours: X
+###### Rating (0-10): X
+###### Summary:
+
+Insert Summary Here
 
 # Discussion
 
-<Insert Discussion Points here>
+Insert Discussion Points here
 
 # Questions
 
-<Insert Questions here>
+Insert Questions here
 
 # Conclusion
 
-<Insert Conclusion here>
+Insert Conclusion here
