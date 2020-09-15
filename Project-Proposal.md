@@ -93,6 +93,11 @@ Sans working with Sisyphus Industries beyond the RGBW project the team has devel
 * Table Emulator: develop a modern application that simulates tracing a Theta-Rho file in a digital environment.
 * Sync Speed of ball to lights & music: develop an approach to lighting and ball movement that mimics the idea of a ball “dancing” to audio input
 
+### Information Learned Over The Summer
+Over the summer Dr. Taylor gave us his mini table so that we could learn how to use it for the fall. Once he did that we learned a lot about how to use the table with the Sisyphus mobile app and how to connect to the table with the mobile app. In the app we learned more about how the table uses playlists and how to play different tracks on the table. Also, in the mobile app we learned about changing different settings for the table such as ball speed and settings for the lights. That also helped us determined how those settings affected the different tracks being played where for example if the ball speed was too high the table's arm could lose track of the ball.
+
+<TODO Docker>
+
 ### Zero-Day Items
 In the interest of getting our project up and running smoothly in the first sprint, our team has identified a number of "zero-day" items that need to be completed before the project can really be worked on:
 
