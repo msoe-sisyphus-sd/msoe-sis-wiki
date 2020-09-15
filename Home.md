@@ -4,10 +4,8 @@ Welcome to the Sisyphus group home!
 * [SrD home](https://csse.msoe.us/srdsgn/)
 
 # Summer Work
-
 * [Project Proposal](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Project-Proposal)
 * [Summer Brainstorming](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Summer-Brainstorming)
 
 # Meeting Minutes
-
 * [T Wk 2](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/minutes-2020-09-14)
