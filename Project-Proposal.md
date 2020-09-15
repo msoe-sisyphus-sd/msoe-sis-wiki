@@ -93,3 +93,15 @@ Sans working with Sisyphus Industries beyond the RGBW project the team has devel
 * Table Emulator: develop a modern application that simulates tracing a Theta-Rho file in a digital environment.
 * Sync Speed of ball to lights & music: develop an approach to lighting and ball movement that mimics the idea of a ball “dancing” to audio input
 
+### Zero-Day Items
+In the interest of getting our project up and running smoothly in the first sprint, our team has identified a number of "zero-day" items that need to be completed before the project can really be worked on:
+
+#1 - Determining development environment & figuring out if it's possible to move away from the raspberry pi target development architecture.
+
+#2 - Understanding the structure of the existing codebase (server-client architecture).
+
+#3 - Forking and migrating the fork of the existing Github git repository for Gitlab for our senior design team.
+
+#4 - The existing codebase has no tests, so we need to investigate a testing framework and integrate it (at some elementary level) with the existing codebase.
+
+#5 - Determine how to work on LED's without being in-person and having a raspberry pi with NeoPixels to work on.
