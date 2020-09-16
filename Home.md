@@ -18,3 +18,6 @@ Welcome to the Sisyphus group home!
 * [Template](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Status-Report-Template)
 ### Fall
 * [Wk 2](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Fall-Wk-2-Status-Report)
+
+# Architecture
+* [Python Lights Module Arhitecture](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Architecture/Python-Lights-Architecture)
