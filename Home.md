@@ -21,3 +21,5 @@ Welcome to the Sisyphus group home!
 
 # Architecture
 * [Python Lights Module Arhitecture](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Architecture/Python-Lights-Architecture)
+
+# Process
