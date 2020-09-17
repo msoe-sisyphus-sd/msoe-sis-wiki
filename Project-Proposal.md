@@ -96,17 +96,18 @@ Sans working with Sisyphus Industries beyond the RGBW project the team has devel
 ### Information Learned Over The Summer
 Over the summer Dr. Taylor gave us his mini table so that we could learn how to use it for the fall. Once he did that we learned a lot about how to use the table with the Sisyphus mobile app and how to connect to the table with the mobile app. In the app we learned more about how the table uses playlists and how to play different tracks on the table. Also, in the mobile app we learned about changing different settings for the table such as ball speed and settings for the lights. That also helped us determined how those settings affected the different tracks being played where for example if the ball speed was too high the table's arm could lose track of the ball.
 
-<TODO Docker>
+### Docker Investigation
+Over the summer, the idea of using docker was investigated by the team. Unfortunately, Docker will not be a viable development environment solution, at least without heavy rework, at this time. This is because of significant arhictecutre differences between the raspberry pi and a windows 10 PC (ARM vs. Intel CPU's). It does seem possible, in some capacity, to run QEMU inside of a docker container inside of a virtual machine to emulate the architecture on a raspberry pi, but the memory and CPU limits of the virtual machine being used for investigation were exceeded by the heaviness of the docker container. Moreover, the virtualbox had the limitation of not having a suitable way to emulate bluetooth.
 
 ### Zero-Day Items
 In the interest of getting our project up and running smoothly in the first sprint, our team has identified a number of "zero-day" items that need to be completed before the project can really be worked on:
 
 #1 - Determining development environment & figuring out if it's possible to move away from the raspberry pi target development architecture.
 
-#2 - Understanding the structure of the existing codebase (server-client architecture).
+#8 - Understanding the structure of the existing codebase (server-client architecture).
 
 #3 - Forking and migrating the fork of the existing Github git repository for Gitlab for our senior design team.
 
 #4 - The existing codebase has no tests, so we need to investigate a testing framework and integrate it (at some elementary level) with the existing codebase.
 
-#5 - Determine how to work on LED's without being in-person and having a raspberry pi with NeoPixels to work on.
+~~#5 - Determine how to work on LED's without being in-person and having a raspberry pi with NeoPixels to work on.~~ (determined impossible).
