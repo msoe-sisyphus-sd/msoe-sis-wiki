@@ -10,7 +10,7 @@ The team has initially decided on this approach because there aren't currently a
 
 ## Getting Started
 
-*Assuming you have an SSH key setup with GitLab and GItHub
+*Assuming you have an SSH key setup with GitLab and GItHub*
 ```bash
 git clone git@gitlab.com:msoe.edu/sdl/sd21/sisyphus/msoe-sisbot.git
 git remote add upstream git@github.com:bshapiro57/sisbot.git
