@@ -26,7 +26,17 @@ git commit -m <commit-message>
 git push -u origin <branch-name>
 ```
 
+**Commits should be atomic - that is at any point checking out a commit should not prevent the project from running**
+
 When changes are stable and well tested then a developer may open a Merge Request (MR) to add their changes to the `dev` branch.
+
+## Merge Requests (MRs)
+
+Merge requests ensure proper review is performed on code before it is added to the shared repository.
+
+At a minimum - an MR should have **2** reviewers in addition to the submitter (for a total of 3 reviewers). This ensures that more than 50% of the team has validated the code.
+
+When possible - MRs should "Squash Commits". *This is not required.* Squashing commits is helpful in-case a merged must be reverted (only a single commit to undo). It also keeps the `git` history clean in that it's more understandable what a commit means in terms of the repo. state.
 
 ## Releasing to `master`
 
