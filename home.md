@@ -18,4 +18,4 @@ In order to facilitate efficient communication please try to adhere to these sta
 
 ## Templates
 
-If a section has a template, please copy-paste it's contents when creating a new page under that section. This makes it easier to add contents to a section but also ensures that the formatting remains the same making it easier to parse documents and comb through the wiki. 
+If a section has a template, please copy-paste its contents when creating a new page under that section. This makes it easier to add contents to a section but also ensures that the formatting remains the same making it easier to parse documents and comb through the wiki. 
