@@ -111,3 +111,5 @@ In the interest of getting our project up and running smoothly in the first spri
 #4 - The existing codebase has no tests, so we need to investigate a testing framework and integrate it (at some elementary level) with the existing codebase.
 
 ~~#5 - Determine how to work on LED's without being in-person and having a raspberry pi with NeoPixels to work on.~~ (determined impossible).
+
+#9 - Deploy code to the actual Raspberry Pi.
