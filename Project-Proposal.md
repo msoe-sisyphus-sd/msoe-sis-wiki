@@ -54,6 +54,10 @@ One will be donated to us by Sisyphus Industries, and the team is able to use Dr
 Being that Dr. Taylor has a Sisyphus table he is willing to let us work with and that Sisyphus Industries is planning on sending an additional model, the team does not plan on incurring any expenses at the time of this proposal.
 As the team moves forward in the project and explores different domains of the table there remains a possibility to explore additional sensors to the system. The hope would be that Sisyphus industries would sponsor such exploration but the team might be responsible for sourcing and purchasing different sensors.
 The tentative budget for the start of the project is: $0.00
+
+* as of 2020-09-17, this may change. The team has identified that in the project's current state, we are unable to build the code apart from a raspberry pi. As such and in the interim, the team may be looking for additional funding to construct development environments; this is not official yet.
+
+
 ## DOCUMENTATION
 Given that software documentation is an ABET-level standard for software engineering, our team endeavors to use the following as documentation tools:
 Swagger
