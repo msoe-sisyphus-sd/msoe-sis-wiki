@@ -50,7 +50,7 @@ I also participated in team meetings, and worked on building the codebase on a l
 ###### Rating (0-10): 7
 ###### Summary:
 
-This week I spent some time looking ways we could test the Python lights module. I found a complication related to one of the libraries that the Python lights module uses which will make testing the module difficult where the library can only be imported on a Raspberry PI. I also spent a lot of time reading through the codebase and I put together a architecture document in the wiki for the Python lights module [here](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Architecture/Python-Lights-Module-Architecture)
+This week I spent some time looking ways we could test the Python lights module. I found a complication related to one of the libraries that the Python lights module uses which will make testing the module difficult where the library can only be imported on a Raspberry PI. I also spent a lot of time reading through the codebase and I put together a architecture document in the wiki for the Python lights module here: https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Architecture/Python-Lights-Module-Architecture
 
 # Discussion
 
