@@ -30,11 +30,11 @@ Since we are not in a sprint, this PBI was not story pointed and thus cannot con
 Insert Summary Here
 
 ## Enters, Stuart
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 6
+###### Rating (0-10): 4
 ###### Summary:
 
-Insert Summary Here
+I participated in team meetings planning how to begin working on the project. I spent a good amount of time trying to get the server running locally so I could see exactly what it did. I am blocked in documenting the existing code until we get access to the remainder of the code (we have 1 of 3 repos)
 
 ## Fleming, Grace
 ###### Hours: X
