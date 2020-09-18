@@ -38,11 +38,12 @@ Insert Summary Here
 I participated in team meetings planning how to begin working on the project. I spent a good amount of time trying to get the server running locally so I could see exactly what it did. I am blocked in documenting the existing code until we get access to the remainder of the code (we have 1 of 3 repos)
 
 ## Fleming, Grace
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 6.33
+###### Rating (0-10): 4
 ###### Summary:
-
-Insert Summary Here
+This week, I worked on learning about how development is currently performed on the table.
+Learning about the current devenv required getting in touch with Bruce Shapiro, who put us in touch with Matt Klundt, the lead (and only?) developer. I communicated over email with Matt to learn about the current dev process, discovered that there were more repositories we did not have access to, and obtained SSH credentials for the pi.
+I also participated in team meetings, and worked on building the codebase on a linux VM (problematic).
 
 ## Wojciechowski, Andrew
 ###### Hours: X
