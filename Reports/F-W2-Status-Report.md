@@ -14,7 +14,7 @@ Since we are not in a sprint, this PBI was not story pointed and thus cannot con
 # Team Commitment
 
 ## Burkhardt, Robert
-###### Hours: 4.5
+###### Hours: 5.5
 ###### Rating (0-10): 6
 ###### Summary: 
 * Team Meetings
@@ -23,9 +23,10 @@ Since we are not in a sprint, this PBI was not story pointed and thus cannot con
 * Investigated current platform dependencies of the Sisyphus Table & Raspberry Pi
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 6
+###### Rating (0-10): 5
 ###### Summary:
+I started getting familiar with the code in the repo, and I investigated tests for the code. There aren't any tests written for the code that we'll be using (specifically, the files led_main.py, led_startup.py, colorFunctions.py, and sisbot.js.) I suggested that we write tests for these files, though this may be difficult because these files cannot be run unless they're being run on a pi. Also, I talked with the team about our git and development flow. I'll be able to log more hours once we finally get code to start running on the table. I plan on connecting to the table on Monday. 
 
 Insert Summary Here
 
