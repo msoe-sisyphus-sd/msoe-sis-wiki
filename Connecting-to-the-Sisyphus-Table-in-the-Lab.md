@@ -33,7 +33,7 @@ The sisyphus table requires both network visibility and internet access. This is
 
 ^^ I did this using nmap. If you don't have nmap installed on your PC, there might be other ways to do this, but I'm not sure. For me the sisyphus table didn't show up in the Windows 10 "devices list."
 
-** Note that windows laptops use a netmask of 255.255.255.0 by default. I don't think this is changeable, so when you do your nmap be sure to use a netmask of /24, otherwise it won't work :)
+** Note that windows laptop hotspots use a netmask of 255.255.255.0 by default. I don't think this is changeable, so when you do your nmap be sure to use a netmask of /24, otherwise it won't work :)
 
 Image of SSH Working, using the IP from the previous screenshot:
 
