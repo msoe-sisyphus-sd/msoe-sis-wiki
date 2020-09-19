@@ -30,12 +30,14 @@ The sisyphus table requires both network visibility and internet access. This is
 1) First, find the IP of the Sisyphus table (Windows 10 hotspots do not handle local DNS resolution very well, or if they do I don't know how to set it up)
 
 ![image](uploads/97b0a3762f60260c24f7bc974249adf9/image.png)
+
 ^^ I did this using nmap. If you don't have nmap installed on your PC, there might be other ways to do this, but I'm not sure. For me the sisyphus table didn't show up in the Windows 10 "devices list."
 
-SSH:
-![image](uploads/d18832a75a80e3b9f13f176d448117dc/image.png)
+** Note that windows laptops use a netmask of 255.255.255.0 by default. I don't think this is changeable, so when you do your nmap be sure to use a netmask of /24, otherwise it won't work :)
 
-2) 
+Image of SSH Working, using the IP from the previous screenshot:
+
+![image](uploads/d18832a75a80e3b9f13f176d448117dc/image.png)
 
 ## Oh no! It's Not Working!
 * if the steps above didn't work for you, double-check the device list on your hotspot.
