@@ -1,10 +1,20 @@
-# Sprint Goal
+# Pre-Sprint Goal
 
-Insert Goal here
+The team will further investigate the table's setup (networking, code, dependencies, etc.) and plan PBIs for Sprint 1.
 
 # Burndown Chart
 
-Link Chart Here
+N/A
+
+## PBIs Completed (0-day tasks)
+* #3 - Team feels that the setup of the wiki is decent for now.
+* #1 - Team has opted to purchase SD cards and LED strips for local development.
+
+## PBIs Refined for Sprint 1
+* #4 - Team is planning on setting up Testing in first sprint.
+
+## Blocked 
+* #10 - Team moved table into Cybersecurity Lab for easy `ssh` access. Waiting on MSOE IT for VPN configuration.
 
 # Team Commitment
 
@@ -60,14 +70,41 @@ Insert Summary Here
 
 # Discussion
 
-Insert Discussion Points here
+## Key Meetings
+
+The team had 3 meetings - once after Week 2 Friday's advisor meeting, once on Monday drafting the initial set of PBIs, and once on Thursday to finalize the Sprint 1 plan and write up the Status Report.
+
+## Findings
+
+* Grace and George discovered that moving the code base to a non-Pi environment is not possible without a concerted effort. The team has moved forward with purchasing appropriate materials for developing on our personal Pis.
+
+* Grace met Jared a MSOE Network Administrator and devised a network topology to allow remote access to the table's Pi while remaining visible to other devices on the network.
+
+* Andy discovered a way to restart the lights without rebooting the whole table via the `restart.sh` script
+
+* Grace and George spent time "debugging" the flashing lights on the table - it is still unknown if the issue is of software or hardware origin.
+
+## Successes
+
+* The team created a signup sheet for access (physical and digital) to the table and respect social distancing protocols.
+
+* The team has figured out how to SSH into the Pi and make changes while IT deploys our plan.
+
+## Risk Updates
+
+* The team is still somewhat unfamiliar with the code base and APIs used on the table. However, the team feels this will be quickly mitigated once Sprint 1 begins.
+
+* The table's lights have begun to flash with out any obvious explanation or source of impetus (no one has made drastic code changes). See question below... 
 
 # Questions
 
-When can we submit a draft of the Technical Report for overview?
+* When can we submit a _draft_ of the Technical Report for overview?
+    * Should we submit the report to you (Dr. Taylor) or should we seek an outsider's opinion (i.e. another Senior Design Advisor)
+* Lights are flashing and we don't know what's going on?
+    * This is more a question for Bruce and Matt
 
-* Should we submit the report to you (Dr. Taylor) or should we seek an outsider's opinion (i.e. another Senior Design Advisor)
 
 # Conclusion
 
-Insert Conclusion here
+The team feels like they've learned a lot and have a better understanding of table and how to communicate with it. The team is feeling more confident (\~7.5/10 up from 6) in getting up and running. The team is optimistic about soon being able to access the table from a remote environment. The team is excited for Sprint 1 to begin although weary of some hardware challenges ahead (setting up development environments and the table's lighting issue).
+
