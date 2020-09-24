@@ -25,6 +25,7 @@ The table below are Sprint 1 PBIs ordered by priority
 The table below consists of additional PBIs pointed and tasked in case we complete all Sprint 1 PBIs early
 
 | PBI Number | Business Value | Story-points |
+| --- | --- | --- |
 | #23 | Develop a new way to reset the sand, producing a different transitional aesthetic between tracks. | 2 |
 | #17 | Develop a lighting pattern that has both aesthetic and utility for an enhanced visual experience. | 5 |
 | #13 | Develop a lighting pattern that has both aesthetic and utility for an enhanced visual experience. | 5 |
