@@ -10,6 +10,9 @@ Finish off any zero-day items for setup and develop simple yet creative light se
 * The table is set up for development.
 
 ### Selected PBI's (ordered by priority)
-#### #4 
-* Description of business value added
-* Number of story points associated with the PBI
+
+The table below is ordered by priority
+
+| PBI Number | Business Value | Storypoints |
+| ------ | ------ | ----- |
+| #4 | `<description>` | `<storypoints>` | 
