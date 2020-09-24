@@ -64,7 +64,9 @@ Insert Discussion Points here
 
 # Questions
 
-Insert Questions here
+When can we submit a draft of the Technical Report for overview?
+
+* Should we submit the report to you (Dr. Taylor) or should we seek an outsider's opinion (i.e. another Senior Design Advisor)
 
 # Conclusion
 
