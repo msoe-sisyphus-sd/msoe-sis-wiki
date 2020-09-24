@@ -30,13 +30,13 @@ Insert Summary Here
 
 ## Enters, Stuart
 
-###### Hours: X
+###### Hours: 9
 
-###### Rating (0-10): X
+###### Rating (0-10): 3
 
 ###### Summary:
 
-Insert Summary Here
+I spent my time outside the group continuing to document the existing code. In the group, I discussed the project proposal with Dr. Taylor, helped create a definition of done, created PBIs, and task out #25 and #22
 
 ## Fleming, Grace
 
