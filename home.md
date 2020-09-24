@@ -13,7 +13,7 @@ In order to facilitate efficient communication please try to adhere to these sta
 | Type of Information | Format | Explanation |
 | ------------------- | ------ | ------------|
 | Dates | YYYY-MM-DD | ISO 8601 Format |
-| Minutes Title | T-W#-D-YYYY-MM-DD | Term - Week Number - Week Day - ISO 8601 Format |
+| Minutes Title | YYYY-MM-DD (T-W#-D) | Term - Week Number - Week Day - ISO 8601 Format |
 | Reports Title | T-W#-Status-Report | Term - Week Number - Status Report |
 
 ## Templates
