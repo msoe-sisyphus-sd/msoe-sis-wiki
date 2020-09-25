@@ -72,13 +72,13 @@ If I could do this week again, I would try and spend more time in the codebase. 
 
 ## Wojciechowski, Andrew
 
-###### Hours: X
+###### Hours: 10.38
 
-###### Rating (0-10): X
+###### Rating (0-10): 7
 
 ###### Summary:
 
-Insert Summary Here
+This week I spent time looking at buying materials to build the code to build on my Real Time systems Raspberry PI. I also spent time reading through the source code of the 2 new git repositories we got access to (sisproxy and siscloud) and getting a understanding for those. I also setup the ability to SSH into the coffee table and I discovered a way to restart the lights without rebooting the table. Finally, I also contributed in team meetings with planning out PBIs for the sprint and I tasked out and wrote acceptance criteria for a few of the PBIs.
 
 # Discussion
 
