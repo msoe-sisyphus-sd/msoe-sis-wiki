@@ -31,17 +31,21 @@ N/A
 * Worked on "debugging" lighting issue on table
 * Worked on identifying platform specific code in order to see if we could develop on non-Pi environments
 * Worked on adding tasks and acceptance criteria for 2 potential Sprint 1 PBIs
-* "Forked" additional code bases into GitLaby
+* "Forked" additional code bases into GitLab
 
 ## Casper, Joseph
 
-###### Hours: X
+###### Hours: 9
 
-###### Rating (0-10): X
+###### Rating (0-10): 7
 
 ###### Summary:
 
-Insert Summary Here
+- 5.5h in team meetings
+- 3h in the senior design lab working with the table/reviewing code
+- .5h on student outcome assignments
+
+During team meetings, we wrote PBIs, and for those PBIs, we wrote tasks and acceptance criteria for those PBIs. I learned how to ssh into the table Pi (with the help of Grace). I reviewed the code in the code base to become more comfortable with it. I am feeling confident that with the start of the sprint I will be able to start contributing more. 
 
 ## Enters, Stuart
 
