@@ -20,13 +20,18 @@ N/A
 
 ## Burkhardt, Robert
 
-###### Hours: X
+###### Hours: 8
 
-###### Rating (0-10): X
+###### Rating (0-10): 7
 
 ###### Summary:
 
-Insert Summary Here
+* Team Meetings
+* Note-taker for meetings and Reports/Plans
+* Worked on "debugging" lighting issue on table
+* Worked on identifying platform specific code in order to see if we could develop on non-Pi environments
+* Worked on adding tasks and acceptance criteria for 2 potential Sprint 1 PBIs
+* "Forked" additional code bases into GitLaby
 
 ## Casper, Joseph
 
