@@ -59,13 +59,16 @@ I spent my time outside the group continuing to document the existing code. In t
 
 ## Fleming, Grace
 
-###### Hours: X
+###### Hours: 9.5
 
-###### Rating (0-10): X
+###### Rating (0-10): 8/10
 
 ###### Summary:
+This week, I spent time in Networking heaven. I thought it was a pretty good week for me. I started off over the weekend by designing a laboratory lab setup that enabled people to remote into the table while preserving wifi access for onsite development (previously impossible).
+During the week I was able to help another member with the same setup, then chat with Jared about how to make this table externally accessible from outside of campus. Finally, I was able to play a role in implementing that solution by actually moving the table (compounded with some LED troubleshooting).
+I also spent time in meetings/working on PBIs with the rest of the team, and creating an initial sprint plan outline.
 
-Insert Summary Here
+If I could do this week again, I would try and spend more time in the codebase. I pretty much just learned how the lights worked, and didn't learn a ton about the JS stuff.
 
 ## Wojciechowski, Andrew
 
