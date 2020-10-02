@@ -46,13 +46,12 @@ Insert Summary Here
 
 ## Fleming, Grace
 
-###### Hours: X
+###### Hours: 5.92
 
-###### Rating (0-10): X
+###### Rating (0-10): 3
 
 ###### Summary:
-
-Insert Summary Here
+This week was a depressingly slow week for me. I felt that I did very little to contribute to the team progress. While I communicated with Jared, helped Andy set a static IP for the table and researched wiring configurations for my raspberry pi/neopixels, I didn't get as far as I wanted to with the math and implmentation for the neopixel clock story. Hopefully I make progress on this next week!
 
 ## Wojciechowski, Andrew
 
