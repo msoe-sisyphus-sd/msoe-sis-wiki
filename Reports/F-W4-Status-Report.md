@@ -56,13 +56,11 @@ Insert Summary Here
 
 ## Wojciechowski, Andrew
 
-###### Hours: X
+Hours: 9h
 
-###### Rating (0-10): X
+Rating: 7
 
-###### Summary:
-
-Insert Summary Here
+This week I worked on setting up linting in the sisbot project using eslint and pylint. I was able to get the pylint checked hooked up GitLab CI but we wrote up a different PBI to handle eslint since we were not working in the JavaScript module this sprint and there were 78 eslint warnings in the current JavaScript code. Also, this week Grace guided me through setting up the Coffee table to have a static IP. Finally, I discovered that the LED issue got worse on the Coffee table with most of the LEDs not lighting up now and I communicated that issue to Matt.
 
 # Discussion
 
