@@ -26,13 +26,13 @@ Insert Summary Here
 
 ## Casper, Joseph
 
-###### Hours: X
+###### Hours: 5.5
 
-###### Rating (0-10): X
+###### Rating (0-10): 6
 
 ###### Summary:
 
-Insert Summary Here
+I wasn't able to contribute much because 1) I am waiting on the postal office to deliver my light strip and SD card, and 2) the lights on the table are out, so I'm not really able to work on adding my light pattern. I still made some progress on implementing lights, and I have something that _should_ work, but I need to wait until the light strip is fixed to test it. 
 
 ## Enters, Stuart
 
