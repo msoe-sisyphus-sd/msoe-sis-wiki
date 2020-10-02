@@ -36,13 +36,13 @@ I wasn't able to contribute much because 1) I am waiting on the postal office to
 
 ## Enters, Stuart
 
-###### Hours: X
+###### Hours: 12
 
-###### Rating (0-10): X
+###### Rating (0-10): 7
 
 ###### Summary:
 
-Insert Summary Here
+During meetings I participated in standup, and brought my findings to the team about testing, as well as recommend we upgrade the lighting library the python submodule uses to interface with the Neopixels. Outside of meetings, I spent a lot of time getting the testing framework for the python code up and running, and began working on integrating CI into the testing project (using my Pi as the GitLab runner)
 
 ## Fleming, Grace
 
