@@ -23,13 +23,13 @@ Finish off any zero-day items for setup and develop simple yet creative light se
 
 ## Casper, Joseph
 
-###### Hours: X
+###### Hours: 6
 
-###### Rating (0-10): X
+###### Rating (0-10): 5
 
-###### Summary:
+###### Summary: 
 
-Insert Summary Here
+I finally received my SD card and light strip. However, I learned that I need more materials in order to connect the lights to the pi (power stepping chip, breadboard, jumper cables, power source). I'm not familiar with connecting things to Pis, so I have been researching how to do this while I wait for my new materials. I would have tested my light code on the coffee table, but the lights are still out so I was still unable to test my code. Since the lights will be repaired tomorrow, I'll hopefully be able to use the table at MSOE next week.
 
 ## Enters, Stuart
 
