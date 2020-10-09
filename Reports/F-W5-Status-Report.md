@@ -43,13 +43,20 @@ Insert Summary Here
 
 ## Fleming, Grace
 
-###### Hours: X
+###### Hours: 9
 
-###### Rating (0-10): X
+###### Rating (0-10): 8
 
 ###### Summary:
+* Ran circles around myself with SD card and networking issues.
+* Wired neopixels!
+* Got neopixels lighting up and working with officially supported neopixel library
+* Struggled with getting neopixels working with the sisyphus neopixel code.
+* Scraped an SD image from the production version of the table, and used this image to boot my pi 3.
+* Determined how to make backups from an SD card, and wrote instructions into the README.md.
 
-Insert Summary Here
+Hours: 9
+Rating: 8/10
 
 ## Wojciechowski, Andrew
 
