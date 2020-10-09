@@ -33,13 +33,14 @@ I finally received my SD card and light strip. However, I learned that I need mo
 
 ## Enters, Stuart
 
-###### Hours: X
+###### Hours: 6
 
-###### Rating (0-10): X
+###### Rating (0-10): 4
 
 ###### Summary:
-
-Insert Summary Here
+* Participated in team meetings
+* Worked on installing hardware
+* Looked into seting up testing framework for node
 
 ## Fleming, Grace
 
