@@ -1,22 +1,25 @@
 # Sprint Goal
 
-Insert Goal here
+Finish off any zero-day items for setup and develop simple yet creative light sequences to demonstrate setup completion.
 
 # Burndown Chart
 
-Link Chart Here
+![image](uploads/a3f56d4cda8ed9186dc50b76acdff29d/image.png)
 
 # Team Commitment
 
 ## Burkhardt, Robert
 
-###### Hours: X
+###### Hours: 8
 
-###### Rating (0-10): X
+###### Rating (0-10): 8
 
 ###### Summary:
 
-Insert Summary Here
+* Set up 2 Pis with Raspbian
+* Set up Light strip on Pi with new library
+* Got the full code base running (sisproxy, sisbot, siscloud)
+* Began writing Python module to change lights based on time of day (immediate switch)
 
 ## Casper, Joseph
 
@@ -60,12 +63,38 @@ Insert Summary Here
 
 # Discussion
 
-Insert Discussion Points here
+## Key Meetings
+
+* Standup (2020-10-05)
+* Status Report and Tech Report Draft Overview (2020-10-08)
+
+## Findings
+
+* The README is woefully incomplete and very much outdated
+* _Do not_ use a Pi 3 SD card on a Pi 4 - it will break the 4
+* EE peers were usefully in setting up integrated LED strips (some soldering was required)
+* How to run the application and electrical requirements for the Pi
+* The code base uses an outdated, open source, "frakenstein-ed" Python 2 library for driving the LEDs which makes it extremely hard to get up and started right now
+
+## Successes
+
+* Some members of the team have their Lights running!
+* New lights were shipped and received by MSOE for the Senior Design Table
+* A draft of the Tech Report was created
+* Pulled a "production" image of the Pi (Dr. Taylor's table) for use on Pis or diagnosing issues
+* The code base is closer to having a testing framework and workflow set up
+
+## Risk Updates
+
+* Some members of the team are still waiting on electronics to ship
+* The burn down is not looking great
 
 # Questions
 
-Insert Questions here
+* Review our Status Report?
+    * Since we aren't introducing new technologies can the prototype section address upgrading technologies (e.g. Python 2 => Python 3)?
+
 
 # Conclusion
 
-Insert Conclusion here
+Some of the team is still running into hardware issues (either in shipping or in setting up the environment) which is halting development on PBIs. The burn down doesn't look amazing due to this issue and it's probably very worrying being that we are nearing the end of the 1st sprint - but a lot of learning has been done about the code base, Pis and NeoPixel LED strips. The team chooses to look at this predicament as an investment into more speedy and effective development in the future.
