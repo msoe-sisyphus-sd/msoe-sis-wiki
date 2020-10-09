@@ -60,11 +60,12 @@ Rating: 8/10
 
 ## Wojciechowski, Andrew
 
-###### Hours: X
+###### Hours: 11.07
 
-###### Rating (0-10): X
+###### Rating (0-10): 7
 
 ###### Summary:
+This week I spent a lot of time working on setting up my local Raspberry PI for development. A lot of time I spent debugging issue with installing Raspbian with NOOBS but I was eventually able to get Raspbian installed. I also spent time get node and python installed and I was able to successfully run the sisproxy project locally on my PI.
 
 Insert Summary Here
 
