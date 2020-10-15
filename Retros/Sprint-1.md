@@ -1,4 +1,4 @@
-Retrospective
+# Retrospective
 
 The team retrospective is a time to reflect on how well the team is functioning. As a team you may chose to start with a brainstorming session and then narrow in on one or two items for each of the following:
 
