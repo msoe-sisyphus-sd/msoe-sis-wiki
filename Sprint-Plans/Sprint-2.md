@@ -4,12 +4,14 @@
 
 Continue exploring different light patterns and being investigating additional inputs to affect lighting schemes.
 
+_May change depending on feedback from product owner meeting 2020-10-16._
+
 ### Sprint Assumptions
 
 * Each of the 5 members of the team will be putting in an average of 10 hours/week
 * Git flow will be followed as posted
 * PBI's will only be moved to completion when they satisfy the [Definition of Done](/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Process/Definition%20of%20Done)
-* The table is set up for development and each member has a local environment to operate within
+* The table is set up for development and each member has at least a partial local environment to operate within
 
 ### Selected PBI's (ordered by priority)
 
