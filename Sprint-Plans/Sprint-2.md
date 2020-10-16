@@ -22,6 +22,6 @@ The table below are Sprint 2 PBIs ordered by priority
 | #28 | Improve maintainability of code base and help catch errors before code is deployed to the table. | 3 | 7h |
 | #23 | Create a new erase track to keep tracks interesting | 2 | 4h |
 | #17 | Create a dynamic light pattern that changes with the weather | 5 | 5h |
-| #13 | cell | 5 | cell |
+| #13 | Create a festive light pattern that uses special color schemes for holidays | 5 | 6h |
 | #19 | Develop a light pattern that will provide a new visualization for the ball | 8 | 16h|
 | #27 | Develop a lighting pattern that is both aesthetically pleasing and energizing for an enhanced visual experience. | 8 | 12h |
