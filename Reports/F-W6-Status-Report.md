@@ -58,7 +58,7 @@ Completed setting up the automated tests as well as documenting the setup proces
 * PR's and end-of-sprint stuff.
 
 ## Wojciechowski, Andrew
-###### Hours: 8.67
+###### Hours: 10.97
 ###### Rating (0-10): 8
 ###### Summary:
 Comments made to issues in GitLab
