@@ -30,10 +30,17 @@ Insert Summary Here
 Completed setting up the automated tests as well as documenting the setup process. Nearly completed setting up the lights
 
 ## Fleming, Grace
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 9.5
+###### Rating (0-10): 9.2
 ###### Summary:
-
+* Met with Dr. Taylor & discussed sprint endgame. Also invited Bruce to our next meeting on Friday. Also learned about ABET supervision of university programs (not sure if should log time for that, so didn't). 
+* set up twitch stream on a raspberry pi with a Logitech webcam that was given to me as 'celebratory desk junk for your departure' when I left Direct Supply (courtesy of Addam Wierich). Stream is configured as a linux service (called stream). Credentials for the pi are available upon request.
+* Met with team for weekly meeting -- sprint plan, next sprint, etc. Much paperwork. (also sorry for logging this 2 days late, somehow I never remember to log group meetings).* WOO! Made the lights turn into a clock. Colors currently are thus-- second hand - pink minutes hand - orange hour hand - light blue
+  * NOTE that the background color of the table is a dark blue, so the hour hand is not particularly visible. I will fix this when I go in tomorrow to shift the lights such that the 12 is opposite the webcam (currently the clock is 'upside down'). I also need to make the code less gross. BUT IT WORKS!
+* Spent time looking at the difference between RGB and RGBW strips and whether or not that was affecting our ability to develop locally (with George).
+* Looked at the RGBW vs RGB issue on neopixel strips with George
+* finished setting up my local setup (yay, it works now!)
+* PR's and end-of-sprint stuff.
 Insert Summary Here
 
 ## Wojciechowski, Andrew
