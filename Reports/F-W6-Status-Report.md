@@ -9,11 +9,19 @@ Link Chart Here
 # Team Commitment
 
 ## Burkhardt, Robert
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 11.5
+###### Rating (0-10): 8.5
 ###### Summary:
 
-Insert Summary Here
+| Date | Hours Spent | Description |
+| ---- | ----------- | ----------- |
+| 2020-10-09 | 1h | Met with Dr. Taylor |
+| 2020-10-12 | 1h | Met with team for weekly meeting - did standup, talked about sprint planning, and deliverables for Thursday |
+| 2020-10-13 | 1h30m | Diagnosing lights issue - the lights work with python3 library but do not work with python2 library and Sisyphus code base; no avail |
+| 2020-10-14 | 1h | Met with Andy to help him with circuitry |
+| 2020-10-14 | 5h | Fixed lighting issue (due to 3-byte vs. 4-byte addressed strips) Added command arguments to led_main.py and led_startup.py to alleviate issues with local development Added switching pattern in new file switch.py Added sample data for specific colors at specific times to led_main |
+| 2020-10-15 | 1h | Code Review and merge party |
+| 2020-10-15 | 1h | Fill out paper work (status report, sprint 2 plan, retro, etc.) |
 
 ## Casper, Joseph
 ###### Hours: 9.75 + today
