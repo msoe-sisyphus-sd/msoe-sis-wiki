@@ -30,3 +30,10 @@ The table below consists of additional PBIs pointed and tasked in case we comple
 | #17 | Develop a lighting pattern that has both aesthetic and utility for an enhanced visual experience. | 5 |
 | #13 | Develop a lighting pattern that has both aesthetic and utility for an enhanced visual experience. | 5 |
 | #19 | Develop an innovative lighting pattern that embraces the symmetrical geometry of Sisyphus table tracks. | 8 |
+
+## Update 2020-10-15 End Of Sprint
+Story Points Completed: 27
+Total Story Points: 32
+
+Velocity: 27 points / sprint
+Error: -18.5%
