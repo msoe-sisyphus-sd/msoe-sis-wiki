@@ -1,6 +1,6 @@
 # Sprint Goal
 
-Insert Goal here
+Finish off any zero-day items for setup and develop simple yet creative light sequences to demonstrate setup completion.
 
 # Burndown Chart
 
