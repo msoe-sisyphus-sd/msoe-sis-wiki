@@ -42,7 +42,13 @@ This week was more successful than previous weeks. Since the lights are up and r
 ###### Rating (0-10): 8
 ###### Summary:
 
-Completed setting up the automated tests as well as documenting the setup process. Nearly completed setting up the lights
+* Met with team and Dr. Taylor to discuss current and future state of the project
+* Met with team for the weekly meeting
+* Set up GitLab CI to correctly run the tests when triggered by the pipleine
+* Set up webhooks to trigger the pipeline on a push to any project
+* Fixed an error in the node pipeline that was causing it to fail
+* Received most of the hardware I need to set up the lights locally
+* Worked on getting the lights set up to little success
 
 ## Fleming, Grace
 ###### Hours: 9.5
