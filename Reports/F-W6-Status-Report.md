@@ -16,11 +16,17 @@ Link Chart Here
 Insert Summary Here
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 9.75 + today
+###### Rating (0-10): 8
 ###### Summary:
 
-Insert Summary Here
+- 10/09 - 45m - Meeting with Dr. Taylor
+- 10/12 - 1h - Weekly team standup
+- 10/13 - 4h - Spent time deploying code to the table and learning how to push new light modes to it. Running into a bug where its not recognizing the new light mode
+- 10/15 - 4h - Implemented a spinning light pattern. A lot of the time taken today was figuring out how to reliably push and test new light code to the table, which Grace helped with.
+- 10/15 - tbd h - Wrapped up the week by reviewing PRs, writing the deliverables, planning the next sprint, etc.
+
+This week was more successful than previous weeks. Since the lights are up and running on the table, I was able to finish the spin light pattern. I also know how to get new light patterns to run on the table, which was more confusing than it looked
 
 ## Enters, Stuart
 ###### Hours: 15
