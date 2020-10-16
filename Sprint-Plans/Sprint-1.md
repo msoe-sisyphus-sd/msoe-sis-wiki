@@ -32,8 +32,10 @@ The table below consists of additional PBIs pointed and tasked in case we comple
 | #19 | Develop an innovative lighting pattern that embraces the symmetrical geometry of Sisyphus table tracks. | 8 |
 
 ## Update 2020-10-15 End Of Sprint
-Story Points Completed: 27
-Total Story Points: 32
+Story Points Completed: **27**
 
-Velocity: 27 points / sprint
-Error: -18.5%
+Total Story Points: **32**
+
+Velocity: **27 points / sprint**
+
+Error: **-18.5%**
