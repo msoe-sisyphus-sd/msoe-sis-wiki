@@ -4,7 +4,7 @@ Finish off any zero-day items for setup and develop simple yet creative light se
 
 # Burndown Chart
 
-![image](uploads/355d163b40d5c00ad590eb00f96c056b/image.png)
+![image](uploads/e18465b2e220d04cf6417e630a676ea6/image.png)
 https://gitlab.com/groups/msoe.edu/sdl/sd21/sisyphus/-/milestones/1
 
 # Team Commitment
