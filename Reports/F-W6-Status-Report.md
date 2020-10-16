@@ -4,7 +4,7 @@ Finish off any zero-day items for setup and develop simple yet creative light se
 
 # Burndown Chart
 
-Link Chart Here
+![image](uploads/f648e712bb78c9a539d35cddeb740c26/image.png)
 
 # Team Commitment
 
