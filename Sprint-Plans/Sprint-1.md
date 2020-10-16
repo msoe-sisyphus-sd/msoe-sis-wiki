@@ -13,14 +13,14 @@ Finish off any zero-day items for setup and develop simple yet creative light se
 
 The table below are Sprint 1 PBIs ordered by priority
 
-| PBI Number | Business Value | Story-points |
-| ------ | ------ | ----- |
-| #25 | Enable developers to quickly build and test new light sequences by enabling remote development. | 5 | 
-| #11 | Improve maintainability of code base and help catch errors before code is deployed to the table. | 3 |
-| #22 | Prevent errors from accruing in the code base and ensuring code meets requirements through validation and verification. | 13 |
-| #12 | Develop a lighting pattern that has both aesthetic and utility for an enhanced visual experience. | 5 |
-| #24 | Develop a lighting pattern that is both aesthetically pleasing and energizing for an enhanced visual experience.  | 3 |
-| #16 | Develop a lighting pattern that follows the flow of the customer's daily activities. | 3 |
+| PBI Number | Business Value | Story-points | Completed |
+| ------ | ------ | ----- | ---- |
+| #25 | Enable developers to quickly build and test new light sequences by enabling remote development. | 5 |  |
+| #11 | Improve maintainability of code base and help catch errors before code is deployed to the table. | 3 | X |
+| #22 | Prevent errors from accruing in the code base and ensuring code meets requirements through validation and verification. | 13 | X |
+| #12 | Develop a lighting pattern that has both aesthetic and utility for an enhanced visual experience. | 5 | X |
+| #24 | Develop a lighting pattern that is both aesthetically pleasing and energizing for an enhanced visual experience.  | 3 | X |
+| #16 | Develop a lighting pattern that follows the flow of the customer's daily activities. | 3 | X |
 
 The table below consists of additional PBIs pointed and tasked in case we complete all Sprint 1 PBIs early
 
