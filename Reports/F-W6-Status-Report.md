@@ -74,12 +74,31 @@ Comments made to issues in GitLab
 
 # Discussion
 
-Insert Discussion Points here
+## Key Meetings
+* Meeting with Dr. Taylor 2020-10-09
+* Standup & Grooming (in preparation for Sprint 2) 2020-10-12
+* Sprint Termination Paperwork & Sprint 2 Planning 2020-10-15
+
+## Risk Updates
+* Members of the team have purchased RGB strips as opposed to RGBW strips - this has consequence of all sisbot code is incompatible with local setups
+    * RGBW strips are more expensive so please forgive us poor college students :money_with_wings: 
+    * See findings for work around
+
+## Successes
+* New RGBW strips for the Sisyphus Table were installed and the table is operational
+* Automated Testing is now working
+* 3 light patterns were completed
+* Live stream is available for fully remote development and monitoring
+
+## Findings
+* It is possible to reconfigure the code so it works with the RGB strips 
+    * #16 adds a command line argument to switch between RGB and RGBW byte addressing
+
 
 # Questions
-
-Insert Questions here
+* What improvements can we make in sprint 2?
+* What was our greatest area of weakness in process or development?
 
 # Conclusion
 
-Insert Conclusion here
+The team feels that this week was much better - we were able to complete _a lot_ of work before the sprint ended. We didn't feel like we ended last week on the best foot, but we are excited to demo our work to Bruce and jump into more development (now that set up is in a better, albeit unfinished, position).
