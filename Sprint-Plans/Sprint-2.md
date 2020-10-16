@@ -19,6 +19,7 @@ The table below are Sprint 2 PBIs ordered by priority
 
 | PBI Number | Business Value | Story-points | Time Estimates
 | ---------- | -------------- | ------------ | -------------- |
+| #25 | Enable developers to quickly build and test new light sequences by enabling remote development. | 5 | 5h |
 | #28 | Improve maintainability of code base and help catch errors before code is deployed to the table. | 3 | 7h |
 | #23 | Create a new erase track to keep tracks interesting | 2 | 4h |
 | #17 | Create a dynamic light pattern that changes with the weather | 5 | 5h |
