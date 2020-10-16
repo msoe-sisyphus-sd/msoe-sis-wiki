@@ -98,6 +98,7 @@ Comments made to issues in GitLab
 # Questions
 * What improvements can we make in sprint 2?
 * What was our greatest area of weakness in process or development?
+* For next sprint, should we write our retrospective after the review? We'd like to have feedback before the retro so that we have a better idea of what needs improvement.
 
 # Conclusion
 
