@@ -25,4 +25,4 @@ The table below are Sprint 2 PBIs ordered by priority
 | #17 | Create a dynamic light pattern that changes with the weather | 5 | 18h |
 | #13 | Create a festive light pattern that uses special color schemes for holidays | 5 | 6h |
 | #19 | Develop a light pattern that will provide a new visualization for the ball | 8 | 16h|
-| #20 | Investigate new interactions between the user and the table's lights | 8 | TBD |
+| #20 | Investigate new interactions between the user and the table's lights | 8 | 13.5h |
