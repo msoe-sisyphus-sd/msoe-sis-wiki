@@ -58,8 +58,6 @@ Comments made to issues in GitLab
 
 -Brief investigation individually to see why the node pipeline was failing. Then I talked with Stuart later and he was able to fix the node pipeline.
 
-Insert Summary Here
-
 # Discussion
 
 Insert Discussion Points here
