@@ -41,7 +41,6 @@ Completed setting up the automated tests as well as documenting the setup proces
 * Looked at the RGBW vs RGB issue on neopixel strips with George
 * finished setting up my local setup (yay, it works now!)
 * PR's and end-of-sprint stuff.
-Insert Summary Here
 
 ## Wojciechowski, Andrew
 ###### Hours: 8.67
