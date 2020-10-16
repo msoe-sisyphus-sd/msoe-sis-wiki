@@ -15,7 +15,7 @@ _May change depending on feedback from product owner meeting 2020-10-16._
 
 ### Selected PBI's (ordered by priority)
 
-The table below are Sprint 1 PBIs ordered by priority
+The table below are Sprint 2 PBIs ordered by priority
 
 | PBI Number | Business Value | Story-points | Time Estimates
 | ---------- | -------------- | ------------ | -------------- |
@@ -23,5 +23,5 @@ The table below are Sprint 1 PBIs ordered by priority
 | #23 @casperjm21 | Create a new erase track to keep tracks interesting | 3 | 4h |
 | #17 @Stenters | Create a dynamic light pattern that changes with the weather | 13 | 5h |
 | #13 @flemingg | cell | 5 | cell |
-| #19 @wojciechowskia | cell | 3 | cell |
+| #19 @wojciechowskia | Develop a light pattern that will provide a new visualization for the ball | 3 | 16h|
 | #27 | Develop a lighting pattern that is both aesthetically pleasing and energizing for an enhanced visual experience. | 3 | 12h |
