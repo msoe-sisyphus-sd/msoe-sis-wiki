@@ -43,9 +43,23 @@ _Please note we forgot to start a new milestone last week which means the burndo
 Insert Summary Here
 
 ## Fleming, Grace
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 7.5
+###### Rating (0-10): 3
 ###### Summary:
+
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-10-19|Grace Fleming|1h | Meeting with team for standup, diagnosing some weird LED issues on George's strip, and talking about the Team Components. | Group Meetings Time Log	| msoe-sisbot |
+2020-10-20 | Grace Fleming| 2h	| Looked at controlling table via web requests--
+curl -X POST -d 'data={"data": {"value" : 0.2}}' http://localhost:3002/sisbot/set_brightness and that kind of thing. It works. I also looked into how to detect notifications on Android, but I think I should get access to the codebase for the app before deciding on implementation details for this.
+| Spike: Sync table with phone notifications| msoe-sisbot | 
+| 2020-10-21 | Grace Fleming|1.50h | I tried to build/run the mobile application using Cordova. This was difficult both on my pi and table. I keep getting an error after installing cordova: cordova SyntaxError: Unexpected token {} when I run cordova platforms to see which platforms are supported, or even something as simple as cordova --version. I spent some time researching this and trying to figure out how Cordova is actually built. I think I am going to have to email Matt and ask about how he's building this locally if I can't figure out how this builds on my own. | Spike: Sync table with phone notifications | msoe-sisbot
+|  2020-10-22  | Grace Fleming | 1.02h | Found out that Cordova works with node 10+, meaning the reason Cordova was crashing was because we are using node 8.x.x. This is problematic. When I fixed the node version then Cordova ran but failed to recognize the `siscloud` directory as a Cordova project.| Spike: Sync table with phone notifications  | msoe-sisbot |
+| 2020-10-22 |Grace Fleming|1h | Meeting with team for standup, progress report writing and talking through the Team Components paperwork | Group Meetings Time Log	| msoe-sisbot |
+
+
+Hours: 7.5
+Effort: 5/10
 
 Insert Summary Here
 
