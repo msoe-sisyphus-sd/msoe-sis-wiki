@@ -81,12 +81,28 @@ Effort: 5/10
 
 # Discussion
 
-Insert Discussion Points here
+## Key Meetings
+* Met with product owner on 2020-10-16 to demo sprint results
+    * Discussed future of project in relation to sprint planning and "concrete" project ideas to demonstrate ABET requirements
+* Team met for stand up and sprint update on 2020-10-19
+
+## Findings
+* Grace found out that running the client app via Cordova isn't currently possible on a production image
+    * Working on creating a "compatible" image and will reach out to Matt for any help
+* Andy found a weather API
+    * [https://api.openweathermap.org](https://api.openweathermap.org)
+
+## Successes
+* Grace figured out how to use the web APIs to control the table without the app
+* Stuart was able to get his local development environment and lights set up
+
+## Risk Updates
+* Cordova seems difficult to work with
 
 # Questions
 
-Insert Questions here
+N/A
 
 # Conclusion
 
-Insert Conclusion here
+The team is jumping into work for Sprint 2 and is feeling good on executing this sprint. The team hopes to groom epics and features relating to lights and not relating to lights for future sprints (potentially additional external sensor inputs).
