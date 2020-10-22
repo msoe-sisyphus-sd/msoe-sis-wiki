@@ -64,11 +64,17 @@ Effort: 5/10
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 6.25
+###### Rating (0-10): 5
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-10-16 | Andrew Wojciechowski| 1h | Met with Bruce and Dr. Taylor | #7 | msoe-sisbot |
+| 2020-10-19 | Andrew Wojciechowski| 1h | Standup, brainstorming discussion, and started talking about the team components reflection | #7 | msoe-sisbot | 
+| 2020-10-20 | casperjm21 | 1.75h | Researched weather APIs we could use I think I have a good one we could use. I also developed a mapping based on the weather to the pattern and updated the Acceptance Criteria accordingly. Afterwards then I stubbed out the new light pattern | #17 | msoe-sisbot | 
+| 2020-10-21 | Andrew Wojciechowski | 1h | Implemented more of the light patterns and implemented a method to call the Weather API | #13 | msoe-sisbot |
+| 2020-10-22 | Andrew Wojciechowski | 1h | Met with team to write status report and team component paper | #7 | msoe-sisbot |
 
 # Discussion
 
