@@ -67,7 +67,7 @@ Hours: 7.5
 Effort: 5/10
 
 ## Wojciechowski, Andrew
-###### Hours: 6.50
+###### Hours: 6.75
 ###### Rating (0-10): 5
 ###### Summary:
 
