@@ -23,11 +23,17 @@ _Please note we forgot to start a new milestone last week which means the burndo
 | 2020-10-21 | burkhardtr | 1h | Looked at how the system uses theta-rho files to quickly execute on creating the lateral erase pattern | #23 | msoe-sisbot
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 4 + today
+###### Rating (0-10): 7
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-10-16 | casperjm21 | 1h | Met with Dr. Taylor and Bruce to review sprint | #7 | msoe-sisbot |
+| 2020-10-19 | casperjm21 | 1h | Met with team to do stand up and discuss Thursday deliverables | #7 | msoe-sisbot | 
+| 2020-10-20 | casperjm21 | 2h | Wrote initial code and planned out holiday colors | #13| msoe-sisbot | 
+| 2020-10-22 | casperjm21 | xh | Worked on implementing the holiday light pattern | #13 | msoe-sisbot |
+| 2020-10-22 | casperjm21 | xh | Met with team to write status report and team component paper | #7 | msoe-sisbot |
 
 ## Enters, Stuart
 ###### Hours: X
