@@ -40,7 +40,14 @@ _Please note we forgot to start a new milestone last week which means the burndo
 ###### Rating (0-10): X
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-10-16 | enterss | 1h | Sprint review with Bruce & Dr. Taylor | #7 | msoe-sisbot |
+| 2020-10-19 | enterss | 40m | Discussed plan with team | #7 | msoe-sisbot |
+| 2020-10-20 | enterss | 3m | Tested ability to ssh into the table and examined the table's setup | #9 | msoe-sisbot |
+| 2020-10-19 | enterss | 4h 30m | Got hardware set up and lights running locally | #25 | msoe-sisbot |
+| 2020-10-19 | enterss | 4h 30m | Worked on getting sisbot running locally | #9 | msoe-sisbot |
+
 
 ## Fleming, Grace
 ###### Hours: 7.5
