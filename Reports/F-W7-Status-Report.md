@@ -36,8 +36,8 @@ _Please note we forgot to start a new milestone last week which means the burndo
 | 2020-10-22 | casperjm21 | xh | Met with team to write status report and team component paper | #7 | msoe-sisbot |
 
 ## Enters, Stuart
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 10
+###### Rating (0-10): 7
 ###### Summary:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
@@ -65,8 +65,6 @@ _Please note we forgot to start a new milestone last week which means the burndo
 
 Hours: 7.5
 Effort: 5/10
-
-Insert Summary Here
 
 ## Wojciechowski, Andrew
 ###### Hours: 6.25
