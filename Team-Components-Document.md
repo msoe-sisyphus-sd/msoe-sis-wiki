@@ -1,4 +1,3 @@
-# Team Components Report
 ---
 Requirements - Definition and analysis including selecting at least one stakeholder. You will need to become familiar with the domain.
 Requirements definition:
