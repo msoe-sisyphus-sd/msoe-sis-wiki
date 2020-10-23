@@ -50,8 +50,8 @@ _Please note we forgot to start a new milestone last week which means the burndo
 
 
 ## Fleming, Grace
-###### Hours: 7.5
-###### Rating (0-10): 3
+###### Hours: 8.75
+###### Rating (0-10): 5
 ###### Summary:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
@@ -61,10 +61,7 @@ _Please note we forgot to start a new milestone last week which means the burndo
 | 2020-10-21 | Grace Fleming|1.50h | I tried to build/run the mobile application using Cordova. This was difficult both on my pi and table. I keep getting an error after installing cordova: `cordova SyntaxError: Unexpected token {}` when I run cordova platforms to see which platforms are supported, or even something as simple as cordova --version. I spent some time researching this and trying to figure out how Cordova is actually built. I think I am going to have to email Matt and ask about how he's building this locally if I can't figure out how this builds on my own. | Spike: Sync table with phone notifications | msoe-sisbot
 |  2020-10-22  | Grace Fleming | 1.02h | Found out that Cordova works with node 10+, meaning the reason Cordova was crashing was because we are using node 8.x.x. This is problematic. When I fixed the node version then Cordova ran but failed to recognize the `siscloud` directory as a Cordova project.| Spike: Sync table with phone notifications  | msoe-sisbot |
 | 2020-10-22 |Grace Fleming|1h | Meeting with team for standup, progress report writing and talking through the Team Components paperwork | Group Meetings Time Log	| msoe-sisbot |
-
-
-Hours: 7.5
-Effort: 5/10
+| 2020-10-22|Grace Fleming|1h15m | Looked through the sisbot code searching for a place to put in an endpoint for a notification. The `sisbot.js` file is denser than my Aunt Sara's chocolate cake, however, and was not trivial to read through. I think after an hour of reading through server code I figured out that the proxy handles requests, and then emits the relevant information. Different event handlers respond to the emitted events (so we're not looking at 'normal' endpoints). I'll probably need to add an event handler, then for the phone notifications. Also emailed Matt asking for Cordova devenv setup directions. If he doesn't get back to me, I might be blocked on setting up the mobile app in the meantime.| Spike: Sync table with phone notifications |msoe-sisbot | 
 
 ## Wojciechowski, Andrew
 ###### Hours: 6.75
