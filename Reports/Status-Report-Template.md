@@ -45,7 +45,13 @@ Insert Summary Here
 
 # Discussion
 
-Insert Discussion Points here
+## Key Meetings
+
+## Findings
+
+## Successes
+
+## Risk Updates
 
 # Questions
 
