@@ -45,11 +45,20 @@ Insert Summary Here
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 9.08
+###### Rating (0-10): 7
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+| 2020-10-23 | Andrew Wojciechowski | 1h | Met with Dr. Taylor to discuss the state of the project and the schedule for the rest of the quarter | 7 | msoe-sisbot |
+| 2020-10-26 | Andrew Wojciechowski | 0.50h | Tried a few more things on my local light setup. The wire connections on the power supply feel secure so I'm starting to think it's a problem with the red and black wires having too small connections on them. Reached out to George for help on this | 9 | msoe-sisbot |
+| 2020-10-26 | Andrew Wojciechowski | 0.25h | Noticed some things we need to resolve with our automated testing repo. Our install scripts are currently pointing to clone the repo to a branch that has not been merged yet and I have a few questions for the team about what we want our process to be for making changes to that repo. I wrote down some questions in preparation for that later today. | 17 | msoe-sisbot |
+| 2020-10-26 | Andrew Wojciechowski | 0.33h | Standup, and talked about merging one of Stuart's old automated testing branches into dev in order for us to add new automated tests | 7 | msoe-sisbot |
+| 2020-10-27 | Andrew Wojciechowski | 0.33h | Tried peeling back the plastic casing on the wires on my light strip and failed miserably and I made the wire tips even shorter than they were before. I'm going to try using some actual wire equipment next | 25 | msoe-sisbot |
+| 2020-10-27 | Andrew Wojciechowski | 0.33h | Implemented the rest of the weather pattern, need to find some time to test with the table. | 17 | msoe-sisbot |
+| 2020-10-28 | Andrew Wojciechowski | 3.58h | Started testing my light pattern on the table. I found that I need to make a few changes to have a transition to solid colors. My clear sky pattern looks OK but I'm currently struggling to find a RGBW color that looks like a storm cloud. | 17 | msoe-sisbot |
+| 2020-10-29 | Andrew Wojciechowski | 1.75h | Made some adjustments to some of the colors in the weather pattern in order for storm conditions to be more grey. Also, I added transitioning to colors in the pattern and I also filled in a sample location for the pattern being Milwaukee | 17 | msoe-sisbot |
+| 2020-10-29 | Andrew Wojciechowski | 1h | Standup and met with team to write status report | 7 | msoe-sisbot |
 
 # Discussion
 
