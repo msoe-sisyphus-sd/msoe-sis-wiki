@@ -78,17 +78,21 @@ Insert Summary Here
 # Discussion
 
 ## Key Meetings
+* Met Friday 2020-10-23 to meet with Dr. Taylor to review status report and Team Components draft
+* Met Monday 2020-10-26 to perform stand up for work completed over the weekend
+* Met Thursday 2020-10-29 to work on status report
 
 ## Findings
+N/A
 
 ## Successes
+* The team continues to make progress
 
 ## Risk Updates
+* Some of the team members are dealing with wiring issues but those will be resolved short-circutly
 
 # Questions
-
-Insert Questions here
+* Does our presentation draft require a recording?
 
 # Conclusion
-
-Insert Conclusion here
+The team feels good-ish. We're making progress but there is a bit of worry surrounding how much of the work will be completed by next week. We don't foresee any issues right now. The team hopes you're doing well Dr. Taylor and hopes to see you up and about soon :heart:.
