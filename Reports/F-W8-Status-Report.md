@@ -50,6 +50,7 @@ Insert Summary Here
 ###### Summary:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
 | 2020-10-23 | Andrew Wojciechowski | 1h | Met with Dr. Taylor to discuss the state of the project and the schedule for the rest of the quarter | 7 | msoe-sisbot |
 | 2020-10-26 | Andrew Wojciechowski | 0.50h | Tried a few more things on my local light setup. The wire connections on the power supply feel secure so I'm starting to think it's a problem with the red and black wires having too small connections on them. Reached out to George for help on this | 9 | msoe-sisbot |
 | 2020-10-26 | Andrew Wojciechowski | 0.25h | Noticed some things we need to resolve with our automated testing repo. Our install scripts are currently pointing to clone the repo to a branch that has not been merged yet and I have a few questions for the team about what we want our process to be for making changes to that repo. I wrote down some questions in preparation for that later today. | 17 | msoe-sisbot |
