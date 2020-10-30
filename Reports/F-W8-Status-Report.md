@@ -39,11 +39,14 @@ _As a reminder - we forgot to start the milestone on time so we adjusted the sta
 I finally got my hardware, so I'm working on setting up the lights on my Pi. I wasn't familiar with breadboards or circuits, so I spent some time learning about how to do that without frying any of my electronics. After getting an initial set up, I tried running some light testing code, but ran into installation errors. I got some help from my team and resolved the installation errors, but the lights still aren't lighting up, so I'm assuming there's still some wiring issues. 
 
 ## Enters, Stuart
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 7.5
+###### Rating (0-10): 6
 ###### Summary:
-
-Insert Summary Here
+ Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-10-26 | casperjm21 | 3h | Met with team to discuss weekly goals. Discussed merge request to get the changes necessary for testing the lights pulled into the main repo. Worked on getting lights set up again after they were borked by a factory reset because of a misconfigured network setup | #7 | msoe-sisbot | 
+| 2020-10-29 | casperjm21 | 1h | Finished setting up lights for manual testing. | #25| msoe-sisbot | 
+| 2020-10-29 | casperjm21 | 1h | Met with team to do status report. Breifly discussed setup with Joe. Worked on getting CI set up. Merged test branch into dev | #7 | msoe-sisbot | 
 
 ## Fleming, Grace
 ###### Hours: 9.17
