@@ -24,11 +24,19 @@ _As a reminder - we forgot to start the milestone on time so we adjusted the sta
 | 2020-10-29 | burkhardtr | 30m | Was inspired by Bruce's comment about printing the time on the table with the track so I spent some time "sprint planning" and coming up with circular designs for printing time. I plan on refining the designs and uploading them to a new PBI for grooming. | #23 | msoe-sisbot
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 3h 20m + today
+###### Rating (0-10): 6
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-10-23 | casperjm21 | 30m | Met with Dr. Taylor | #7 | msoe-sisbot |
+| 2020-10-26 | casperjm21 | 20m | Met with team to do stand up and discuss Thursday deliverables | #7 | msoe-sisbot | 
+| 2020-10-28 | casperjm21 | 2h 30m | Learned about how to use a breadboard, set up initial circuit for lights | #25| msoe-sisbot | 
+| 2020-10-29 | casperjm21 | xh | Fixed neopixel not found bug, worked more on making lights work | #25| msoe-sisbot | 
+| 2020-10-29 | casperjm21 | xh | Status report meeting with team | #7 | msoe-sisbot | 
+
+I finally got my hardware, so I'm working on setting up the lights on my Pi. I wasn't familiar with breadboards or circuits, so I spent some time learning about how to do that without frying any of my electronics. After getting an initial set up, I tried running some light testing code, but ran into installation errors. I got some help from my team and resolved the installation errors, but the lights still aren't lighting up, so I'm assuming there's still some wiring issues. 
 
 ## Enters, Stuart
 ###### Hours: X
