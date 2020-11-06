@@ -31,11 +31,11 @@ Insert Summary Here
 Finally got my lights set up on my home pi, and worked on the holiday lights pattern. Setting up the lights took much, much longer than I was expecting so I wasn't able to complete the holiday lights. I've made good progress on it so far, though. I have the implementations of light patterns on holidays but I need to find an API that will give me the dates of holidays that occur on different dates every year, like Easter and Thanksgiving.
 
 ## Enters, Stuart
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 9.5
+###### Rating (0-10): 3
 ###### Summary:
 
-Insert Summary Here
+So... where to begin. I technically did some work for this week - I got CI working again and got one task done for the light pattern I'm developing - but I had a unprecedented series of setbacks that inhibited any more work. I have had a number of anxiety attacks this week, a massive workload for other classes, a medical emergency to deal with, unfortunate events in my personal life, and spent the majority of today getting tested for Covid and then going into quarantine. Needless to say, this isn't a reflection of my best work. Doubly unfortunately: with the projected workload for next week, I don't really see this improving. Obviously I will try to improve, but I do not know if I will have the ability to represent myself well for this project.
 
 ## Fleming, Grace
 ###### Hours: 13
