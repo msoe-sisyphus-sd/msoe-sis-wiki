@@ -1,6 +1,6 @@
 # Sprint Goal
 
-Insert Goal here
+Continue exploring different light patterns and being investigating additional inputs to affect lighting schemes.
 
 # Burndown Chart
 
