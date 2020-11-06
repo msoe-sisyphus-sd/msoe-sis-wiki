@@ -16,11 +16,19 @@ Continue exploring different light patterns and being investigating additional i
 Insert Summary Here
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 8.75 + hours
+###### Rating (0-10): 7
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-11-02 | casperjm21 | 45m | Met with team for stand up, presentation planning and planning for the week | #7 | msoe-sisbot |
+| 2020-11-04 | casperjm21 | 5h | Finished setting up lights locally | #25 | msoe-sisbot | 
+| 2020-11-04 | casperjm21 | 1h 30m | Backlog grooming with team | #7 | msoe-sisbot | 
+| 2020-11-05 | casperjm21 | 1h 30m | Tried out different holiday APIs to see if any are usuable | #13| msoe-sisbot | 
+| 2020-11-05 | casperjm21 | xh | Status report meeting with team | #7 | msoe-sisbot | 
+
+Finally got my lights set up on my home pi, and worked on the holiday lights pattern. Setting up the lights took much, much longer than I was expecting so I wasn't able to complete the holiday lights. I've made good progress on it so far, though. I have the implementations of light patterns on holidays but I need to find an API that will give me the dates of holidays that occur on different dates every year, like Easter and Thanksgiving.
 
 ## Enters, Stuart
 ###### Hours: X
