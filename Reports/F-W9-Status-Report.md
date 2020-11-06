@@ -59,17 +59,7 @@ Insert Summary Here
 ## Findings
 * `npm` does not behave the way that it claims it does. Handling many dependencies on different architectures is challenging; there is no good way to isolate dependency loading.
 * Web app UI (typically containerized in Cordova) is run browser and can therefore be accessed without a mobile device.
-* wiring is dumb
-* MSOE week 9 sucks
-* covid sucks
-* cancer sucks
-* sleep deprivation sucks
-* scrum sucks
-* having your homework interrupted by election sucks
-* doom scrolling = fun also doom scrolling = destructive
-* good memes produced by pandemic :)
-* we all have self-hate issues
-* caffeine = heaven
+* Wiring presents many issues.
 
 ## Successes
 * Weather pattern implemented!
@@ -88,4 +78,4 @@ Insert Summary Here
   * Are they too large? How about adding a PBI for each subtask? The team feels that part of the reason our velocity was so low this sprint is due to the 'discrete' nature of PBI's. Would making them smaller allow for a more granular burndown and accurate representation of effort vs output? Or would this create situations where 'work' is completed without customer-impacting value?
 
 # Conclusion
-The team didn't finish out the sprint how they'd pictured. Despite this, the team is excited to demo the results of their work to Bruce, gauge his interest in upcoming PBI's. Going into the next sprint, the team is wiser, more cynical, less well-rested, but ready to face any challenges that come head-on.
+The team didn't finish out the sprint how they'd pictured. Despite this, the team is excited to demo the results of their work to Bruce, gauge his interest in upcoming PBI's. Going into the next sprint, the team is wiser, more cynical, but ready to face any challenges that come head-on.
