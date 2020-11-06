@@ -50,11 +50,20 @@ Insert Summary Here
 | 2020-11-05 | Grace Fleming |3h | Merge party, review, presentation drafting, new sprint plan, and status report | Sprint 2 Ceremonies | msoe-sisbot |
 
 ## Wojciechowski, Andrew
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 16.75
+###### Rating (0-10): 9
 ###### Summary:
-
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue | Repository |
+|--------------|--------------|-------------|-------------|----------|------------|
+| 2020-11-01 | Andrew Wojciechowski | 2.50h | Continued testing each of the weather patterns without the API. Got each of them working except for the thunder storming pattern. I will continue working to get the thunder storming pattern working and then I will move on testing the pattern with the Weather API after that. | #17 | msoe-sisbot |
+| 2020-11-02 | Andrew Wojciechowski | 0.75h | Standup with team. Shelled out slides for presentation and planned out things to do for the week | #7 | msoe-sisbot |
+| 2020-11-04 | Andrew Wojciechowski | 2.50h | Got of all of the patterns working for clear conditions, snowing, overcast, raining, and thunderstorming. Now I just need to work on getting everything hooked up to the API. | #17 | msoe-sisbot |
+| 2020-11-04 | Andrew Wojciechowski | 1.50h | Groomed PBIs on the backlog with the team. | #7 | msoe-sisbot |
+| 2020-11-05 | Andrew Wojciechowski | 0.50h | Fixed the remaining issues with the weather pattern involving how we call the weather API. Opened up a merge request for the new pattern. | #17 | msoe-sisbot |
+| 2020-11-05 | Andrew Wojciechowski | 0.50h | Resolving and replying to MR feedback | #17 | msoe-sisbot |
+| 2020-11-05 | Andrew Wojciechowski | 0.50h | Looked into writing automated testing. Ran into issues with installing the pip dependencies with the requirements.txt file on my local PI. I plan on reporting the issues to the team later. | #17 | msoe-sisbot |
+| 2020-11-05 | Andrew Wojciechowski | 5h | Tried for a long time to get the wires on my light strip working by pealing off the plastic casing on the wires. My red wire is fine but I think I messed up and I cut the black wire to the point where it's really difficult to plug in now. Ordered a RGBW strip as a backup if this issue could not be resolved and I got in contact with my team about bringing the strip down to campus and using some tools that my other team members have that could potentially salvage the wire. | #25 | msoe-sisbot |
+| 2020-11-05 | Andrew Wojciechowski | 3.50h | Met with the team for standup, end of sprint merge party, sprint 2 retro, sprint 3 planning, going over the presentation, and to write the status report | #7 | msoe-sisbot |
 
 # Discussion
 
