@@ -41,7 +41,8 @@ Experimentation and Prototyping - Applied to unknown technology to improve knowl
 While this project is fairly limited where new technology is concerned, we are interested in improving some out of date software packages included in the existing application. To do this, we are creating prototypes of the existing code with the newer packages to gauge the difficulty of upgrading the codebase
 
 ## Third Party Components
-### Demonstrate your skill in discovering and employing third party components.Grace F. 
+### Demonstrate your skill in discovering and employing third party components.
+ 
 This project involves the integration of many third-party components. The tech stack relies exclusively on a raspberry pi 3 model A architecture, integrates Adafruit Neopixel lights with a third-party custom python library, uses Apache Cordova for running the mobile app, and runs a web server through node.
 To this tech stack, our team has added linters for python (pylint) and Javascript (ESlint) to prevent compilation mistakes and other stylistic errors since we are unable to run the actual code in a pipeline due to not having a docker container with a raspberry pi’s architecture. Linters, however, can be run in an architecture agnostic fashion and can prevent major issues from entering into the codebase. We also added unit testing frameworks (see “Tools” section).
 We are also considering updating some of the third-party components of the system (such as the python library) to bring the codebase up to date.
