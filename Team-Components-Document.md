@@ -39,20 +39,28 @@ We haven’t had to worry about security and privacy yet since it’s early in t
 * Pylint & ESLint - in order to improve the quality of the code, the team introduced linters to the projects. These will hopefully ensure that the code we are adding to the project is clear, readable, and maintainable
 Experimentation and Prototyping - Applied to unknown technology to improve knowledge and reduce risks. As the architecture is developed and key mechanisms are determined, what risks arise and how will you address them in the development process?
 While this project is fairly limited where new technology is concerned, we are interested in improving some out of date software packages included in the existing application. To do this, we are creating prototypes of the existing code with the newer packages to gauge the difficulty of upgrading the codebase
+
 ## Third Party Components
 ### Demonstrate your skill in discovering and employing third party components.Grace F. 
 This project involves the integration of many third-party components. The tech stack relies exclusively on a raspberry pi 3 model A architecture, integrates Adafruit Neopixel lights with a third-party custom python library, uses Apache Cordova for running the mobile app, and runs a web server through node.
 To this tech stack, our team has added linters for python (pylint) and Javascript (ESlint) to prevent compilation mistakes and other stylistic errors since we are unable to run the actual code in a pipeline due to not having a docker container with a raspberry pi’s architecture. Linters, however, can be run in an architecture agnostic fashion and can prevent major issues from entering into the codebase. We also added unit testing frameworks (see “Tools” section).
 We are also considering updating some of the third-party components of the system (such as the python library) to bring the codebase up to date.
 The team is also making use of a variety of third-party components to perform development and debugging, such as the VSCode SFTP plugin (to develop on a different device’s file system), MobaXTerm/Putty (SSH clients), CURL (making web requests in an SSH session) and Win32Imager (to create and write backup copies of SD cards). For more information on third-party components integrated by the team into the project, see the “Tools” section.
-Documentation - This takes many forms including continuous documentation such as, notes associated with tasks that are updated regularly, weekly reviews, sprint reviews, and other artifacts such as a technology report, discussions of where you achieved specific course outcomes, project presentations, poster, and final report. 
+
+
+##Documentation
+This takes many forms including continuous documentation such as notes associated with tasks that are updated regularly, weekly reviews, sprint reviews, and other artifacts such as a technology report, discussions of where you achieved specific course outcomes, project presentations, poster, and final report. 
+
+
 The team currently manages a wiki that exists alongside the fork of the codebase. This structured wiki include weekly status reports submitted to our advisor, sprint plans that document promised work, and sprint reports and retrospectives that analyze completed work and the team’s process in order to reduce development risk and ensure incremental and sustainable progress is made during the course of the project.
 All ABET-type requirements (such as technology reports, and outcomes) are documented in the wiki as well in order to maintain a single source of truth for artifacts relating to the project.
+
 ## Managing Risks
-### Strategies employed to manage risk.Grace F. 
+### Strategies employed to manage risk.
+ 
 There are many risks associated with our project, both in terms of development continuation and completion. Risks whose threat to the project is highest and most likely are listed below:
 * The Product Owner will lose interest in the project or be otherwise indisposed to provide useful feedback.
-Managing Risk: Even without proper feedback from the Product Owner, our team can continue to innovate new ways to interact with the table. In addition to our primary Product Owner, the team and team’s advisor can together serve as a proxy product owner team to decide what areas of investigation and development are worth pursuing.
+  * Managing Risk: Even without proper feedback from the Product Owner, our team can continue to innovate new ways to interact with the table. In addition to our primary Product Owner, the team and team’s advisor can together serve as a proxy product owner team to decide what areas of investigation and development are worth pursuing.
 Development on the product will become difficult or impossible due to the deprecated nature of Python 2.7, the outdated rpi_ws281x lighting library, the use of Node 8, and the fading support of the Cordova cross-platform web and mobile framework.
  * **Managing Risk:** Look into upgrading libraries that can be upgraded. In particular, perform incremental upgrades as code areas are worked on and investigated.
 * Development Environments
