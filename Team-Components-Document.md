@@ -23,7 +23,8 @@ One such example is the lighting module. Each lighting pattern has its own file 
 In keeping with agile principles, the team does not plan on working on refactors outright but will rather incorporate re-writes and patterning as code is modified with other work. With new functionality, patterns and other design strategies will be considered in how to best implement the work.
 
 ## Testing
-Building it to be testable and testing it. How good is the automation of the testing and was it considered from the beginning?
+### How good is the automation of the testing and was it considered from the beginning?
+
 For testing the table in our PBIs we go through testing our changes on the table manually as well as writing automated tests for our PBIs. We considered this from the beginning and we setup a separate Git repository for writing our unit tests and we setup automating testing infrastructure for the Python lights module using PyTest and for the JavaScript module using the mocha and chai frameworks.
 
 ## Security and Privacy
