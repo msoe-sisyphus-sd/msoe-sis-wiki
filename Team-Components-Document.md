@@ -123,6 +123,7 @@ For example, to control the lights a command is sent from the client app to the 
 
 Additionally, the team is investigating producing a “releasable” upgrade which will introduce new functionality to the system. For example, the team may choose to incorporate motion controls that move the ball and adjust the lights based on user actions. New additions like this would require their own architecture of sub-modules (how is data passed around, how are interfaces exposed, etc.) and integration into the larger table’s architecture.
 
+![image](uploads/52b9661f5119d84c6b1724a9b2d669bd/image.png)
 
 
 # Design
