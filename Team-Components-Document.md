@@ -52,7 +52,7 @@ We are also considering updating some of the third-party components of the syste
 The team is also making use of a variety of third-party components to perform development and debugging, such as the VSCode SFTP plugin (to develop on a different device’s file system), MobaXTerm/Putty (SSH clients), CURL (making web requests in an SSH session) and Win32Imager (to create and write backup copies of SD cards). For more information on third-party components integrated by the team into the project, see the “Tools” section.
 
 
-##Documentation
+## Documentation
 This takes many forms including continuous documentation such as notes associated with tasks that are updated regularly, weekly reviews, sprint reviews, and other artifacts such as a technology report, discussions of where you achieved specific course outcomes, project presentations, poster, and final report. 
 
 
