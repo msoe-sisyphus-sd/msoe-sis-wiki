@@ -21,8 +21,11 @@ Additionally, the team is investigating producing a “releasable” upgrade whi
 ### The system currently does not use any patterns and this has resulted in monolithic files and copy-pasted files with duplicated behavior and code. This means the codebase is ripe for patterns and refactors to introduce modern software strategies that would make the code more maintainable, and understandable.
 One such example is the lighting module. Each lighting pattern has its own file with two functions (an init and update). The init behavior is nearly identical across files while the update contains the business logic for executing the different lighting patterns. This module can be refactored to use a strategy pattern (context uses common interface, multiple implementations).
 In keeping with agile principles, the team does not plan on working on refactors outright but will rather incorporate re-writes and patterning as code is modified with other work. With new functionality, patterns and other design strategies will be considered in how to best implement the work.
-Testing - Building it to be testable and testing it. How good is the automation of the testing and was it considered from the beginning?
+
+## Testing
+Building it to be testable and testing it. How good is the automation of the testing and was it considered from the beginning?
 For testing the table in our PBIs we go through testing our changes on the table manually as well as writing automated tests for our PBIs. We considered this from the beginning and we setup a separate Git repository for writing our unit tests and we setup automating testing infrastructure for the Python lights module using PyTest and for the JavaScript module using the mocha and chai frameworks.
+
 ## Security and Privacy
 ### How are you addressing security and privacy? Are you using best practices?
 We haven’t had to worry about security and privacy yet since it’s early in the project and we’re working on getting other things set up first. But in the future we’ll have to make sure that the Raspberry Pi  is secure making it difficult for bad actors to access the Pi.Also, on the Pi we’ll have to worry about making sure that any secret data on the Raspberry PI is stored securely on the PI using methods like encryption. Also, for the web components of our application we’ll want to make sure that the web endpoints on the table aren’t accessible by unwanted actors.
