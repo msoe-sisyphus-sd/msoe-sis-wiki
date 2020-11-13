@@ -1,6 +1,7 @@
 ---
-Requirements - Definition and analysis including selecting at least one stakeholder. You will need to become familiar with the domain.
-Requirements definition:
+## Requirements 
+### Definition and analysis including selecting at least one stakeholder. You will need to become familiar with the domain.
+### Requirements definition:
 * Title: Requirement number along with the requirement
 Description: Gives more information about what the requirement is trying to achieve
 * Rationale: Why this requirement is being included
@@ -11,6 +12,7 @@ Description: Gives more information about what the requirement is trying to achi
 * Priority: Scale 1-10 on how important this requirement is in relation to other requirements
 * Dependencies: The numbers of other requirements that must be completed to work on this one 
 * History: The date of the last time this requirement was modified
+
 ## Software Architecture and Modeling
 ### It should involve some interesting elements of software system design, including thoughtful exploration of the architecture to support iterations.
 The Sisyphus table consists of 3 distinct parts - the motor control, the lights control, and the server that orchestrates all operations and communicates with the client app which provides user controls. These parts map to real world elements of the table and serve as a consistent separation of concerns. For the beginning of our project we were tasked with exploring the lighting system and generating new and interesting interactions. This requires knowledge of how the system and it’s APIs work but also requires understanding of how commands are sent from the server and processed by the lighting module. While the team is not drafting an architecture from scratch any changes made must be rectified against the current architecture or must investigate and address shortcomings.
