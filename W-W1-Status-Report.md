@@ -45,11 +45,17 @@ This week I worked mostly on troubleshooting the table's lack of lights. My majo
 
 
 ## Wojciechowski, Andrew
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 8
+###### Rating (0-10): 6
 ###### Summary:
 
-Insert Summary Here
+| 2020-11-09 | @wojciechowskia | 2h | Tried using my RGB strip using Stuart's setup which involved plugging the LED strip directly into the power supply but I still ran into problems with my black wire getting bent and being difficult plug in. I'm going to try it on my RGBW strip that I ordered which should arrive tomorrow and if that doesn't work I'll take the RGB strip down to campus on Wednesday and have one of my team members with the proper tools help me. | #25 | msoe-sisbot |
+| 2020-11-10 | @wojciechowskia | 0.5h | Got the lights working on a new RGBW strip that I received by directly plugging into the power supply | #25 | msoe-sisbot
+| 2020-12-01 | @wojciechowskia | 1.50h | Spent some time troubleshooting with Grace. Tried to use the table's lights on my local setup but we didn't given we didn't want to break the strip since my local setup could only power 60 LEDs instead of the entire strip. Also, we looked into trying to run the table using my Raspberry PI but there were compatibility issues between my PI 4 and the PI 3 that the table used. | #37 | msoe-sisbot |
+| 2020-12-03 | @wojciechowskia | 1h | Spent some time looking into this. I don't think it will be possible to implement this pattern since you can only set the brightness for the entire light strip instead of individual LEDs making it impossible to make one side of the strip dimmer than the other. | #30 | msoe-sisbot |
+| 2020-12-03 | @wojciechowskia | 2h | Came up with an idea to use the white pixel to control whether the lights become dimmer or not. Implemented the initial light pattern based on this idea, still need to test it in which I'm probably going to mock out theta and rho values until we figure out why the lights on the Coffee table won't turn on. | #30 | msoe-sisbot |
+| 2020-12-03 | @wojciechowskia | 0.5h | Added some code comments explaining the math behind the magnetic pattern, fixed an issue with indexes, refactored variable names to be clearer, and added a missing import in the magnetic pattern file. | #30 | msoe-sisbot |
+| 2020-12-03 | @wojciechowskia | 0.5h | Spent some time reading through the ball plotter code and led_main to learn more about the theta and rho values that are given to the lights module. I also read through a few of the .thr files where some of them has negative theta values so I added handling for that in the magnetic light pattern. | #30 | msoe-sisbot |
 
 # Discussion
 
