@@ -13,7 +13,7 @@ Finish off carryover from sprint 2, and explore methods of input for lighting de
 ###### Rating (0-10): -2 (at least I'm doing better than our initial pylint score!)
 ###### Summary:
 
-I have not made any notable progress on any assigned PBIs. I might argue that I spent this week adjusting to the new quarter and I spent the break decompressing from last quarter but these are just excuses and do not excuse my behavior. This is completely unprofessional and inconsiderate to my teammates. I promise to both Dr. Taylor and my team to make up this weeks work and more in the coming days so that I am making contributions to the team and helping complete this sprints work.
+I have not made any notable progress on any assigned PBIs. I might argue that I spent this week adjusting to the new quarter and I spent the break decompressing from last quarter but these are just excuses and do not justify my behavior. This is completely unprofessional and inconsiderate to my teammates. I promise to both Dr. Taylor and my team to make up this weeks work and more in the coming days so that I am making contributions to the team and helping complete this sprints work.
 
 ## Casper, Joseph
 ###### Hours: X
