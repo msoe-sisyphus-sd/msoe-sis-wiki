@@ -49,6 +49,8 @@ This week I worked mostly on troubleshooting the table's lack of lights. My majo
 ###### Rating (0-10): 6
 ###### Summary:
 
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
 | 2020-11-09 | @wojciechowskia | 2h | Tried using my RGB strip using Stuart's setup which involved plugging the LED strip directly into the power supply but I still ran into problems with my black wire getting bent and being difficult plug in. I'm going to try it on my RGBW strip that I ordered which should arrive tomorrow and if that doesn't work I'll take the RGB strip down to campus on Wednesday and have one of my team members with the proper tools help me. | #25 | msoe-sisbot |
 | 2020-11-10 | @wojciechowskia | 0.5h | Got the lights working on a new RGBW strip that I received by directly plugging into the power supply | #25 | msoe-sisbot
 | 2020-12-01 | @wojciechowskia | 1.50h | Spent some time troubleshooting with Grace. Tried to use the table's lights on my local setup but we didn't given we didn't want to break the strip since my local setup could only power 60 LEDs instead of the entire strip. Also, we looked into trying to run the table using my Raspberry PI but there were compatibility issues between my PI 4 and the PI 3 that the table used. | #37 | msoe-sisbot |
