@@ -23,11 +23,16 @@ I have not made any notable progress on any assigned PBIs. I might argue that I 
 Insert Summary Here
 
 ## Enters, Stuart
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 5.5
+###### Rating (0-10): 3
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-11-06 | @enterss | 2h | Worked on end of the quarter ceremonies  | #7 | msoe-sisbot |
+| 2020-11-10 | @enterss | 1h |  Standup and scheduled presentation time | #7 | msoe-sisbot |
+| 2020-11-11 | @enterss | 1h 30m | Recorded final presentation with team | #7 | msoe-sisbot |
+| 2020-12-03 | @enterss | 1h 15m | Standup and status report with team | #7 | msoe-sisbot |
 
 ## Fleming, Grace
 ###### Hours: 9.5
