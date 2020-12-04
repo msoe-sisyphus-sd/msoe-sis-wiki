@@ -16,11 +16,17 @@ Finish off carryover from sprint 2, and explore methods of input for lighting de
 I have not made any notable progress on any assigned PBIs. I might argue that I spent this week adjusting to the new quarter and I spent the break decompressing from last quarter but these are just excuses and do not justify my behavior. This is completely unprofessional and inconsiderate to my teammates. I promise to both Dr. Taylor and my team to make up this weeks work and more in the coming days so that I am making contributions to the team and helping complete this sprints work.
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 5
+###### Rating (0-10): 4
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-03 | @casperjm | 1h | Found holiday api to use | #13 | msoe-sisbot |
+| 2020-12-03 | @casperjm | 1h | Team meeting to write status report | #7 | msoe-sisbot |
+| 2020-12-03 | @casperjm | 3h | worked on implementing the api | #13 | msoe-sisbot |
+
+I had a busy week because I was still figuring out my schedule (I had dropped a class in order to take on the programming languages class), and I had work to do with job searching. Now that things are settled, I'll be able to start logging a lot more hours to senior design. 
 
 ## Enters, Stuart
 ###### Hours: 5.5
