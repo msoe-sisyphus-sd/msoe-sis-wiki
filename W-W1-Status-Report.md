@@ -1,6 +1,6 @@
 # Sprint Goal
 
-Insert Goal here
+Finish off carryover from sprint 2, and explore methods of input for lighting dependent on physical environment.
 
 # Burndown Chart
 
