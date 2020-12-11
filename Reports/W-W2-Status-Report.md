@@ -61,7 +61,7 @@ Insert Summary Here
 
 # Questions
 
-Is the usability testing a team activity?
+Is the usability testing student outcome assessment a team activity?
 
 # Conclusion
 
