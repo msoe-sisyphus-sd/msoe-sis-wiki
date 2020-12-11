@@ -23,7 +23,7 @@ Link Chart Here
 | 2020-12-10 | @burkhardtr | 2.5h | Enabled audio output while lights are running! I was able to switch the GPIO pin from 18 to 21 which uses the PCM rather than the PWM which frees it for audio output. I am planning on developing a script that will monitor audio output and change the lights accordingly as a small spike. I also have a USB soundcard and USB mic which can be used to test lights responding to ambient audio (it would require switching the GPIO to use SPI rather than PCM which requires for Pi configuration than I currently understand) | #15 | msoe-sisbot | 
 
 ## Casper, Joseph
-###### Hours: 5 + today
+###### Hours: 6
 ###### Rating (0-10): 5
 ###### Summary:
 
@@ -33,9 +33,9 @@ Link Chart Here
 | 2020-12-09 | @casperjm | 2h | Finshed holidays and put up for review | #13 | msoe-sisbot |
 | 2020-12-10 | @casperjm | 1h | Fixed some issues found in review | #13 | msoe-sisbot |
 | 2020-12-10 | @casperjm | 1h | Met with team to do reviews and to do the status report | #7 | msoe-sisbot |
+| 2020-12-10 | @casperjm | 1h | Finished fixing things found in code review | #13 | msoe-sisbot |
 
-
-This week I finished up the holiday light pattern. I submitted my merge request and got a lot of feedback, so I spent some time polishing my code up before it was approved and merged. I will be picking up some tickets to work on that are outside of the sprint as I have nothing to work on at the moment
+This week I finished up the holiday light pattern. I submitted my merge request and got a lot of feedback, so I spent some time polishing my code up before it was approved and merged. I will be picking up some tickets to work on that are outside of the sprint as I have nothing to work on at the moment.
 
 ## Enters, Stuart
 ###### Hours: X
