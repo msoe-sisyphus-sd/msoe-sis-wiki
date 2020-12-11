@@ -4,7 +4,7 @@ Finish off carryover from sprint 2, and explore methods of input for lighting de
 
 # Burndown Chart
 
-Link Chart Here
+![image](uploads/cc921be8e22d09fa92a6009ccf18667d/image.png)
 
 # Team Commitment
 
@@ -38,9 +38,19 @@ Link Chart Here
 This week I finished up the holiday light pattern. I submitted my merge request and got a lot of feedback, so I spent some time polishing my code up before it was approved and merged. I will be picking up some tickets to work on that are outside of the sprint as I have nothing to work on at the moment.
 
 ## Enters, Stuart
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 8h
+###### Rating (0-10): 7
 ###### Summary:
+
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-04 | @enterss | 20m | Met with Dr Taylor | #7 | msoe-sisbot |
+| 2020-12-07 | @enterss | 1h 15m | Standup & Grooming | #7 | msoe-sisbot |
+| 2020-12-11 | @enterss | 30m | Worked on fixing testing setup | #7 | msoe-sisbot |
+| 2020-12-11 | @enterss | 1h | Reviewed PRs | #13 & #30 | msoe-sisbot |
+| 2020-12-11 | @enterss | 1h | Fixed bug in lighting setup | #7 | msoe-sisbot |
+| 2020-12-11 | @enterss | 2h 40m | Worked on developing own light pattern | #19| msoe-sisbot |
+| 2020-12-11 | @enterss | 1h 15m | Met with team to do the status report | #7 | msoe-sisbot |
 
 ## Fleming, Grace
 ###### Hours: 13
