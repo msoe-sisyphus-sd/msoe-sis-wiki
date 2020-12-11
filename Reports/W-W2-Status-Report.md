@@ -83,7 +83,6 @@ Insert Summary Here
 
 # Discussion
 
-
 ## Key Meetings
 * 2020-12-07: We met as a team for sprint planning
 
@@ -104,3 +103,14 @@ Is the usability testing student outcome assessment a team activity?
 # Conclusion
 
 Over the course of this week, we groomed our backlog after being away from this project for a while, we fixed issues we were having with the table, completed a knowledge acquisition and discussed next steps, completed two new light patterns, and planned a possible usability experiment to discover new potential features.
+
+# Plan for Knowledge Acquisition
+
+## Stuart
+
+* Goal: Get a better understanding of the ball movement system
+* Steps:
+    * Investigate the library Sisyphus is currently using to control the motor
+    * Write minimal code to control the ball
+    * Image a new SD card with the code
+    * Ensure that the code actually works with the current setup
