@@ -9,11 +9,18 @@ Link Chart Here
 # Team Commitment
 
 ## Burkhardt, Robert
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 7.75
+###### Rating (0-10): 7.22222
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-04 | @burkhardtr | 15m | Met with Dr. Taylor | #7 | msoe-sisbot |
+| 2020-12-07 | @burkhardtr| 30m | Team meeting to write status report | #7 | msoe-sisbot |
+| 2020-12-03 | @burkhardtr | 1h+ | Prep for meeting with Dr. Taylor W2 status report. Plus looked over some merge requests as well as discussed some of the student outcomes (what is uability testing? etc.) | #7 | msoe-sisbot |
+| 2020-12-10 | @burkhardtr | 2h | Tested using a USB audio card to output sound while the lights are running and failed miserably. Using an external audio card requires re-configuring the alsa which will disable GPIO output. I haven't tested input but I have a hunch that it won't be much better than output (using the same USB audio card). It remains to be seen whether a stand alone USB microphone might be able to circumvent the alsa requirements (especially since audio input isn't native to the Pi). It seems that since the Pi is limited in which I/O interface has control over the PWM we might need to use GPIO to generate or accept audio signals - will investigate further based on @flemingg's research. | #15 | msoe-sisbot |
+| 2020-12-10 | @burkhardtr | 1.5h | Attempted to switch the output of the PINs to use PCM vs PWM which would enable analog output. I was able to get the LEDs to run on new Pins and then run audio through the jack (without lights running) but afterwards I couldn't get the lights working again (even reverting to old pins). Most likely I messed up some config thing that I can't remember changing - will investigate further since according to the underlying PWM/PCM library it is possible to run GPIO with analog audio output (or I2C audio for input) by using different pins. https://github.com/jgarff/rpi_ws281x | #15 | msoe-sisbot |
+| 2020-12-10 | @burkhardtr | 2.5h | Enabled audio output while lights are running! I was able to switch the GPIO pin from 18 to 21 which uses the PCM rather than the PWM which frees it for audio output. I am planning on developing a script that will monitor audio output and change the lights accordingly as a small spike. I also have a USB soundcard and USB mic which can be used to test lights responding to ambient audio (it would require switching the GPIO to use SPI rather than PCM which requires for Pi configuration than I currently understand) | #15 | msoe-sisbot | 
 
 ## Casper, Joseph
 ###### Hours: 5 + today
