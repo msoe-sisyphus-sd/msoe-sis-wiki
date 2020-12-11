@@ -35,12 +35,18 @@ This week I finished up the holiday light pattern. I submitted my merge request 
 ###### Rating (0-10): X
 ###### Summary:
 
-Insert Summary Here
-
 ## Fleming, Grace
-###### Hours: X
-###### Rating (0-10): X
-###### Summary:
+###### Hours: 13
+###### Rating (0-10): 5
+###### Summary: I felt very useless this week after the lights got fixed. I spent a lot of time researching for our spike PBI but without axilliary hardware I wasn't able to implement anything useful.
+| Date         |      User    | Hours Spent | Description | Issue/MR | Repository |
+|--------------|--------------|-------------|-------------|----------|------------|
+| 2020-12-04	|Grace Fleming|	0.25h	| Meeting with Dr. Taylor (logged in retro) |Group Meetings Time Log| msoe-sisbot| 
+| 2020-12-07	| Grace Fleming| 1.25h	| Weekly meeting with the team. Worked on standup and sprint planning. |Group Meetings Time Log	|msoe-sisbot|
+|2020-12-07	|Grace Fleming|	1.50h	| Emailed with Matt & tried a few things (reinstalling python). Scheduled a meeting for 12/08 to walk through the light issue in real-time. Tried a GPIO utility called pigpio as a last-ditch effort to find a way to "see" what's happening on each GPIO. After trying this GPIO utility, reattaching the hat and rebooting the pi the lights WORKED :) Will continue monitoring to future issues.| 	Table Issue: Lights are not turning on on the coffee table| msoe-sisbot |
+| 2020-12-07	|Grace Fleming| 1.50h	| Researched the audio issue further. I am unsure of whether we can use GPIO's as audio input due to the fact the pi hat is currently covering up all of the GPIO's. I think I need to interface with Matt about this, though, since at least in code, the raspberry pi only dedicates 1 GPIO to the lights. I ensured HDMI was not an option for audio input (Pi does not support ARC). Furthermore, the audio jack on the pi can only be used for audio OUTPUT (which we are currently using the DMA channel for anyway) and not input. Next plan: get in touch with Matt about GPIO usage, and try to locate a relatively inexpensive USB microphone to test with. | Knowledge Acquisition: Sync Table Lights with Audio Track|msoe-sisbot|
+| 2020-12-10 | Grace Fleming | 1.5h 	| Researched USB/pi configurations a bit more. Looked into how one might use GPIO's for input along with the i2c codec. Realized that because the pi doesn't have analog GPIO's, using the GPIO pins may not be possible anymore, and USB may be our only option :( Finally emailed Matt to ask for his thoughts and opinions on how he'd go about adding audio input. Matt threw out the idea of using a USB hub, which might be possible except that currently USB's can't do sound input while we have the GPIO's active. | Knowledge Acquisition: Sync Table Lights with Audio Track |msoe-sisbot|
+| 2020-12-10 | Grace Fleming | 0.5h 	| Theorized a new PBI idea for remote control of a Sisyphus table. This could be useful for troubleshooting, or maybe even for people who want to have monitoring and control over their tables from a distance. Also, this would help us conduct remote and asynchronous usability studies. | Group Meetings Time Log | msoe-sisbot |
 
 Insert Summary Here
 
