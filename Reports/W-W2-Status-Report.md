@@ -16,11 +16,19 @@ Link Chart Here
 Insert Summary Here
 
 ## Casper, Joseph
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 5 + today
+###### Rating (0-10): 5
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-07 | @casperjm | 1h | Weekly team stand up | #7 | msoe-sisbot |
+| 2020-12-09 | @casperjm | 2h | Finshed holidays and put up for review | #13 | msoe-sisbot |
+| 2020-12-10 | @casperjm | 1h | Fixed some issues found in review | #13 | msoe-sisbot |
+| 2020-12-10 | @casperjm | 1h | Met with team to do reviews and to do the status report | #7 | msoe-sisbot |
+
+
+This week I finished up the holiday light pattern. I submitted my merge request and got a lot of feedback, so I spent some time polishing my code up before it was approved and merged. I will be picking up some tickets to work on that are outside of the sprint as I have nothing to work on at the moment
 
 ## Enters, Stuart
 ###### Hours: X
