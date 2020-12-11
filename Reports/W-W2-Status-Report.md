@@ -58,11 +58,18 @@ This week I finished up the holiday light pattern. I submitted my merge request 
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-###### Hours: X
-###### Rating (0-10): X
+###### Hours: 5h 10m
+###### Rating (0-10): 5
 ###### Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-04 | @wojciechowskia | 20m | Meeting with Dr. Taylor | #7 | msoe-sisbot |
+| 2020-12-07 | @wojciechowskia | 1h | Standup and Sprint Planning with the team | #7 | msoe-sisbot |
+| 2020-12-09 | @wojciechowskia | 2h | Tested the magnetic light pattern on the table. Made some minor adjustments to it where I fixed making the lights brighter as it got toward the edge of the table and I decreased the number of LEDs that got brighter as the ball approached the edge of the table. | #30 | msoe-sisbot |
+| 2020-12-10 | @wojciechowskia | 10m | Reviewed and left comments on the holiday light pattern MR. | #7 | msoe-sisbot |
+| 2020-12-10 | @wojciechowskia | 20m | Replying and resolving MR feedback | #30 | msoe-sisbot |
+| 2020-12-10 | @wojciechowskia | 1h 20m | Reviewing MRs with the team and writing status report with the team | #7 | msoe-sisbot |
 
 # Discussion
 
