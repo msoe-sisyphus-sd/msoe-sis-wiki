@@ -6,7 +6,10 @@
 # Initial Repo Setup
 1. First run the commands `cd ~` and `mkdir sisbot-server`
 2. Change into the sisbot-server directory and clone the MSOE sisbot, siscloud, and sisproxy repos from GitLab. 
-3. Rename each directories in the sisbot-server to `sisbot, sisproxy, and siscloud`
+3. Rename each directories in the sisbot-server to `sisbot, sisproxy, and siscloud` or Create soft links between each of the git repositories as their "canonical" names:
+`ln -s msoe-sisbot sisbot`
+`ln -s msoe-sisproxy sisproxy`
+`ln -s msoe-siscloud siscloud`
 
 # Python Setup
 1. Install pip by running the command `sudo apt-get install python-pip`
@@ -21,10 +24,5 @@
 4. Run the command `nvm use 8.11.4`
 
 # Finishers
-1. Create soft links between each of the git repositories as their "canonical" names:
-`ln -s msoe-sisbot sisbot`
-`ln -s msoe-sisproxy sisproxy`
-`ln -s msoe-siscloud siscloud`
-
-2. Create the directory that sisyphus will log to:
+1. Create the directory that sisyphus will log to:
 `sudo mkdir /var/log/sisyphus`
