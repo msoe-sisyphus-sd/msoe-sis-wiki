@@ -19,3 +19,12 @@
 2. Run the command `export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"` to load nvm.
 3. Open a new bash session and verify the installation by running `nvm -v`
 4. Run the command `nvm use 8.11.4`
+
+# Finishers
+1. Create soft links between each of the git repositories as their "canonical" names:
+`ln -s msoe-sisbot sisbot`
+`ln -s msoe-sisproxy sisproxy`
+`ln -s msoe-siscloud siscloud`
+
+2. Create the directory that sisyphus will log to:
+`sudo mkdir /var/log/sisyphus`
