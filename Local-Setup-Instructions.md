@@ -6,7 +6,7 @@
 # Initial Repo Setup
 1. First run the commands `cd ~` and `mkdir sisbot-server`
 2. Change into the sisbot-server directory and clone the MSOE sisbot, siscloud, and sisproxy repos from GitLab. 
-3. Rename each directories in the sisbot-server to `sisbot, sisproxy, and siscloud` or Create soft links between each of the git repositories as their "canonical" names:
+3. Rename each directories in the sisbot-server to `sisbot, sisproxy, and siscloud` or create soft links between each of the git repositories as their "canonical" names:
 `ln -s msoe-sisbot sisbot`
 `ln -s msoe-sisproxy sisproxy`
 `ln -s msoe-siscloud siscloud`
