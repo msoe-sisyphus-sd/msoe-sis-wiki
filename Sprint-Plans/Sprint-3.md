@@ -42,3 +42,6 @@ If we finish the above, we will plan to pull in the following:
 ## Velocity Analysis
 31 points planned (18 carryover from Sprint 2)
 26 addition if necessary
+
+## Update (2020-12-17)
+blah blah blah
