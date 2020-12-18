@@ -25,6 +25,7 @@ The table below are Sprint 2 PBIs ordered by priority
 | #32 | Create an algorithm to generate novel tracks from a real image using Deep Dream technologies | 8 | 19h |
 |#36 | Ensure that newly added code complies with existing formatting rules |  1 | 1h |
 
+_May change depending on meeting with Bruce and Matt on 2020-12-18_
 
 ## Velocity Analysis
-31 points planned
+34 points planned
