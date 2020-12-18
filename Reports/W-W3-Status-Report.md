@@ -54,9 +54,12 @@ This week I started fixing the eslint errors in the siscloud repo. The first day
 |2020-12-17|@enterss|1h|Manual testing of the pattern|#19|msoe-sisbot|
 
 ## Fleming, Grace
-**Hours**: 17ish
+**Hours**: 18ish
+
 **Rating**: 7
+
 **Summary**:
+
 I tried to implement an audio spike that was overambitious. Despite good effort and a TON of time slogged into the issue _and_ a prototype, the prototype is uninteresting and does not function as I would've hoped. 
 | date | User | Hours Spent | Description | Issue/MR | Repo |
 |--|--|--|--|--|--|
