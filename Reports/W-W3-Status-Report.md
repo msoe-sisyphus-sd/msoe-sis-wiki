@@ -82,6 +82,7 @@ Insert Summary Here
 
 # Questions
 * When should our technology report be due?
+* Add Bruce and Matt as guests to team chat?
 
 ## Really Important Questions
 * How are you (like really)?
