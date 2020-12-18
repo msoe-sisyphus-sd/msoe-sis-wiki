@@ -9,13 +9,14 @@ _Image taken at 2020-12-17 7:02_
 # Team Commitment
 
 ## Burkhardt, Robert
-**Hours**: X
+**Hours**: 10.5
 
-**Rating (0-10)**: X
+**Rating (0-10)**: 10
 
 **Summary**:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
 
 ## Casper, Joseph
 **Hours**: 8.5
