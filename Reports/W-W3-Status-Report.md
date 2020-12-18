@@ -54,13 +54,21 @@ This week I started fixing the eslint errors in the siscloud repo. The first day
 |2020-12-17|@enterss|1h|Manual testing of the pattern|#19|msoe-sisbot|
 
 ## Fleming, Grace
-**Hours**: X
-
-**Rating (0-10)**: X
-
+**Hours**: 17ish
+**Rating**: 7
 **Summary**:
-
-Insert Summary Here
+I tried to implement an audio spike that was overambitious. Despite good effort and a TON of time slogged into the issue _and_ a prototype, the prototype is uninteresting and does not function as I would've hoped. 
+| date | User | Hours Spent | Description | Issue/MR | Repo |
+|--|--|--|--|--|--|
+|2020-12-13 | Grace Fleming |0.50h | Reviewed PR | Integrate Upstream with Fork	| msoe-sisbot|
+|2020-12-14 | Grace Fleming |0.50h | Standup & end-of-sprint plan. Revised sprint 3 plan and created a sprint 4 plan. |Group Meetings Time Log	| msoe-sisbot |
+|2020-12-14 | Grace Fleming |1.50h | Synchronized with George about what's left to work on. Made plans to implement a spike showcasing simultaneous audio output and light manipulation. Researched audio libraries for audio output capable of analyzing music. Found this which may be a cool area of exploration for audio INPUT. Continued researching audio output manipulation libraries.|Knowledge Acquisition: Sync Table Lights with Audio Track |msoe-sisbot |
+|2020-12-15 | Grace Fleming |1.50h | Attempted to assemble local dev environment to begin working on spike. Hit with a wall when tried to boot pi 3 image on pi 4 image. Contacted Andy about stealing a pi 4 dev image. Assisted Andy in building the image. While waiting for image to transfer/upload, researched more ways of manipulating and controlling sound. Found librosa, a python library for doing audio output analysis. I am unsure of whether there will be time to implement a suitable demo using librosa, as it seems quite complicated.  | Knowledge Acquisition: Sync Table Lights with Audio Track | msoe-sisbot |
+|2020-12-15 | Grace Fleming |2.50h | Set up dev pi, which took unfortunate amount of time (bad batteries). Then found out how to switch GPIO and lights to SPI. Required some digging but found this. After applying the accepted fix, the lights worked just fine :) I attempted to get the audio part working, but my pi wouldn't recognize my headphones in the 3.5mm jack. I tried updating the kernel via rpi-update as this was a suggestion on a Raspbian forum. No changes, and sudo raspi-config doesn't show anything either. Tomorrow I will see if I have a different headphone pair I can try. | Knowledge Acquisition: Sync Table Lights with Audio Track	| msoe-sisbot |
+|2020-12-16 | Grace Fleming | 3h | Got ALSA to finally recognize my audio card after a ton of digging my editing the boot/config.txt and then running a sudo modprobe snd_bcm2835. Not sure why I have to do both :shrug:. Integrated with lights, and started setting up development environment to pull together 3 different repos for a spike: a machine learning algorithm, a supporting audio analysis library, and a library for splitting wav files. | Knowledge Acquisition: Sync Table Lights with Audio Track	 | msoe-sisbot | 
+|2020-12-16 | Grace Fleming | 2h | Worked on trying to install the openCV library to my pi since that package is required for the machine learning algorithm to measure the mood of my music. This was completely unsuccessful after trying several articles and in some cases waiting like 4 hours to install stuff--in all cases it would take forever to compile, and then error out on something. At this rate I will need to shift to a different spike idea, depressing as it is. Right now I think the easiest thing to do is detect the sound level of a track and change the brightness of the lights based on that :(. It is not the most glamorous but I don't want to sit on trying to install a single dependency. ALSO--I spent some of my time handling my local dev env. Unfortunately for me, the batteries I was using to power my LED's caught fire today (it is my theory that something in the box caused a full circuit and ground was shorted to power). The pi and the neopixels are both fine, but unfortunately the batteries are most definitely not, and the battery terminal holder is ruined as well. I am just grateful I was home when the smoking and burning started, or otherwise my apartment might've burned to the ground 🤞 Thankfully the majority of work left over in this sprint is going to be pure coding and will not sure a lab. | Knowledge Acquisition: Sync Table Lights with Audio Track | msoe-sisbot |
+| 2020-12-17 | Grace Fleming| 5h| Worked pretty much all day on trying to get my spike working. In the end I got it all hooked up. opencv was able to be installed from an official raspbian repo. Setting up the python repos themselves was a complete mess, and I had audio library issues with installing PyAudio, which I found out later had to be installed from source on the raspberry pi. I then had to convert the implementation piece of my spike from some dude's github project (using audio input) to my own implementation using audio output. In the end the algorithm compiles and can manipulate lights, but is basically useless because for some unforseen reason, the color spectrum generated is always blue no matter what. I troubleshot this with both Andy and George but we couldn't figure it out :( | Knowledge Acquisition: Sync Table Lights with Audio Track | msoe-sisbot |
+| 2020-12-17 | Grace Fleming| 1h40m| Retro, sprint finalization, status report. | Group Meetings Time Log | msoe-sisbot |
 
 ## Wojciechowski, Andrew
 **Hours**: 12h
