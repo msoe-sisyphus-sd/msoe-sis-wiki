@@ -95,4 +95,4 @@ For reasons unsolved, however, the Outputstream always reported an empty `outdat
 
 
 ### Code
-The machine learning attempt is located [here])https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/sound-output-to-color-spike).
+The machine learning attempt is located [here](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/sound-output-to-color-spike).
