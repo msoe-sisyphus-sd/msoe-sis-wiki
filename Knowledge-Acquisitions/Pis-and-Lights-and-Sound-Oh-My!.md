@@ -91,8 +91,7 @@ def start_monitoring():
             pass
 ````
 
-For reasons unsolved, however, the Outputstream always reported an empty `outdata` to the callback function.
-
+For reasons unsolved, however, the Outputstream always reported an empty `outdata` to the callback function. As such no direct audio output stream reading was possible.
 
 ### Code
 The machine learning attempt is located [here](https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/sound-output-to-color-spike).
