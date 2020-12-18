@@ -1,5 +1,5 @@
 # Goal
-The goal of this knowledge acquisition was to understand how sound works on Raspberry Pis and what limitations exist to using the onboard audio interface when also using GPIO to drive the NeoPixel light strip. More specifically, the team wants to understand how the lights can interact with internal audio sources (e.g. a music stream from the internet) and external audio sources (e.g. a USB microphone monitoring the noise level in a given room).
+The goal of this knowledge acquisition was to understand how audio input and output works on Raspberry Pis and what limitations exist to using the onboard audio interface when also using GPIO to drive the NeoPixel light strip. More specifically, the team wants to understand how the lights can interact with internal audio sources (e.g. a music stream from the internet) and external audio sources (e.g. a USB microphone monitoring the noise level in a given room).
 
 # Background
 
@@ -19,3 +19,4 @@ We were able to get lights to respond to external nose levels in a basic sense w
 
 ### Process
 
+The first thing I did was 
