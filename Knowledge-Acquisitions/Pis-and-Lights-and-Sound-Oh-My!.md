@@ -6,7 +6,7 @@ The goal of this knowledge acquisition was to understand how audio input and out
 ## Sisyphus Industries
 Sisyphus Industries (in particular Matt) have investigated this in the past but have not made any great strides in producing features. From what the team can tell there are no fragments in the codebase that enable any such feature so our investigation started from scratch.
 
-We did _not_ reach out to Matt for assistance as we were able to get things working fine on our side.
+We did reach out to Matt for assistance (only over email), but did not end up using much of his research, as we were able to get things working fine on our side, and his own observations were identical to our initial ones.
 
 # Outcomes
 
@@ -18,10 +18,10 @@ One way that the table could be controlled via sound is having the Pi output an 
 
 According to the [rpi_ws281x](https://github.com/jgarff/rpi_ws281x) library - different GPIO use different control chips (PWM for pin 18, PCM for pin 21, and SPI for pin 10) which all require different level of system configuration to use. Since we know PWM is a no go from the start, the next appropriate control to test was PCM. Switching the circuit and changing some Python variables to use pin 21 allowed the lights to run the same but also allowed simultaneous audio output via the analog jack when using `omxplayer`.
 
-@burkhardtr did not test SPI as it required more config changes but would probably work just as fine. One issue in using PCM is that even though analog output is enabled, output over USB is still disabled which means external sound cards cannot be used in this setup (@burkhardtr naively attempted to use an external USB sound card when the LEDs were still driven off pin 18 to no avail). Additionally, during testing @burkhardtr was playing with `alsa` configs and seems to have disabled `alsa` from detecting the analog jack as an interface - yet `omxplayer` still output sound fine. @flemingg was able to get `alsa` to detect the analog jack interface but used SPI as the control. More investigation is needed to determine if PCM is suitable for enabling output or what configs need to be adjusted so that the Linux environment can hook into the audio streams.
+@burkhardtr did not test SPI as it required more config changes but would probably work just as fine. One issue in using PCM is that even though analog output is enabled, output over USB is still disabled which means external sound cards cannot be used in this setup (@burkhardtr naively attempted to use an external USB sound card when the LEDs were still driven off pin 18 to no avail). Additionally, during testing @burkhardtr was playing with `alsa` configs and seems to have disabled `alsa` from detecting the analog jack as an interface - yet `omxplayer` still output sound fine. @flemingg was able to get `alsa` to detect the analog jack interface but used SPI as the control (GPIO pin 10). More investigation is needed to determine if PCM is suitable for enabling output or what configs need to be adjusted so that the Linux environment can hook into the audio streams.
 
-## External Audio
-
+## External Audio - Audio Input
+ 
 We were able to get lights to respond to external noise levels in a basic sense where the noise level correlated to the brightness of the lights. A video of this in action may be found here: https://msoe365-my.sharepoint.com/personal/burkhardtr_msoe_edu/Documents/Microsoft%20Teams%20Chat%20Files/video-20201217-065613-437cccaa.mp4
 
 ### Materials Used
@@ -52,3 +52,47 @@ Python3 was used for simplicity and to ensure any future code uses up-to-date la
 ### Code
 
 https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/lights-audio-input/-/blob/audio-input-lights/content/lights/audio.py
+
+## External Audio - Audio Output
+We were able to show that simultaneous playing of audio and control of the lights is possible by having audio use the PWM channel on the raspberry pi and the lights utilize SPI (GPIO pin 10). At this point we are unsure of the level of real-time communication permitted between the lights and the audio output stream.
+
+### Materials Used
+* 3.5mm jack headphones
+
+### Process
+SPI was enabled by editing both the SPI interface (via `sudo raspi-config`) and by editing the `/boot/config.txt` and adding the following lines:
+````
+# for using SPI
+core_freq=500
+core_freq_min=500
+````
+After making these changes, we sought to determine whether or not the sound could be enabled simultaneously. A long and irksome process of attempting to determine how audio drivers were loaded ensued. @flemingg got her setup working by editing the `/boot/config.txt` and adding the following:
+````
+# Enable audio (loads snd_bcm2835)
+dtparam=audio=on
+````
+In addition to this, the `blacklist snd_bcm2835` had to be removed from `/etc/modprobe/snd-blacklist.conf`. The system was then rebooted. The package `alsa-base` also had to be installed via `apt`. After this, the audio card would show up without issue in the ALSA listing (found by running `aplay -l`). 
+
+Initially the thought was to have a machine learning algorithm analyze an audio file and then generate colored output to match the given audio file, as @flemingg (found a library for this)[https://github.com/tyiannak/color_your_music_mood?ref=hackernoon.com] and believed that it was possible to get it working. The library was written in python 3. In the interest of simplicity, python 3 was used for the remainder of the spike.
+
+In order to facilitate the use of this library, many additional packages were required: 
+* opencv (not downloaded via pip3, rather pulled from apt)
+* scikit-learn
+* PyAudio (which had to be built from scratch)
+
+The algorithm was able to perform and the lights responded to the selected song file's generated color; however, the algorithm errantly selected the same color for each song played. Unfortunately, this issue went unsolved, believed to be an issue with the adaption of the machine learning algorithm, the sampling rate applied, or perhaps both.
+
+Finally, an attempt was made to use an approach similar to @burkhardtr's, in which a `stream` object monitors a system channel and reports data on the channel, using the `sounddevice` library. The only difference was that an `OutputStream` was used instead of an `InputStream.`
+
+````
+def start_monitoring():
+    with sd.OutputStream(callback=update_lights, device=0):
+        while True:
+            pass
+````
+
+For reasons unsolved, however, the Outputstream always reported an empty `outdata` to the callback function.
+
+
+### Code
+The machine learning attempt is located (here)[https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/sound-output-to-color-spike].
