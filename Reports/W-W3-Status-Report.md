@@ -17,6 +17,14 @@ _Image taken at 2020-12-17 7:02_
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
 |------|------|-------------|-------------|----------|------------|
+| 2020-12-11 | @burkhardtr | 0.5h | Meeting with Dr. Taylor | #7 | msoe-sisbot |
+| 2020-12-17 | @burkhardtr | 1.75h | Met with team for end of sprint activities and pre-made reports and reviews for faster fill out. | #7 | msoe-sisbot |
+| 2020-12-17 | @burkhardtr | 0.5h | Assisted Stuart with validating pseudo code | #19 | msoe-sisbot |
+| 2020-12-15 | @burkhardtr | 3h | Explored the use of PortAudio and `sounddevice` which is a Python interface for the underlying library. Could not get the library to detect the analog jack for input but this may be due to my mucking about in the audio config files. I will see what I can undo/reset because I hope I don't have to set up the Pi from scratch again. Playing audio seems to still work fine through when using `omxplayer` which is weird since it doesn't seem to use `alsa` under the hood since `alsa` isn't detecting the sound card. I may need to move the LEDs to SPI rather than PCM and use a USB audio interface to play and record sounds. Will investigate further. | #15 | msoe-sisbot |
+| 2020-12-16 | @burkhardtr | 2h | Got audio input to work! I used a USB microphone that was immediately recognized by the PortAudio library which means I can access it from Python! Played around with the API a bit to get a feel for how it works and ported one of the light scripts to Python3 so that I can use `sounddevice` to control the lights. | #15 | msoe-sisbot |
+| 2020-12-16 | @burkhardtr | 1h | Integrated the `sounddevice` library with controlling strip brightness! I had to play around a bit with some of the math that normalizes the volume (weird linear algebra type stuff) and tried to use different channels to control different parts of the strip (didn't work out perfectly - would need to open a new spike for further analysis since this PBI is limited to understanding how audio works on the Pi and how it can be used with LEDs). | #15 | msoe-sisbot |
+| 2020-12-17 | @burkhardtr | 1.75h | Wrote up process and findings in wiki as to share findings with team and Sisyphus Industries. | #15 | msoe-sisbot |
+
 
 ## Casper, Joseph
 **Hours**: 8.5
