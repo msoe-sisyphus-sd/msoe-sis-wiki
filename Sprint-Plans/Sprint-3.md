@@ -21,8 +21,8 @@ The table below are Sprint 2 PBIs ordered by priority
 | ---------- | -------------- | ------------ | -------------- |---|
 | #25 | Enable developers to quickly build and test new light sequences by enabling remote development. | 5 | 2h |  Yes |
 | #13 | Create a festive light pattern that uses special color schemes for holidays | 5 | 4h | Yes |
-| #19 | Develop a light pattern that will provide a new visualization for the ball | 8 | 8h| |
-| #15 | Explore new mediums of expression for the table | 5 | 8h| |
+| #19 | Develop a light pattern that will provide a new visualization for the ball | 8 | 8h | ? |
+| #15 | Explore new mediums of expression for the table | 5 | 8h| Yes |
 | #30 | Create a light pattern that responds to both ball's theta and rho position | 5 | 13h | Yes |
 
 ---
@@ -30,7 +30,7 @@ Added later:
 | PBI Number | Business Value | Story-points | Time Estimates | Finished? |
 | ---------- | -------------- | ------------ | -------------- |---|
 | #38 | Ensure MSOE senior design code is forward-compatible with Sisyphus production code | 2 | 4h |  Yes |
-| #34 | Ensure code style is clean and maintainable | 3 | 10h | Yes |
+| #34 | Ensure code style is clean and maintainable | 3 | 10h | No |
 
 If we finish the above, we will plan to pull in the following:
 
@@ -40,8 +40,9 @@ If we finish the above, we will plan to pull in the following:
 | #29 | Create a track/time integration requested by users (source: Bruce) | 13 | 15h |
 
 ## Velocity Analysis
-31 points planned (18 carryover from Sprint 2)
+28 points planned (18 carryover from Sprint 2)
 26 addition if necessary
 
 ## Update (2020-12-17)
-blah blah blah
+20 points completed / 28 planned
+2 points completed / 5 points added
