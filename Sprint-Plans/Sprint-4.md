@@ -19,10 +19,12 @@ The table below are Sprint 2 PBIs ordered by priority
 
 | PBI Number | Business Value | Story-points | Time Estimates | 
 | ---------- | -------------- | ------------ | -------------- |
+| #19 | Develop a light pattern that will provide a new visualization for the ball | 8 | 8h |
+| #34 | Ensure code style is clean and maintainable | 3 | 10h |
 | #31 | Research an additional mode of interaction for users based on physical distance from the table | 13 | 20h |
 | #32 | Create an algorithm to generate novel tracks from a real image using Deep Dream technologies | 8 | 19h |
 |#36 | Ensure that newly added code complies with existing formatting rules |  1 | 1h |
 
 
 ## Velocity Analysis
-22 points planned
+31 points planned
