@@ -73,7 +73,7 @@ dtparam=audio=on
 ````
 In addition to this, the `blacklist snd_bcm2835` had to be removed from `/etc/modprobe/snd-blacklist.conf`. The system was then rebooted. The package `alsa-base` also had to be installed via `apt`. After this, the audio card would show up without issue in the ALSA listing (found by running `aplay -l`). 
 
-Initially the thought was to have a machine learning algorithm analyze an audio file and then generate colored output to match the given audio file, as @flemingg (found a library for this)[https://github.com/tyiannak/color_your_music_mood?ref=hackernoon.com] and believed that it was possible to get it working. The library was written in python 3. In the interest of simplicity, python 3 was used for the remainder of the spike.
+Initially the thought was to have a machine learning algorithm analyze an audio file and then generate colored output to match the given audio file, as @flemingg [found a library for this](https://github.com/tyiannak/color_your_music_mood?ref=hackernoon.com) and believed that it was possible to get it working. The library was written in python 3. In the interest of simplicity, python 3 was used for the remainder of the spike.
 
 In order to facilitate the use of this library, many additional packages were required: 
 * opencv (not downloaded via pip3, rather pulled from apt)
@@ -95,4 +95,4 @@ For reasons unsolved, however, the Outputstream always reported an empty `outdat
 
 
 ### Code
-The machine learning attempt is located (here)[https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/sound-output-to-color-spike].
+The machine learning attempt is located [here])https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/sound-output-to-color-spike).
