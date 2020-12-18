@@ -18,13 +18,22 @@ _Image taken at 2020-12-17 7:02_
 Insert Summary Here
 
 ## Casper, Joseph
-**Hours**: X
+**Hours**: 8.5
 
-**Rating (0-10)**: X
+**Rating (0-10)**: 6
 
 **Summary**:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-11 | @casperjm | .5h | Meeting with Dr. Taylor | #7 | msoe-sisbot |
+| 2020-12-14 | @casperjm | .5h | Weekly team stand up; began sprint planning | #7 | msoe-sisbot |
+| 2020-12-14 | @casperjm | 3h | Began fixing eslint errors in the siscloud repo | #34 | msoe-siscloud |
+| 2020-12-16 | @casperjm | 3h | Continued fixing eslint errors, almost finished | #34 | msoe-siscloud |
+| 2020-12-17 | @casperjm | 1.5h | Team meeting to write sprint report and status report | #7 | msoe-sisbot |
+
+This week I started fixing the eslint errors in the siscloud repo. The first day, I did work setting up eslint and got some initial fixes down, the second day I went more in depth and fixed more errors. There are about a quarter of the initial errors remaining. 
+
 
 ## Enters, Stuart
 **Hours**: X
