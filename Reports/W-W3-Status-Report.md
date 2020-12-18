@@ -36,13 +36,22 @@ This week I started fixing the eslint errors in the siscloud repo. The first day
 
 
 ## Enters, Stuart
-**Hours**: X
+**Hours**: 10
 
-**Rating (0-10)**: X
+**Rating (0-10)**: 7
 
 **Summary**:
-
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+|2020-12-11|@enterss|2.67h|Looked at Andy's merged in code for a scaffold. Began working on converting the maths into code|#19|msoe-sisbot|
+|2020-12-11|@enterss|1.25h|Met with team and did status report|#7|msoe-sisbot|
+|2020-12-11|@enterss|0.50h|Met with Dr. Taylor|#7|msoe-sisbot|
+|2020-12-14|@enterss|0.50h|Team sync meeting & initial sprint 4 planning|#7|msoe-sisbot|
+|2020-12-16|@enterss|1h|translated math into pseudocode|#19|msoe-sisbot|
+|2020-12-16|@enterss|0.50h|Helped Grace debug light issue|#7|msoe-sisbot|
+|2020-12-17|@enterss|2h|Meeting with team for end of sprint ceremonies|#7|msoe-sisbot|
+|2020-12-17|@enterss|0.50h|Worked with George to implement pseudo code|#19|msoe-sisbot|
+|2020-12-17|@enterss|1h|Manual testing of the pattern|#19|msoe-sisbot|
 
 ## Fleming, Grace
 **Hours**: X
