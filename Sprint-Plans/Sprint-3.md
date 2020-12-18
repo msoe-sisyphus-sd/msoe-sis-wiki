@@ -45,4 +45,5 @@ If we finish the above, we will plan to pull in the following:
 
 ## Update (2020-12-17)
 20 points completed / 28 planned
+
 2 points completed / 5 points added
