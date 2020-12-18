@@ -4,6 +4,8 @@ Finish off carryover from sprint 2, and explore methods of input for lighting de
 # Burndown Chart
 ![image](uploads/41eb594d485dc8eec6ab78d5bee2c52a/image.png)
 
+_Image taken at 2020-12-17 7:02_
+
 # Team Commitment
 
 ## Burkhardt, Robert
