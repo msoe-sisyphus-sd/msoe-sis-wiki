@@ -54,13 +54,23 @@ Insert Summary Here
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-**Hours**: X
+**Hours**: 12h
 
-**Rating (0-10)**: X
+**Rating (0-10)**: 8
 
 **Summary**:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-11 | @wojciechowskia | 30m | Meeting with Dr. Taylor | #7 | msoe-sisbot |
+| 2020-12-13 | @wojciechowskia | 4h 30m | Merged in sisbot updates from the GitHub upstream. This was very tedious since the eslint change caused a ton of merge conflicts. Since we didn't make any changes other than linting I accepted all of Matt's changes, fixed eslint errors again, and reran prettier formatting on all of the JS files. Sisproxy and Siscloud also had updates so I merged those into new dev branches in our repo to correspond with our sisbot dev branch. Those were easy fast-forward merges. Finally, I verified that we were able to run these changes on the table. Ran into some issues with the lights module not being installed on the table so I installed pip on the Coffee table and I was able to verify the LED lights were still working with these changes. | #38 | msoe-sisbot |
+| 2020-12-14 | @wojciechowskia | 30m | Met with the team and created the initial sprint plan for sprint 4 | #7 | msoe-sisbot |
+| 2020-12-15 | @wojciechowskia | 30m | Created a new PI 4 image from my local PI setup for Grace to use. | #7 | msoe-sisbot |
+| 2020-12-15 | @wojciechowskia | 30m | Wrote up a new wiki article for local setup instructions | #7 | msoe-sisbot |
+| 2020-12-17 | @wojciechowskia | 30m | Re-added eslint to the updated sisproxy code pulled from the upstream repo | #38 | msoe-sisbot |
+| 2020-12-17 | @wojciechowskia | 2h | Setup Grace's demo on my setup just in case we need to use my light strip for that demo. I plan to add the extra libraries that I installed in the demo repo and Grace is planning on getting the code updated to work with the lights. | #15 | msoe-sisbot |
+| 2020-12-17 | @wojciechowskia | 1h 40m | Meeting with team, standup, wrote status report, modified the sprint 3 and 4 plans, and discussed sprint review tomorrow. | #7 | msoe-sisbot |
+| 2020-12-17 | @wojciechowskia | 1h 20m | Helped Grace resolve some issues with installing the LED library using python3. Also, looked at trying different wav files to try and change the color. | #15 | msoe-sisbot |
 
 # Discussion
 
