@@ -26,12 +26,12 @@ New Goal: Investigate mapping audio to colors and how to integrate a Python ML m
 * Summary:
 
 | Date | User |	Hours Spent | Description | Issue | Repository |
-|2020-12-18 | casperjm | 1.5h | Product owner meeting |	#7 | msoe-sisbot |
-|2020-12-21 | casperjm | 1.25h | Meeting with team to talk about product's direction | #7 | msoe-sisbot |
-|2020-12-28 | casperjm | 1h | Meeting with team to groom backlog with new direction in mind | #7 | msoe-sisbot |
-|2021-01-04 | casperjm | 1h | Meeting with team to groom backlog with new direction in mind | #7 | msoe-sisbot |
-|2021-01-07 | casperjm | 1.25h | Meeting with team to write status report and review technology report draft | #7 | msoe-sisbot |
-|2021-01-07 | casperjm | 2.5h | Fixed the rest of the eslint errors | #34 | msoe-siscloud |
+| 2020-12-18 | casperjm | 1.5h | Product owner meeting |	#7 | msoe-sisbot |
+| 2020-12-21 | casperjm | 1.25h | Meeting with team to talk about product's direction | #7 | msoe-sisbot |
+| 2020-12-28 | casperjm | 1h | Meeting with team to groom backlog with new direction in mind | #7 | msoe-sisbot |
+| 2021-01-04 | casperjm | 1h | Meeting with team to groom backlog with new direction in mind | #7 | msoe-sisbot |
+| 2021-01-07 | casperjm | 1.25h | Meeting with team to write status report and review technology report draft | #7 | msoe-sisbot |
+| 2021-01-07 | casperjm | 2.5h | Fixed the rest of the eslint errors | #34 | msoe-siscloud |
 
 We met as a team over break to decide a direction for the product, and wrote new PBIs to reflect our new goal. I worked on fixing the rest of the ~1000 eslint errors in the siscloud repo, which was pulled in from last sprint.
 
