@@ -85,6 +85,9 @@ Insert Summary Here
 # Questions
 * Have you every played DnD?
 * Are SEs just glorified typists and why is the answer 'yes'?
+* Is SO2-1 actually due next week? The assignment says that it should be done during the end of the term?
+* Look over our technology report pls :heart:?
+    * https://docs.google.com/document/d/1kuHhPWsSv28gUTFtm2EnT9rB7Oo-t00RNutWWlnPPY8/edit?usp=sharing
 
 # Conclusion
 
