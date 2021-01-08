@@ -11,14 +11,19 @@ New Goal: Investigate mapping audio to colors and how to integrate a Python ML m
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours: X (including time over breaks)
+* Hours: 9 (including time over breaks)
 * Rating (0-10): 6.87
 * Summary:
 
-| header | header |
-| ------ | ------ |
-| cell | cell |
-| cell | cell |
+| Date | Hours Spent | Description | Issue / MR | Repository |
+| --- | --- | --- | --- | --- |
+| 2020-12-18 | 1h30m | Sprint review with Sisyphus Industries | #7 | msoe-sisbot |
+| 2020-12-21 | 1h15m | Met with team to discuss sprint review and chose project direction | #7 | msoe-sisbot |
+| 2020-12-28 | 1h | Spent time with team grooming backlog issues for new project direction (Audio and Lights with AI) | #7 | msoe-sisbot |
+| 2021-01-04 | 1h | Weekly meeting to confirm and assign PBIs as well as plan out Technology report | #7 | msoe-sisbot |
+| 2021-01-06 | 1h | Spent some time looking at different Python Audio Libraries and seeing if they could interface with a USB microphone pretty easily (specifically PyAudio and Sound Device). Future work is seeing if PortAudio is required or if there's a way to do it without an intermediate library | #44 | msoe-sisbot |
+| 2021-01-07 | 2h | Spent time re-configuring local setup because I had made some changes to the ALSA and other interfaces that needed to be corrected for future use - my USB sound card was no longer recognized. I was able to get the Pi back to a state of operation so I can build out mini projects with different audio libraries to select the best one. | #44 | msoe-sisbot |
+| 2021-01-07 | 1h15m | Meeting with the team. Did a standup, worked on the status report, and discussed our high level outline we put together for the tech report sections | #44 | msoe-sisbot |
 
 ## Casper, Joseph
 * Hours: 8.5
