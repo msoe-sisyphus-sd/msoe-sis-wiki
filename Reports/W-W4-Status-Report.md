@@ -47,6 +47,7 @@ We met as a team over break to decide a direction for the product, and wrote new
 * Summary:
 
 | Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
 | 2020-12-18 | enterss | 1h | Manual testing of the pattern | #19 | msoe-sisbot |
 | 2020-12-18 | enterss | 0.5h | Worked with George to implement pseudo code | #19 | msoe-sisbot |
 | 2020-12-18 | enterss | 2h | Meeting with team for end of sprint ceremonies | #7 | msoe-sisbot |
