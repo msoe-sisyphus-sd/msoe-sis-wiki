@@ -26,7 +26,7 @@ New Goal: Investigate mapping audio to colors and how to integrate a Python ML m
 * Summary:
 
 | Date | User |	Hours Spent | Description | Issue | Repository |
-| 2020-12-18 | casperjm | 1.5h | Product owner meeting |	#7 | msoe-sisbot |
+| 2020-12-18 | casperjm | 1.5h | Product owner meeting | #7 | msoe-sisbot |
 | 2020-12-21 | casperjm | 1.25h | Meeting with team to talk about product's direction | #7 | msoe-sisbot |
 | 2020-12-28 | casperjm | 1h | Meeting with team to groom backlog with new direction in mind | #7 | msoe-sisbot |
 | 2021-01-04 | casperjm | 1h | Meeting with team to groom backlog with new direction in mind | #7 | msoe-sisbot |
