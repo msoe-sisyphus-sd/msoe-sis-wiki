@@ -4,7 +4,7 @@
 * [ ] @flemingg - Algorithm options, non-functional requirements
 * [ ] @wojciechowskia - Functional requirements
 
-[Docs link] (https://docs.google.com/document/d/1kuHhPWsSv28gUTFtm2EnT9rB7Oo-t00RNutWWlnPPY8/edit)
+[Docs link](https://docs.google.com/document/d/1kuHhPWsSv28gUTFtm2EnT9rB7Oo-t00RNutWWlnPPY8/edit)
 
 Senior Design: Technology Report
 
