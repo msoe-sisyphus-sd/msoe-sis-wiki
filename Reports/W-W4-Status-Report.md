@@ -60,11 +60,20 @@ Insert Summary Here
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-* Hours: X
-* Rating (0-10): X
+* Hours: 8.33
+* Rating (0-10): 6
 * Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-12-18 | @wojciechowskia | 0.5h | Setup the Coffee table for light pattern demos and ran the magnetic light pattern before sprint review | #7 | msoe-sisbot |
+| 2020-12-18 | @wojciechowskia | 1.5h | Meeting with Dr. Taylor, Bruce and Matt to demo things that we worked on and to discuss a longer term product to work on. | #7 | msoe-sisbot |
+| 2020-12-21 | @wojciechowskia | 1.25h | Team discussion to discuss a larger project to work on. Team consensus was to work on the audio to color project | #7 | msoe-sisbot |
+| 2020-12-28 | @wojciechowskia | 1h | Backlog grooming with the team to split up initial PBIs for the audio to color project. | #7 | msoe-sisbot |
+| 2021-01-04 | @wojciechowskia | 0.83h | Met with the team to assign issues and discussed plans for writing the tech report | #7 | msoe-sisbot |
+| 2021-01-05 | @wojciechowskia | 1h | Got the machine learning spike running on my Windows machine and discovered that the CPU utilization was around 25% running without the lights. I'm planning on comparing that using my PI and the lights and those next | #40 | msoe-sisbot |
+| 2021-01-07 | @wojciechowskia | 0.5m | Planned out potential functional requirements for the tech report. These will be reviewed with the team later and then we'll decide on if those requirements should be refined further for the tech report or not | #7 | msoe-sisbot |
+| 2021-01-07 | @wojciechowskia | 1.25h | Meeting with the team. Did a standup, worked on the status report, and discussed our high level outline we put together for the tech report sections | #7 | msoe-sisbot |
 
 # Discussion
 
