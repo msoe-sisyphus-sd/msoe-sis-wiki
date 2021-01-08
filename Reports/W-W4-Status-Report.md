@@ -42,11 +42,21 @@ New Goal: Investigate mapping audio to colors and how to integrate a Python ML m
 We met as a team over break to decide a direction for the product, and wrote new PBIs to reflect our new goal. I worked on fixing the rest of the ~1000 eslint errors in the siscloud repo, which was pulled in from last sprint.
 
 ## Enters, Stuart
-* Hours: X
-* Rating (0-10): X
+* Hours: 8.75
+* Rating (0-10): 5
 * Summary:
 
-Insert Summary Here
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| 2020-12-18 | enterss | 1h | Manual testing of the pattern | #19 | msoe-sisbot |
+| 2020-12-18 | enterss | 0.5h | Worked with George to implement pseudo code | #19 | msoe-sisbot |
+| 2020-12-18 | enterss | 2h | Meeting with team for end of sprint ceremonies | #7 | msoe-sisbot |
+| 2020-12-18 | enterss | 1.25h | Discussed pivoting project toward long term goal | #7 | msoe-sisbot |
+| 2020-12-21 | enterss | 1h | Met with team to groom backlog and create new PBIs | #7 | msoe-sisbot |
+| 2020-12-28 | enterss | 1h | Met with team to do standup, assign PBIs, and plan draft of Tech Report | #7 | msoe-sisbot |
+| 2021-01-06 | enterss | 1h | Discussed research papers and dusted off my Polish with Grace | #43 | msoe-sisbot |
+| 2021-01-07 | enterss | 1h | Met with team to do standup, do status report, and discuss Tech Report outline | #7 | msoe-sisbot |
+
+Most of my time over break and this first week has been spent working on other obligations, so most of my time was spent in team meetings and helping others out
 
 ## Fleming, Grace
 * Hours: 8
