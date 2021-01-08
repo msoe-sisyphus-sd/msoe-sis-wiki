@@ -35,9 +35,18 @@ Insert Summary Here
 Insert Summary Here
 
 ## Fleming, Grace
-* Hours: X
-* Rating (0-10): X
+* Hours: 8
+* Rating (0-10): 8
 * Summary:
+
+|Date	| User|	Hours Spent|	Description|	Issue/MR|	Repository|
+|--|--|--|--|--|--|
+|2020-12-18 | Grace Fleming | 1.67h	| Retro, sprint finalization, status report. |	Group Meetings Time Log	| msoe-sisbot |
+|2020-12-21 | Grace Fleming | 1.25h | Team discussion for a longterm project. Vote was to work on audio to color project |Group Meetings Time Log| msoe-sisbot |
+|2020-12-28 | Grace Fleming | 1h | Met with the team to do backlog grooming, primarily pointing stuff we're pulling into our current sprint. | Group Meetings Time Log | msoe-sisbot |
+|2021-01-04 | Grace Fleming | 1h | Tried to run the app from a regular development machine with a GUI. It did not go well (see error above). | Spike: Mood Lighting & Integration | msoe-sisbot|
+|2021-01-05 | Grace Fleming | 2h | Worked on researching algorithms for converting sound to color. I think this in and of itself is going to be really hard, so I think our best bet is to get out the two key features that make audio mood easiest to classify--valence and arousal (unfortunate naming, I know) and then map those to a color grid, much like the original algorithm from the spike did. I spent most of my time investigating different algorithms to yield valence and arousal. The google doc for these research resources is here. | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+|2021-01-07 | Grace Fleming | 1h | Concluded there are no out-of-box algorithms for this except the one that's been created. the PyAudioAnalysis library that is popular for analysing songs is actually written by the same author as the color_your_music_mood repository I created the frankenstien demo off of. That said, I'm not sure if we should explore training our own algorithm using the pyAudioAnalysis library? | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
 
 Insert Summary Here
 
