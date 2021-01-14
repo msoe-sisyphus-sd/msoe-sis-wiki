@@ -1,4 +1,4 @@
-# Action Items
+# Action Items (Delete by end of meeting)
 * No documentation on how to test light pattern on existing table
 
 # Sprint Goal
