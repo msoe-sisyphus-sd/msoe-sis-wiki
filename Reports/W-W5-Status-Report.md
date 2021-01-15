@@ -48,13 +48,20 @@ I spent a lot of time trying to get the app running locally on my windows machin
 | 2020-1-14 | 40m | Wrote documentation for testing patterns on the table via Postman & ssh | #7 | msoe-sisbot |
 | 2020-1-14 | 1h | Met w/ team for standup & status report | #7 | msoe-sisbot |
 
-
 ## Fleming, Grace
-* Hours: X
-* Rating (0-10): X
+* Hours: 9.75
+* Rating (0-10): 8.5
 * Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+|2021-01-11 | Grace Fleming | 2h | Spent time today looking at how to make a mood classification based off of specific music physical attributes, instead of valence/arousal. This would be considered a non-ML approach, and we could use pitch, tempo, intensity and timbre to create a projection into 3D space. This might not relate directly to mood, but we could probably end up with chromatic similarities between similar mood samples. I dug around for libraries to assess each of these features, and determined off-the-shelf libraries that could likely pitch, tempo and intensity, but struggled to find something to classify timbre. Will discuss with Stuart whether or not we can potentially build a chromatic model using only pitch, rhythm and intensity. | Spike: Mood Lighting & Alternative Algorithms	| msoe-sisbot|
+|2021-01-11 | Grace Fleming | 15m | Standup with Andy/George | Group Meetings Time Log | msoe-sisbot |
+| 2021-01-12 | Grace Fleming | 2h | Worked on designing an approach to do audio track projection into 2-space using pitch and tempo. Met with rather limited success. Nothing is interesting enough to generate a color yet I don't think, but I am making progress. | Spike: Mood Lighting & Alternative Algorithms| msoe-sisbot |
+| 2021-01-13 | Grace Fleming | 2h | Switched the non-ML approach to Stuart. I switched back to the ML-model. The owner of the old demo piece did us all a solid by publishing an updated model trained with a newer version of sklearn, so the codebase ran no problem on Linux. I tried out the model using a few songs, both with lyrics and without, The model worked really well this time, generating a large spectrum of colors for varied music, and I think using native audio input is the key here (versus output like in my demo). Once I had that working, I looked into performing a web request to the server to change the color of the lights. Also, this is not explicitly related to my PBI, but I had the idea of using a phone's microphone to capture/record audio. This would make it super SUPER easy to integrate into the Sisyphus workflow, so I spent some time talking with Joe about the idea. | Spike: Mood Lighting & Alternative Algorithms| msoe-sisbot | 
+| 2021-01-14 | Grace Fleming| 2h | Worked on making the ML demo into an actually functioning piece of code that can make an API call to the table. Realistically this shouldn't have taken as long as it did, but it ended up taking awhile because the JSON format is "double-wrapped." | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+| 2021-01-14 | Grace Fleming |30m | assisted Stuart with development on the table (provided networking help, helped him set up Postman and manipulate the table via API, corrected CURL requests, etc) | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+| 2021-01-14 | Grace Fleming | 1h | Status report with team & groomed a new ticket | Group Meetings Time Log | msoe-sisbot |
 
 ## Wojciechowski, Andrew
 * Hours: 5.39
