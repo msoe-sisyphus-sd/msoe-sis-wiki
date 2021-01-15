@@ -21,11 +21,18 @@ Insert Summary Here
 Insert Summary Here
 
 ## Enters, Stuart
-* Hours: X
-* Rating (0-10): X
+* Hours: 8
+* Rating (0-10): 6
 * Summary:
 
-Insert Summary Here
+| Date | Hours Spent | Description | Issue | Repository |
+| --- | --- | --- | --- | --- |
+| 2020-1-8 | 20m | Met with Taylor for weekly meetup | #7 | msoe-sisbot |
+| 2020-1-13 | 2h | Discussed direction of issue w/ Grace and decided to split out issue into sub-issues | #43 | msoe-sisbot |
+| 2020-1-14 | 4h | Figured out how to connect to table and tested light pattern | #19 | msoe-sisbot |
+| 2020-1-14 | 40m | Wrote documentation for testing patterns on the table via Postman & ssh | #7 | msoe-sisbot |
+| 2020-1-14 | 1h | Met w/ team for standup & status report | #7 | msoe-sisbot |
+
 
 ## Fleming, Grace
 * Hours: X
