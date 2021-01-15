@@ -22,7 +22,7 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 | 2020-01-14 | 1.5h | Began drafting spike report with decision matrices for determining which is the best library to use according to different criterion. This will hopefully prove out what is the way to move forward and helps feed technology justification for the tech. report. Spike report may be seen here: https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Spikes:-Audio-Interfaces Please note that this document is currently a draft and a work in progress so there may be missing items. I plan to complete the doc and detail a full decision matrix. Hopefully after that is completed I can begin scaffolding and integrating audio input with the ML models for a demo at the end of the sprint (which may take the form of a separate app that runs over the network). | #44 |
 
 ## Casper, Joseph
-* Hours: 8+
+* Hours: 9
 * Rating (0-10): 6
 * Summary:
 
@@ -31,7 +31,7 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 | 2021-01-12 | casperjm | 2h | Tried to get the app running locally so that I can add in a new button | #41 | msoe-sisbot |
 | 2021-01-13 | casperjm | 5h | Spent more time trying to get the app to run. I got closer, but not there yet. | #41 | msoe-sisbot |
 | 2021-01-14 | casperjm | 1h | Status report meeting with team | #7 | msoe-sisbot |
-| 2021-01-14 | casperjm | xh | Prepared demo for Dr. Taylor | #7 | msoe-sisbot |
+| 2021-01-14 | casperjm | 1h | Prepared demo for Dr. Taylor | #7 | msoe-sisbot |
 
 I spent a lot of time trying to get the app running locally on my windows machine. In the meeting on Thursday, someone brought up that the app needs to be run on the Pi :facepalm:. I'll hopefully be able to get the app running now. I also spent time preparing a demo for the meeting on Friday.
 
