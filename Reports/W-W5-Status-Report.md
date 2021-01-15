@@ -7,11 +7,19 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours: X
-* Rating (0-10): X
+* Hours: 6.75h
+* Rating (0-10): 7.99
 * Summary:
 
-Insert Summary Here
+| Date | Hours Spent | Description | Issue / MR | Repository | 
+| --- | --- | --- | --- | --- |
+| 2021-01-08 | 0.5h | Met with Dr. Taylor to discuss sprint plans and other outcomes. | #7 | msoe-sisbot |
+| 2021-01-11 | 0.25h | Weekly standup with Grace and Andy | #7 | msoe-sisbot |
+| 2021-01-14 | 1h | Weekly meeting with team to discuss status report and do standup. Came away with a possible demo for next week - having the ML run on a PI that changes the color of the Table in the lab over HTTP | #7 | msoe-sisbot |
+| 2021-01-12 | 2h | Investigated OSS, ALSA, Port Audio, and Pulse Audio as hardware audio interfaces/driver in Linux. OSS was found to be "deprecated" and no longer included in standard Raspbian distributions. Additionally, Port Audio and Pulse Audio are cross platform interfaces but may be overly complex for what is actually needed (passing an audio stream to a Python process). ALSA is the de-facto replacement for OSS but has minimal Python interface support when compared to Port Audio or Pulse Audio. | #44 | msoe-sisbot |
+| 2021-01-13 | 1.5h | Investigated ALSA, pyaudio, sounddevice, and other possible python interfaces for using audio. I was also able to play around with using USB mics and USB sound cards for determining audio quality. I made two different recordings using `arecord` and evaluated found that (unironically) the USB microphone sounded better. However, the USB microphone is bulky and might not be a detriment to the table's design and aesthetic so this will have to be considered when choosing the best hardware. Additionally, it seems that pyaudio and sounddevice are similar in capabilities but pyaudio is used by the ML model and is claimed to be faster than sounddevice. Futher testing is required in a full setup. I plan to spend a hot second looking of the ML model code to see if pyaudio is needed or if it can be cut for an ALSA python library to pass audio around.
+| msoe-sisbot |
+| 2020-01-14 | 1.5h | Began drafting spike report with decision matrices for determining which is the best library to use according to different criterion. This will hopefully prove out what is the way to move forward and helps feed technology justification for the tech. report. Spike report may be seen here: https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Spikes:-Audio-Interfaces Please note that this document is currently a draft and a work in progress so there may be missing items. I plan to complete the doc and detail a full decision matrix. Hopefully after that is completed I can begin scaffolding and integrating audio input with the ML models for a demo at the end of the sprint (which may take the form of a separate app that runs over the network). | #44 |
 
 ## Casper, Joseph
 * Hours: 8+
