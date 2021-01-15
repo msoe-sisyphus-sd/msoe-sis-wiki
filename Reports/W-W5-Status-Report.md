@@ -35,11 +35,19 @@ Insert Summary Here
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-* Hours: X
-* Rating (0-10): X
+* Hours: 5.39
+* Rating (0-10): 6
 * Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2021-01-08 | @wojciechowskia | 0.25h | Standup with the team. Also, discussed checking with Dr. Taylor when the tech report is due as well as the sprint review. | #7 | msoe-sisbot |
+| 2021-01-11 | @wojciechowskia | 1h | Investigated CPU utilization and temperature of the sound output to color spike. Determined that CPU utilization was about at 100% with the lights and the temperature was about 46 degrees celsius after running the algorithm. | #40 | msoe-sisbot |
+| 2021-01-12 | @wojciechowskia | 0.17h | Purchased a USB microphone to use for testing performance. | #40 | msoe-sisbot |
+| 2021-01-12 | @wojciechowskia | 1.5h | Wrote code to test the performance of recording 5 seconds of audio from a microphone continuously and sending it to a server to do the machine learning. Awaiting a microphone for testing.| #40 | msoe-sisbot |
+| 2021-01-13 | @wojciechowskia | 0.5h | Read up on SPI vs. PWM vs PCM a bit. Nothing was mentioned about performance concerns between the methods but I am going to compare the performance with the LED library next and eventually audio when I get my USB microphone| #40 | msoe-sisbot |
+| 2021-01-14 | @wojciechowskia | 1h | Spent some time looking into the performance implications of PWM vs. SPI for the lights. Found that SPI took less CPU utilization so then I ran the ML spike on the PI without the lights and the CPU utilization was still at 100%| #40 | msoe-sisbot |
+| 2021-01-14 | @wojciechowskia | 1h | Standup and wrote status report with the team | #7 | msoe-sisbot |
 
 # Discussion
 
