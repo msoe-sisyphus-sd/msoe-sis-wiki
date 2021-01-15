@@ -40,3 +40,10 @@
 # Evaluation Chart
 
 ## Criteria
+
+# Testing and Code
+
+## Verify Microphone Input
+```
+arecord -l
+```
