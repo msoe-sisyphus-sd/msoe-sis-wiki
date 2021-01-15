@@ -14,11 +14,18 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 Insert Summary Here
 
 ## Casper, Joseph
-* Hours: X
-* Rating (0-10): X
+* Hours: 8+
+* Rating (0-10): 6
 * Summary:
 
-Insert Summary Here
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-01-12 | casperjm | 2h | Tried to get the app running locally so that I can add in a new button | #41 | msoe-sisbot |
+| 2021-01-13 | casperjm | 5h | Spent more time trying to get the app to run. I got closer, but not there yet. | #41 | msoe-sisbot |
+| 2021-01-14 | casperjm | 1h | Status report meeting with team | #7 | msoe-sisbot |
+| 2021-01-14 | casperjm | xh | Prepared demo for Dr. Taylor | #7 | msoe-sisbot |
+
+I spent a lot of time trying to get the app running locally on my windows machine. In the meeting on Thursday, someone brought up that the app needs to be run on the Pi :facepalm:. I'll hopefully be able to get the app running now. I also spent time preparing a demo for the meeting on Friday.
 
 ## Enters, Stuart
 * Hours: 8
