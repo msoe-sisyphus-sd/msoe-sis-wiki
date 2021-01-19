@@ -79,3 +79,14 @@ The following is the CPU utilization with running led_startup in the sisbot repo
 | Trial 5     | 15.2%       |
 
 Average: 16.04%
+
+# Quick Win Optimizations for ML algorithm
+
+Removing OpenCV helped the performance of the algorithm especially on the Raspberry PI. When the ML is run on a Raspberry PI without OpenCV the CPU utilization wasn't constantly at 100% and that cut CPU utilization by about half. However when run on Windows there was no change in the CPU utilization.
+
+# Audio Input Investigation
+
+For investigating the performance of listening for audio input I wrote a simple script to continuously record audio data from a microphone on a Raspberry PI in 5 second intervals using the PyAudio library. Then that script sent that data to a python server running on my MSOE laptop. This went really well and the PI and both the server were not overwhelmed with performance issues and there was very little delay in getting the data to the server. With the success I was able to add the ML algorithm to the server which also did not have any significant performance issues as well.
+
+# Conclusions
+If we use Python for audio input PyAudio will be a great library to use maximize performance. We should have many options if we use PyAudio including listening for audio directly on the PI. For the ML if we use the current solution the performance will be maximized if we remove OpenCV and don't run the ML code directly on the Raspberry PI. 
