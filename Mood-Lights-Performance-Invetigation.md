@@ -1,3 +1,7 @@
+# Repo for this investigation
+
+https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/mood-lighting-performance
+
 # Running the sound-output-to-color-spike on my laptop
 
 The following was the CPU utilization running on my Windows 10 laptop without the lights averaged over 5 trials.
