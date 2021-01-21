@@ -6,8 +6,9 @@
 * Advance Linux Sound Architecture - https://www.alsa-project.org/wiki/Main_Page
     * Comes with Debian and is the de-facto replacement for OSS
 * Pulse Audio - https://www.freedesktop.org/wiki/Software/PulseAudio/
-    * 
+    * Audio server - lots of features but a bit more complex then we probably need
 * Port Audio - http://www.portaudio.com/
+    * Cross platform Audio API 
 
 ## Python Interfaces
 * `ossaudiodev` - https://docs.python.org/3/library/ossaudiodev.html
@@ -27,9 +28,29 @@
 ### Con
 * "Deprecated" in modern Linux distributions
 
-# Evaluation Chart
+## `pyAudio`
+* Interfaces with PortAudio
 
-## Criteria
+### Pro
+* Supports blocking and callback streaming
+* Used in the spikes and ML project being currently used (2021-01-21)
+* Supports OSS, ALSA under the hood
+
+### Con
+* Requires PortAudio
+
+## `sounddevice`
+* Interfaces with PortAudio
+* Was used in a spike/demo for setting the light's brightness based on audio levels
+* Uses `numpy` to handle data
+
+### Pro
+* Support 
+* Smaller API foot print than `pyAudio`
+* Supports blocking and callback streaming
+
+### Con
+* Requires PortAudio
 
 # Hardware
 
@@ -39,6 +60,8 @@
 * Better audio quality at low range entry
 
 ### Con
+* Bulky 
+* Hard to fit into the current table aesthetic (color, form, distraction)
 
 ## USB Sound Card and 3.5mm Microphone
 
@@ -65,3 +88,9 @@ arecord -l
 ```
 arecord -f S16_SE -d 10 -r 16000 --device=<use attributes from arecord -l output> recording.wav [-c <# of channels (stereo or mono>]
 ```
+
+# Decisions
+
+* A USB microphone should be used to provide the ML model the cleanest data (due to the "garbage in, garbage out" principle)
+
+* `pyAudio` and `PortAudio` are the sound APIs of choice
