@@ -7,6 +7,7 @@
     * Comes with Debian and is the de-facto replacement for OSS
 * Pulse Audio - https://www.freedesktop.org/wiki/Software/PulseAudio/
     * Audio server - lots of features but a bit more complex then we probably need
+    * Not evaluated
 * Port Audio - http://www.portaudio.com/
     * Cross platform Audio API 
 
@@ -16,6 +17,7 @@
 * `sounddevice` - https://python-sounddevice.readthedocs.io/en/0.4.1/
 * `pyalsaaudio` - http://larsimmisch.github.io/pyalsaaudio/index.html#
 * `pulsectl` - https://pypi.org/project/pulsectl/
+    * Wrapper for Pulse Audio which wasn't evaluated - noted as an alternative in the worst case scenario
 
 # Pro-Con Lists
 
@@ -39,6 +41,9 @@
 ### Con
 * Requires PortAudio
 
+### Note
+* The current ML spike/solution uses an additional package called `pyAudioAnalysis` but to the Team's current understanding - `pyAudio` is not required to use this package.
+
 ## `sounddevice`
 * Interfaces with PortAudio
 * Was used in a spike/demo for setting the light's brightness based on audio levels
@@ -51,6 +56,16 @@
 
 ### Con
 * Requires PortAudio
+
+## `pyalsaaudio`
+* Low level wrapper on the ALSA interface
+
+### Pro
+* Specific to Linux environment without the need for a Sound API
+* Forces use of the PCM
+
+### Con
+* Extremely low level API leaves too much control to the developer
 
 # Hardware
 
