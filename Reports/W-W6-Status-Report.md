@@ -3,6 +3,7 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 
 # Burndown Chart
 ![image](uploads/a0f70325bc186effbe13cfb963b8f099/image.png)
+
 *Note: this is incorrect, we did not complete 1 issue worth 5 points. Gitlab just wants us to look good* :shrug: 
 
 # Team Commitment
