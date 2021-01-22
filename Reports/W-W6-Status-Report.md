@@ -49,12 +49,17 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 |------|------|-------------|-------------|----------|------------|
 
 ## Wojciechowski, Andrew
-* Hours: 
-* Rating (0-10): 
+* Hours: 10.5h
+* Rating (0-10): 8
 * Summary:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
 |------|------|-------------|-------------|----------|------------|
+| 2021-01-18 | @wojciechowskia | 1h | Stand up with the team. Discussed end of sprint items with the team and started planning out PBIs for next sprint. | #7 | msoe-sisbot |
+| 2021-01-19 | @wojciechowskia | 3.5h | Explored the performance implications of listening to audio input. Put together a demo to continuously stream data from a Raspberry PI to a server with sockets. PyAudio did not run into any performance issues on the Raspberry PI when listening to input and I was able to eventually add the ML with the server. I also stripped OpenCV out of the current ML algorithm which seemed to help performance especially when running on the PI. | #40 | msoe-sisbot |
+| 2021-01-19 | @wojciechowskia | 0.25h | Wrote up remaining performance investigation results on the wiki. | #40 | msoe-sisbot |
+| 2021-01-21 | @wojciechowskia | 2h | Investigated issues with the siscloud web server not working on port 3001 on seniordesigntable.msoe.edu. Found an issue where the request to /sisbout/connect was timing out. Found that the request was missing the port. Once that was fixed that revealed another issue where requests were using local IPs instead of the seniordesigntable.msoe.edu address. We plan to write up a PBI to investigate this issue. | #7 | msoe-sisbot |
+| 2021-01-21 | @wojciechowskia | 3.75h | Meeting with the team to do sprint planning,  | #7 | msoe-sisbot |
 
 
 # Discussion
