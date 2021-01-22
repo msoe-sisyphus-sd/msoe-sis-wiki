@@ -12,7 +12,7 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 * There is no carryover from the previous sprint
 
 ### Selected PBI's (ordered by priority)
-The table below are Sprint 2 PBIs ordered by priority
+The table below are the Sprint's PBIs ordered by priority
 
 
 | PBI Number | Business Value | Story-points | Time Estimates | 
