@@ -41,4 +41,4 @@ _May change depending on meeting with Bruce and Matt on 2020-12-18_
 ## Velocity Analysis
 ~~34 points planned~~
 
-23 points planned
+23 points planned, 10 completed (as of 6:33PM)
