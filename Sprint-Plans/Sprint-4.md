@@ -35,10 +35,10 @@ _May change depending on meeting with Bruce and Matt on 2020-12-18_
 | ---------- | -------------- | ------------ | -------------- | --------- | 
 | #40        |  Measure the capabilities of existing hardware to handle the new project direction| 5 | 10h | Y | 
 | #44 | Research and make recommendations on the use of different hardware and software platforms for collecting audio | 5 | 12h45m | Y |
-| #43 | Determine effective algorithm for analyzing audio input and producing a "mood color" |8 | 20h | N| 
+| #43 | Determine effective algorithm for analyzing audio input and producing a "mood color" |8 | 20h | Y| 
 | #41 | Create a user-reachable toggle to enable new table functionality | 5 | 12h | N |
 
 ## Velocity Analysis
 ~~34 points planned~~
 
-23 points planned, 10 completed (as of 6:33PM)
+23 points planned, 18 completed (78%)
