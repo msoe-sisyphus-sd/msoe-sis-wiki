@@ -1,7 +1,7 @@
 ## Sprint 4 Plan
 
 ### Sprint Goal:
-Investigate two new user-table domains to test feasibility and level of interactivity.
+~~Investigate two new user-table domains to test feasibility and level of interactivity.~~
 
 _May change depending on feedback from product owner meeting 2020-12-18._
 
