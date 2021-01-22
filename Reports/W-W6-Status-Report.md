@@ -13,8 +13,6 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 
 | Date | Hours Spent | Description | Issue / MR | Repository | 
 | --- | --- | --- | --- | --- |
-| Date | Hours Spent | Description | Issue/MR | Repository |
-| ---- | ----------- | ----------- | -------- | ---------- |
 | 2021-01-18 | 1h | Stand up and grooming with team | #7 | msoe-sisbot |
 | 2021-01-19 | 3h | Evaluated pyAudio, sounddevice, and pyalsaaudio on DX and abilities. I also discovered that pyAudio is only tied to pyAudioAnalysis in name only - there is no formal dependency which means any sound library could be used. | #44 | msoe-sisbot | 
 | 2021-01-20 | 1h | Spent a bit of time understanding what PulseAudio and it's associated Python wrappers are. In short, it's a sound server with a wide breadth of capabilities but it seem a bit overkill for what we're trying to achieve and considering the ML model will probably be taking up a majority of CPU resources - best to keep the foot print of the audio stream as small as possible. | #44 | msoe-sisbot | 
