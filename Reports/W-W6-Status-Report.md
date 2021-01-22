@@ -25,12 +25,19 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 
 
 ## Enters, Stuart
-* Hours: 
-* Rating (0-10): 
+* Hours: 19
+* Rating (0-10): 10
 * Summary:
 
-| Date | Hours Spent | Description | Issue | Repository |
-| --- | --- | --- | --- | --- |
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+2021-01-14 | Stuart Enters | 4h	| Figured out how to connect to table and tested light pattern | LED Axis Tracking of the Ball | msoe-sisbot
+2021-01-14 | Stuart Enters | 0.67h | Wrote documentation for testing patterns on the table via Postman & ssh | Group Meetings Time Log | msoe-sisbot
+2021-01-18 | Stuart Enters | 1h	| Standup w/ team. Talked about end of sprint plans and created a few PBIs for next sprint | Group Meetings Time Log | msoe-sisbot
+2021-01-18 | Stuart Enters | 4h	| Discussed finer details of goal with Grace due to a misunderstanding I had with. Worked on finding a new avenue of work that will still be useful | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot
+2021-01-19 | Stuart Enters | 2h	| Worked on implementing new solution for spike | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot
+2021-01-21 | Stuart Enters | 5h	| Implemented non ML classifier for music | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot
+2021-01-21 | Stuart Enters | 3h	| Did sprint 5 planning with team, as well as Retro and status report |  Group Meetings Time Log | msoe-sisbot
 
 
 ## Fleming, Grace
