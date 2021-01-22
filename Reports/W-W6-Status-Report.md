@@ -20,12 +20,23 @@ Investigate mapping audio to colors and how to integrate a Python ML model with 
 | 2021-01-21 | ~3h | Sprint Planning, Retro, Sprint 4 Update, Status Report etc. | #7 | msoe-sisbot |
 
 ## Casper, Joseph
-* Hours: 
-* Rating (0-10): 
+* Hours: 11.25
+* Rating (0-10): 3
 * Summary:
+
 
 | Date | User |	Hours Spent | Description | Issue | Repository |
 | ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-01-15 | casperjm | .25h | Met with Dr. Taylor to show off some of the code in the repo  | #7 | msoe-sisbot |
+| 2021-01-18 | casperjm | 1h | Monday stand up and backlog grooming  | #7 | msoe-sisbot |
+| 2021-01-18 | casperjm | 2h | Spent time trying to connect to my Pi (only to find out that the SD card was dead later) | #41 | msoe-sisbot |
+| 2021-01-19 | casperjm | 1h | Met with Grace, she figured out that the SD card was dead. I started setting up my new card.  | #41 | msoe-sisbot |
+| 2021-01-20 | casperjm | 4h | Set up my Pi and the sisyphus repos. Spent a lot of time trying to get the siscloud server to run, only to be blocked by many errors. | #41 | msoe-sisbot |
+| 2021-01-21 | casperjm | 3h | Sprint wrap up meeting  | #7 | msoe-sisbot |
+
+This week I spent all of my time debugging issues with my Pi. I played around with it for a while by myself to try to figure out why it wasn't running, and Grace helped me out and told me that the SD card was dead (which is odd, since I haven't touched the Pi in about a month and it was working fine). I got my new card set up with Raspbian and all of the sisyphus code. Before I could finish the ticket that I had, I ran into more issues trying to run the app on the Pi. I reached out to the team during stand up Thursday, and George gave me a potential fix. 
+
+
 
 
 ## Enters, Stuart
