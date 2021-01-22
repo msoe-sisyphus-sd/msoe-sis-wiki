@@ -58,13 +58,24 @@ This week I spent all of my time debugging issues with my Pi. I played around wi
 
 
 ## Fleming, Grace
-* Hours: 
-* Rating (0-10): 
+* Hours: 11.58
+* Rating (0-10): 9
 * Summary:
+Lots of effort this week in prep for sprint review. I thought that was ok, but feel like I should have more concrete deliverables :thinking:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
 |------|------|-------------|-------------|----------|------------|
-
+|2021-01-15| Grace Fleming | 1h	| Met with team to do status report | Group Meetings Time Log| msoe-sisbot |
+|2021-01-15 | Grace Fleming |0.33h | Met with Dr. Taylor for weekly meeting | Group Meetings Time Log | msoe-sisbot |
+| 2021-01-17 | Grace Fleming | 0.25h| Cleaned & pushed demo code to a repository so it's ready for our sprint review.|	Spike: Mood Lighting & Alternative Algorithms| msoe-sisbot |
+|2021-01-18 | Grace Fleming |	1h	|  Stand up and grooming with the team. Discussed the goals and outcomes from this sprint, and tried to plan for the next one, despite that being sort of difficult without a firm architecture.| Group Meetings Time Log | msoe-sisbot |
+|2021-01-18| Grace Fleming |0.75h | Started writing a home-baked solution based on some guy's dataset that he was kind enough to post on github. I got this from a post some guy wrote about using tensorflow and a bunch of fancy machine learning techniques to predict labels. Reading through the guy's approach is quite complicated, so I'm going to try and simplify it a bit (also I have doubts about my pathetic MSOE laptop cannot train a neural network without choking).| 	Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+|2021-01-18 | Grace Fleming | 1.25h | Worked on slides for sprint review, and worked on a decision matrix for ML vs non-ML approaches. Will eventually need Stuart's input as expected. | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+|2021-01-19 | Grace Fleming|0.50h| Helped Joe with some raspberry pi troubleshooting |	Spike: Mood Lighting & Integration | msoe-sisbot |
+|2021-01-19 | Grace Fleming | 2.50h | Worked some more on my home-grown solution to predict valence based off of ML characteristics. I used feature vectors of energy and tempo, and attempted to use these with a SGDRegressor and a SVR (Support Vector Regression, trying with rbf, sigmoid and poly kernels). So far I haven't been able to produce anything accurate...in fact, most of my accuracy has been below 50% :cry: | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+|2021-01-19 | Grace Fleming |1h	 | Talked through goals in sprint with Stuart, as there was confusion. | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+| 2021-01-20 | Grace Fleming |1.50h | Worked some more on crafting a home-grown machine learning algorithm. It was pretty rough. The dataset I identified turned out to not be very helpful. Being from the Spotify data warehouses, most of the features included in the music samples won't be things we can easily pull from listening to raw audio. Doing a PCA analysis to find correlation between tempo, energy and mood lead to some very disappointing graphs, which I'll post here for longevity in another comment. Furthermore, multiple papers provide evidence that somewhere in the vein of 20-30 features are needed to accurate predict valence or emotion. So I don't think I'm going to be able to find a sufficient dataset to use to train my algorithm, at least not one publicly available. Certainly not me and my two sad features pulled from the Spotify dataset. | Spike: Mood Lighting & Alternative Algorithms | msoe-sisbot |
+| 2021-01-21 | Grace Fleming | 1.50h | Trying to get web server working on port 3001, being passed thru the NAT proxy. Having issues with the cordova.js script loading. | Group Meetings Time Log | msoe-sisbot |
 ## Wojciechowski, Andrew
 * Hours: 10.5h
 * Rating (0-10): 8
