@@ -5,6 +5,9 @@ Investigate two new user-table domains to test feasibility and level of interact
 
 _May change depending on feedback from product owner meeting 2020-12-18._
 
+#### Revised Sprint Goal:
+Investigate mapping audio to colors and how to integrate a Python ML model with the existing code base.
+
 ### Sprint Assumptions
 
 * Each of the 5 members of the team will be putting in an average of 10 hours/week
@@ -27,5 +30,15 @@ The table below are Sprint 2 PBIs ordered by priority
 
 _May change depending on meeting with Bruce and Matt on 2020-12-18_
 
+#### Revised:
+| PBI Number | Business Value | Story-points | Time Estimates | Completed |
+| ---------- | -------------- | ------------ | -------------- | --------- | 
+| #40        |  Measure the capabilities of existing hardware to handle the new project direction| 5 | 10h | Y | 
+| #44 | Research and make recommendations on the use of different hardware and software platforms for collecting audio | 5 | 12h45m | Y |
+| #43 | Determine effective algorithm for analyzing audio input and producing a "mood color" |8 | 20h | N| 
+| #41 | Create a user-reachable toggle to enable new table functionality | 5 | 12h | N |
+
 ## Velocity Analysis
-34 points planned
+~~34 points planned~~
+
+23 points planned
