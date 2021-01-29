@@ -43,12 +43,17 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 
 
 ## Wojciechowski, Andrew
-* Hours: 
-* Rating (0-10): 
+* Hours: 4.75
+* Rating (0-10): 5
 * Summary:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
 |------|------|-------------|-------------|----------|------------|
+| 2021-01-25 | @wojciechowskia | 2h | Spent a while trying to get the demo running on my MSOE laptop. Eventually was able to get it running by switching to my personal desktop and I tested it with the team before meeting with Bruce. | #7 | msoe-sisbot |
+| 2021-01-19 | @wojciechowskia | 1h | Meeting with Bruce. Afterwards standup with the team and assigning PBIS | #7 | msoe-sisbot |
+| 2021-01-19 | @wojciechowskia | 0.25h | Installed Android Studio for testing out this ML on Android | #45 | msoe-sisbot |
+| 2021-01-21 | @wojciechowskia | 1h | Looked briefly into seeing what it would take to run the current ML demo on a Android app written in Java as well as how to listen to audio with Android. I think having the ML all in Java will take a lot of work. There's a porter out there to convert sk-learn code to Java but a lot of the pyAudioAnalysis library would have to be rewritten in Python in order for that to work. | #45 | msoe-sisbot |
+| 2021-01-21 | @wojciechowskia | 0.5h | Standup with the team and meeting to write status report.  | #7 | msoe-sisbot |
 
 
 # Discussion
