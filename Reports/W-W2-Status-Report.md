@@ -114,3 +114,10 @@ Over the course of this week, we groomed our backlog after being away from this 
     * Write minimal code to control the ball
     * Image a new SD card with the code
     * Ensure that the code actually works with the current setup
+
+## George (added 2021-01-28 because he forgot to add it in week 2 :/)
+* Original Goal: Understand Linux administration (how to set up and manage a Linux environment). For example: how to set up networking, what do different `/etc/` files do and mean?, etc. <-- haha it's like a pun
+    * Steps:
+        * Get a fresh image of Raspbian on a separate SD card
+        * Step through `/etc/` files while looking up their purpose on Google
+        * Work through: https://github.com/snori74/linuxupskillchallenge
