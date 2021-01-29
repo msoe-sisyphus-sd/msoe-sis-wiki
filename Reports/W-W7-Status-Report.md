@@ -68,6 +68,7 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 * This is no easy way to port underlying Python libraries to mobile - they all require complete rewrites
 
 # Questions
-
+* N/A
 
 # Conclusion
+The team is making headway into finding the best way to architect and process audio to deliver a great experience for the user.
