@@ -36,12 +36,17 @@ Today I finally got the app running locally. My Pi broke (again) somehow, so I h
 
 
 ## Enters, Stuart
-* Hours: 
-* Rating (0-10): 
+* Hours: 8.5
+* Rating (0-10): 4
 * Summary:
 
-| Date | User |	Hours Spent | Description | Issue | Repository |
-| ------ | ------ | ------ | ------ | ------ | ------ |
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-01-22 | @enterss | 1h | Met with Dr Taylor | #7 | msoe-sisbot |
+| 2020-01-25 | @enterss | 1h | Meeting w/ Bruce and assigned issues for this sprint | #7 | msoe-sisbot |
+| 2020-01-26 | @enterss | 4h | Trying to get performance spike from last quarter to work | #48 | msoe-sisbot |
+| 2020-01-28 | @enterss | 2h | Trying to resolve issues with PiAudio vs WSL | #48 | msoe-sisbot |
+| 2020-01-28 | @enterss | 30m | Standup w/ Team | #7 | msoe-sisbot |
 
 
 ## Fleming, Grace
