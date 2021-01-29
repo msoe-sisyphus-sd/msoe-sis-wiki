@@ -15,13 +15,19 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 | --- | --- | --- | --- | --- |
 
 ## Casper, Joseph
-* Hours:
-* Rating (0-10):
+* Hours: 7
+* Rating (0-10): 5
 * Summary:
-
 
 | Date | User |	Hours Spent | Description | Issue | Repository |
 | ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-01-22 | casperjm | 1h | Met with Dr. Taylor for sprint review  | #7 | msoe-sisbot |
+| 2021-01-25 | casperjm | 1.5h | Helped Andy try to get the demo working; met with Bruce  | #7 | msoe-sisbot |
+| 2021-01-26 | casperjm | 3h | Had to fix my Pi again, then I worked and got the app running locally. I played around with it to try to push some changes, but now I have to figure out how to build the code. | #41 | msoe-sisbot |
+| 2021-01-26 | casperjm | 1h | Tried to verify that the eslint fixes work, but the changes on the siscloud repo broke the app. I have to go through and figure out what broke. | #34 | msoe-sisbot |
+| 2021-01-28 | casperjm | .5h | Weekly status report meeting  | #7 | msoe-sisbot |
+
+Today I finally got the app running locally. My Pi broke (again) somehow, so I had to re set up raspbian and all of the sisbot code. I spent some time playing with the code and trying to make changes. I'll have to figure out how to build the app to make those changes appear. I also tried to verify that my eslint fixes worked, but it ended up breaking the app, which I'll investigate next week. 
 
 
 ## Enters, Stuart
