@@ -7,12 +7,17 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours:
-* Rating (0-10):
+* Hours: 5.75
+* Rating (0-10): 5
 * Summary:
 
 | Date | Hours Spent | Description | Issue / MR | Repository | 
 | --- | --- | --- | --- | --- |
+| 2021-01-22 | 0.75h | Sprint review with Dr. Taylor | #7 | msoe-sisbot |
+| 2021-01-25 | 1h | Sprint review part 2 with Bruce and assigned issues with team. Also spent a bit of time "debugging" the demo to see if we could have the colors more consistent and less random. | #7 | msoe-sisbot |
+| 2021-01-27 | 2h | Spent some time reading through sisproxy to understand how the different services were being composed. The code is extremely spaghetti with lots of unreachable/dead sections but the main take away is sisproxy uses a set of config objects to set up service directories (sisbot and siscloud) to start services. sisproxy will also check current table state and run a series of git commands to re-orient each repository so it can run properly. The actionable item from this research is that a new audio-listening process could be spawned from this project (just like sisbot and siscloud) - maybe named sisaudio or sislisten? If so, it might benefit from a bit of cleanup / rewrite | #46 | msoe-sisbot |
+| 2021-01-26 | 1.5h | Spent time reading through the pyAudioAnalysis documentation to understand what operations were being performed to construct features and what those features mean in terms of the audio signal. In particular: what "energy" means (the square of the transformed, via FFT, audio signal), and how audio is segmented and according to different window and frame sizes. These two articles were particularly helpful: https://hackernoon.com/intro-to-audio-analysis-recognizing-sounds-using-machine-learning-qy2r3ufl and https://hackernoon.com/audio-handling-basics-how-to-process-audio-files-using-python-cli-jo283u3y?ref=hackernoon.com | #48 | msoe-sisbot |
+| 2021-01-28 | 0.5h | Met with team to draft status report and perform standup | msoe-sisbot |
 
 ## Casper, Joseph
 * Hours: 7
