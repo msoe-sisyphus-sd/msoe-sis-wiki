@@ -1,5 +1,5 @@
 # Introduction
-The following is the names of each feature in the audio feature vector provided by pyAudioAnalysis. A description of what each of these features are is provided by the pyAudioAnalysis here: https://github.com/tyiannak/pyAudioAnalysis/wiki/3.-Feature-Extraction
+The following is the names of each feature in the audio feature vector provided by pyAudioAnalysis. A description of what each of these features are is provided by the pyAudioAnalysis [here](https://github.com/tyiannak/pyAudioAnalysis/wiki/3.-Feature-Extraction). Note that the calculation of all of these features is done in the ShortTermFeature.py file [here](https://github.com/tyiannak/pyAudioAnalysis/blob/master/pyAudioAnalysis/ShortTermFeatures.py)
 
 # Feature Names
 | Feature Names |
