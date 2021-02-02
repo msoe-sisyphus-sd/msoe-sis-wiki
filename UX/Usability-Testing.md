@@ -17,6 +17,15 @@ Sandra was gifted the table last Christmas after falling in love with it on soci
 4. The user shall be able to navigate to the **Settings** screen in order to **enable** and/or **disable** beat matching mode after opening the app.
 
 ## Mock-ups/Prototype
+![loading](uploads/f10ac54e265aa270c115b18bd18d7fa2/loading.png)
+
+![home](uploads/d9d5d48308d12befec7a1e951f9ac0a2/home.png)
+
+![settings](uploads/dacb32139dfd909f489b1686d87d6661/settings.png)
+
+![enable-audio](uploads/3a0c156d8b2f2f221aa093335d535fe0/enable-audio.png)
+
+[mock.xd](uploads/67fb10c1b7e3f03fc125cd3ad7a700d4/mock.xd)
 
 # Data
 
