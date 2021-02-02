@@ -17,15 +17,17 @@ Sandra was gifted the table last Christmas after falling in love with it on soci
 4. The user shall be able to navigate to the **Settings** screen in order to **enable** and/or **disable** beat matching mode after opening the app.
 
 ## Mock-ups/Prototype
-![loading](uploads/f10ac54e265aa270c115b18bd18d7fa2/loading.png)
+![loading](uploads/2bd9687096c90e4a8b0567b87f5a2077/loading.png)
+![home](uploads/f55e1344deab16054206f0ebfc8310c5/home.png)
+![settings](uploads/c31fc698ac60e80b8dccde4bd1028bff/settings.png)
+![enable-audio](uploads/8e4109506f29b988e95a83032ec88b65/enable-audio.png)
+![choose-color](uploads/77579e3e4fc02a7f9b1080915b54253c/choose-color.png)
+![choose-axis](uploads/f0f709ab6be769c91620e595ee47250b/choose-axis.png)
+![new-axis](uploads/fe2270629915fe175b1f3ddad6395a49/new-axis.png)
+![enable-beats](uploads/3ae6ed29db9100dacc69a2b813e1428a/enable-beats.png)
 
-![home](uploads/d9d5d48308d12befec7a1e951f9ac0a2/home.png)
-
-![settings](uploads/dacb32139dfd909f489b1686d87d6661/settings.png)
-
-![enable-audio](uploads/3a0c156d8b2f2f221aa093335d535fe0/enable-audio.png)
-
-[mock.xd](uploads/67fb10c1b7e3f03fc125cd3ad7a700d4/mock.xd)
+### File
+[mock.xd](uploads/e1f2444ffb603d158561acd190d11f78/mock.xd)
 
 # Data
 
