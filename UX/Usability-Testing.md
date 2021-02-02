@@ -51,7 +51,7 @@ If the user gets stuck - ask them what they are stuck on. Try to hint at the goa
 
 _Please note that this is a general structure of a testing session and the questions can be re-worded to be more clear._
 
-## <User>
+## User
 * Testing Date: **YYYY-MM-DD**
 * Facilitator: **team-member**
 
