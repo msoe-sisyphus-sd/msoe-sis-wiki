@@ -29,9 +29,31 @@ The team has chosen to proceed with mapping audio to colors and with this comes 
 8. _From the same screen_, ask them "How would you see the current color as it relates to the music?"
 9. Record what they click, any notable pauses, delays, quick clicks, etc.
 10. _From the same screen_, ask them "How might you change the possible colors that the music could map to?"
-11. 
+11. Record what they click, any notable pauses, delays, quick clicks, etc.
+12. _From the same screen_, ask them "Currently the table uses the music's emotion and energy to change the color but, there are additional music features that can be used to change the color. How might you **enable** one of those other features instead of **emotion**?
+13. Record what they click, any notable pauses, delays, quick clicks, etc.
+14. _From the same screen_, ask them "How might you enable the lights to pulse with the beat of the music of the table?"
+15. Record what they click, any notable pauses, delays, quick clicks, etc.
+16. Thank the user for participating - ask if we may contact them for further testing (if we chose to iterate on the designs) 
+
+If the user gets stuck - ask them what they are stuck on. Try to hint at the goal (e.g. if the user doesn't know how to change the table behavior - you might say "the Settings page controls what the table can currently do")
+
 _Please note that this is a general structure of a testing session and the questions can be re-worded to be more clear._
 
-## <User 1>
-* Date: **<YYYY-MM-DD>**
+## <User>
+* Testing Date: **<YYYY-MM-DD>**
+* Facilitator: **<team-member>**
+
+### Notes
+<insert-here>
+
+### Rating
+
+| Workflow | Score (1-10 with 10 being high/no issues) |
+| --- | --- |
+| Enable/Disable Music-Color Mode (1) | |
+| Understand Grid Visualization (2) | |
+| Change Grid Colors (2) | |
+| Change Analysis Features (3) | |
+| Enable/Disable Beat Mode | |
 
