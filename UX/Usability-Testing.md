@@ -29,6 +29,10 @@ Sandra was gifted the table last Christmas after falling in love with it on soci
 ### File
 [mock.xd](uploads/e1f2444ffb603d158561acd190d11f78/mock.xd)
 
+### Prototype Link
+https://xd.adobe.com/view/c5914d8a-b905-46e8-be44-17fd03f059f3-90c2/?fullscreen&hints=off
+_Contact @burkhardtr if anything is wrong with the link_
+
 # Data
 
 ## Testing Procedure (~10min.)
