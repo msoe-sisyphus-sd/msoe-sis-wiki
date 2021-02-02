@@ -143,6 +143,8 @@ The following is the names of each feature in the audio feature vector provided 
 
 # Sample Values for Features in pyAudioAnalysis
 
+These samples were taken from the chopin_waltz.wav and pyAudioAnalysis determined the number of samples to be 6 which is the number of audio signals detected.
+
 zcr_mean
 
 [0.05038753 0.05317439 0.04892825 0.05280654 0.05412655 0.054058  ]
