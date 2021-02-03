@@ -1,0 +1,3 @@
+- Core ML 3: Apple actually has their own library for this called Core ML3. There documentation for extracting features is here: [https://developer.apple.com/documentation/createml/mlsoundclassifier](https://developer.apple.com/documentation/createml/mlsoundclassifier). It's closed source so we would need a demo to explore that library.
+- This doesn't extract features but we might be able to get some hints about processing audio input from here: [https://github.com/barbulescualex/MetalAudioVisualizer](https://github.com/barbulescualex/MetalAudioVisualizer)
+- Repo that does MFCC coefficient calculations: [https://github.com/nahuelproietto/phoneme-recognition-ios](https://github.com/nahuelproietto/phoneme-recognition-ios)
