@@ -1,0 +1,41 @@
+# Schema
+This first schema idea can be done if we just calculate these raw samples on the client-side and then we have have the server-side worry about calculating the mean, standard deviation, and deltas for the samples. We could potentially include the mean, standard deviation, and deltas in this payload but that would make the JSON request body really big and could potentially lead to performance issues with having to send a lot of JSON over the network.
+
+```json
+{
+    "zcr": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "energy": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "energy_entropy": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "spectral_centroid": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "spectral_spread": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "spectral_entropy": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "spectral_flux": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "spectral_rolloff": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc1": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc2": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc3": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc4": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc5": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc6": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc7": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc8": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc9": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc10": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc11": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "mfcc12": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma1": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma2": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma3": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma4": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma5": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma6": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma7": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma8": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma9": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma10": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma11": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma12": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma13": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+    "chroma_std": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+}
+```
