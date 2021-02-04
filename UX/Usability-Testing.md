@@ -80,19 +80,37 @@ _Please note that this is a general structure of a testing session and the quest
 | Enable/Disable Beat Mode (4) | 10 |
 
 ## User
-* Testing Date: **YYYY-MM-DD**
-* Facilitator: **team-member**
+* Testing Date: **2021-02-03**
+* Facilitator: **Joe Casper**
 
 ### Notes
-insert-here
+> "How would you enable the new music-light color mode"
+
+She started from Home, went to Settings, then tried to find it under the Lighting Mode dropdown. After telling her that the new feature is based around audio, she found the checkbox and checked it.
+
+> "How would you see the current color as it relates to the music?"
+
+She looked at the color map and pointed to the white dot on the graph.
+
+> "How might you change the possible colors that the music could map to?"
+
+She clicked on the graph, then clicked on the color wheel to select a new color. It didn't do anything because changing colors isn't built into it, but she had the right idea. After clicking on the color wheel, she clicked accept. 
+
+> "Currently the table uses the music's emotion and energy to change the color but, there are additional music features that can be used to change the color. How might you enable one of those other features instead of emotion?"
+
+She scrolled up and down trying to find a settings button for the mood lighting features, but then saw that it was in the dropdown below the graph. She clicked the X axis dropdown and selected the flux setting. 
+
+> "How might you enable the lights to pulse with the beat of the music of the table?"
+
+She quickly found and clicked the pulse lights with audio checkbox.
 
 ### Rating
 
 | Workflow (number matching above) | Score (1-10 with 10 being high/no issues) |
 | --- | --- |
-| Enable/Disable Music-Color Mode (1) | |
-| Understand Grid Visualization (2) | |
-| Change Grid Colors (2) | |
-| Change Analysis Features (3) | |
-| Enable/Disable Beat Mode (4) | |
+| Enable/Disable Music-Color Mode (1) | 7 |
+| Understand Grid Visualization (2) | 10 |
+| Change Grid Colors (2) | 10 |
+| Change Analysis Features (3) | 7 |
+| Enable/Disable Beat Mode (4) | 10 |
 
