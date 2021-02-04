@@ -58,6 +58,28 @@ If the user gets stuck - ask them what they are stuck on. Try to hint at the goa
 _Please note that this is a general structure of a testing session and the questions can be re-worded to be more clear._
 
 ## User
+* Testing Date: **2021-02-03**
+* Facilitator: **Andy Wojciechowski**
+
+### Notes
+- Changing the analysis features was understood but she did not understood what some of the features were.
+- The user was able to enable both the Music-Color mode and the beat mode with no issues.
+- The user seemed confused with the grid visualization with how the different features are determined.
+- The user asked "why is there a sad emotion if I'm sad then I don't want to dwell on it and I would want my table to lift me up or be calming"
+- Liked the color wheel to pick a new feature color
+- Also, liked that the table would be able to pulse with the beat.
+
+### Rating
+
+| Workflow (number matching above) | Score (1-10 with 10 being high/no issues) |
+| --- | --- |
+| Enable/Disable Music-Color Mode (1) | 10 |
+| Understand Grid Visualization (2) | 5 |
+| Change Grid Colors (2) | 19 |
+| Change Analysis Features (3) | 7 |
+| Enable/Disable Beat Mode (4) | 10 |
+
+## User
 * Testing Date: **YYYY-MM-DD**
 * Facilitator: **team-member**
 
