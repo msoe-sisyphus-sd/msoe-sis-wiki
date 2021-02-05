@@ -149,3 +149,20 @@ Subject checked box without issue.
 | Change Analysis Features (3) | - |
 | Enable/Disable Beat Mode (4) | 10 |
 
+# Results
+
+## Averaged Ratings
+
+| Workflow (number matching above) | Score (1-10 with 10 being high/no issues) |
+| --- | --- |
+| Enable/Disable Music-Color Mode (1) | 6.7 |
+| Understand Grid Visualization (2) | 5.7 |
+| Change Grid Colors (2) | 7.7 |
+| Change Analysis Features (3) | 7 |
+| Enable/Disable Beat Mode (4) | 10 |
+
+## General Findings
+
+* Once the user reached the Settings page, the checkbox controls clearly signaled how to change the lighting settings
+* Technical terms (i.e. feature values) need more appropriate layman/relatable terms
+* Axis ball looks "draggable" and incorrectly afforded users the ability to change color
