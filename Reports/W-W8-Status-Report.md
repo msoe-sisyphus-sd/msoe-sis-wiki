@@ -1,10 +1,12 @@
 # Sprint Goal
 
-Insert Goal here
+Determine where the modified (volume-sensitive) algorithm for translating audio to color will run.
 
 # Burndown Chart
 
-Link Chart Here
+![image](uploads/3baa765b0ecd711033ce22ae922aa043/image.png)
+
+Recorded at 2021-02-04 08:37 so there might be a dip by 2021-02-05 morning
 
 # Team Commitment
 
@@ -46,6 +48,7 @@ Insert Summary Here
 # Discussion
 
 ## Key Meetings
+* 
 
 ## Findings
 
