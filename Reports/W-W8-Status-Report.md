@@ -39,11 +39,21 @@ Insert Summary Here
 Insert Summary Here
 
 ## Wojciechowski, Andrew
-* Hours: X
-* Rating (0-10): X
+* Hours: 8h
+* Rating (0-10): 8
 * Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2021-01-31 | @wojciechowskia | 2h | Researched what features the pyAudioAnalysis library extracts. Found this wiki article here written by the author describing each of the features: https://github.com/tyiannak/pyAudioAnalysis/wiki/3.-Feature-Extraction. I also dumped the raw feature names using the current demo and I found out that the mean, standard deviation, and deltas are calculated for each feature and I uploaded those names to the wiki. Finally, I found that the features are mainly calculated in the source file in the library here: https://github.com/tyiannak/pyAudioAnalysis/blob/master/pyAudioAnalysis/ShortTermFeatures.py | #45 | msoe-sisbot |
+| 2021-02-01 | @wojciechowskia | 0.33h | Standup with the team, discussion on the usability outcome assessment, and the tech report due in a few weeks. | #7 | msoe-sisbot |
+| 2021-02-01 | @wojciechowskia | 2h | Chatted with Grace a bit about what features are extracted with pyAudioAnalysis. Looked into the different visualization options provided by pyAudioAnalysis to try and determine the dimensions of each of the different features. Realized that none of these worked since the visualization for the features performs something called a dimensional reduction. So, I started looking into writing my own plotting code to get this better visualization. | #45 | msoe-sisbot |
+| 2021-02-02 | @wojciechowskia | 1.17h | Extracted sample feature values using the chopin_waltz.wav in pyAudioAnalysis. Also, looked into how the number of samples pyAudioAnalysis is determined and figured out it's based on the number of audio samples detected. | #45 | msoe-sisbot |
+| 2021-02-03 | @wojciechowskia | 0.5h | Discussions with Grace throughout today about the Android demo. Discussed some of the things we need to do with multithreading in the Android demo to have one thread listen for audio and have another process the data. Also, discussed difficulties with using JLibrosa and did some more research into this and figured instead of a byte[] we might be able to read in the samples as a float[] and pass it into JLibrosa without needing to read in a file. | #45 | msoe-sisbot |
+| 2021-02-03 | @wojciechowskia | 0.5h | Spent some time researching about extracting audio features in Swift for potentially exploring doing that in iOS. Found a few possibilities and threw them in the wiki. Apple provides there own ML library which can do this called Core ML 3, and I found a few repos in which people did the audio analysis themselves. | #45 | msoe-sisbot |
+| 2021-02-04 | @wojciechowskia | 0.5h | Put together a JSON schema for streaming features to the server. Looked also a bit into how the samples in jlibrosa are collected. I'm thinking we can collect raw samples in the app and then on the server calculate the mean, standard deviation, and delta values. | #45 | msoe-sisbot |
+| 2021-02-01 | @wojciechowskia | 1h | Standup with the team, discussion about usability testing results and wrote status report | #7 | msoe-sisbot |
+
 
 # Discussion
 
