@@ -41,11 +41,184 @@ I was able to finally finish fixing the broken eslint code (there was one issue 
 Insert Summary Here
 
 ## Fleming, Grace
-* Hours: X
-* Rating (0-10): X
-* Summary:
+* Hours: 12.25
+* Rating (0-10): 2
+* Summary: Everything takes me too long.
 
-Insert Summary Here
+
+
+<table>
+  <tr>
+   <td><strong>Date</strong>
+   </td>
+   <td><strong>User</strong>
+   </td>
+   <td><strong>Hours Spent</strong>
+   </td>
+   <td><strong>Description</strong>
+   </td>
+   <td><strong>Issue/MR</strong>
+   </td>
+   <td><strong>Repository</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>2021-01-29
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>0.25h
+   </td>
+   <td>Sync with Dr. Taylor
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/7">Group Meetings Time Log</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-01-29
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>1h
+   </td>
+   <td>Researched more into the porting of sklearn into C. Explored<a href="https://github.com/nok/sklearn-porter"> https://github.com/nok/sklearn-porter</a>. Finally, emailed the professor in charge of the machine learning algorithm we are currently using requesting the dataset he used to train his algorithm and thanking him fro his work.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-01-29
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>0.75h
+   </td>
+   <td>Got set up for android development (again, this time on linux). No surprises, setup went smoother on linux. Can now run an app on my emulator. Will be pushing shortly to a new spike demo repository.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-01-29
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>0.75h
+   </td>
+   <td>Figuring out with Andy how to best divide this after some research, since it's obvious there isn't a 'quick and easy' solution. Re-wrote subtasks.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-01-29
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>1h
+   </td>
+   <td>Researched PyAudioAnalysis alternatives in java. Found (this)<a href="https://about-time-too.netlify.app/msoe.edu%2Fsdl%2Fsd21%2Fsisyphus">https://github.com/Subtitle-Synchronizer/jlibrosa</a> for pulling zero-crossing rate and (this)<a href="https://about-time-too.netlify.app/msoe.edu%2Fsdl%2Fsd21%2Fsisyphus">https://github.com/mileshenrichs/QuiFFT</a> for doing fast Fourier transforms, both of which PyAudioAnalysis does.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-02-01
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>2h
+   </td>
+   <td>Spent two hours trying to figure out how to record audio in android. went down the wrong track trying to record audio using the Android media recorder, since apparently we want <em>raw</em> audio, which is found under the AudioRecord() class, and not the MediaRecorder() class. Right now the MediaRecorder() version that records audio and saves it to a file is pushed to origin. tomorrow I'll want to update this to use the AudioRecorder class instead. I found two different examples of how to do this, one<a href="https://github.com/Piasy/RxAndroidAudio"> here</a> and one<a href="https://github.com/aahlenst/android-audiorecord-sample/blob/master/src/main/java/com/example/audiorecord/AudioRecordActivity.java"> here</a>. Finally, I also looked into what MFCC values are, since they are a feature of the existing algorithm I don't understand. Read<a href="https://medium.com/prathena/the-dummys-guide-to-mfcc-aceab2450fd"> this article here</a>. As far as calculating those values go, JLibrosa does support the MFCC stuff which is great. Looking through the other features Andy had laid out in his feature wiki, I'm not so sure about how I'm going to calculate some of the other values in that list, like spectral energy, for example. I think that is going to need more research, or maybe we'll just have to implement it on our own.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-02-02
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>1.50h
+   </td>
+   <td>Spent a ton of time looking through siscloud to see how it loads up the frontend, as I figure this will help us make changes to it. I learned about how it sets up, initializes, looks for sisyphus tables (or fails to). Once a sisyphus table is setup, the app moves into the 'manipulation mode' where the user can actually control the sisyphus table. In hindsight this information is very useful for determining why our table from the lab's remote web interface is broken.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/46">Create First-Pass Architecture Draft</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-02-02
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>0.50h
+   </td>
+   <td>Spent some time implementing raw audio capture. Right now it saves to a file on the SD card on a phone, but I will be changing that to save to a AtomicIntegerArray, which is the Java thread-safe version of an array. This should be able to hold the raw audio values and then we can hopefully play around with them.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-02-03
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>0.75h
+   </td>
+   <td>JLibrosa apparently does not support raw audio data, as our algorithm requires (only accepts wav files). Read through JLibrosa and tried to weight the pros and cons of modifying the library vs. just writing my own dang library in Java. Honestly, we'd really only have to transition over<a href="https://github.com/tyiannak/pyAudioAnalysis/blob/b27644a3d9351733693c79718441430619d6141f/pyAudioAnalysis/ShortTermFeatures.py#L543"> https://github.com/tyiannak/pyAudioAnalysis/blob/b27644a3d9351733693c79718441430619d6141f/pyAudioAnalysis/ShortTermFeatures.py#L543</a>. In some ways, I feel like converting PyAuduioAnalysis directly makes more sense at this point. And yes, I really wish that I knew why everything on this PBI was so difficult and/or took so long. Good thing I wasn't burned out before this sprint because I will be afterwards.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-02-03
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>2h
+   </td>
+   <td>Worked on implementing audio data capture and storage into a queue. This shouldn't have taken me 2 hours, but it did, because I had some confusion about how and why multiple threads were needed. Figured it out, and finally hopped on a call with Andy to explain (he was curious). Demo has been pushed. Next step is figuring out how to take the captured audio data and feed it to librosa.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+  <tr>
+   <td>2021-02-04
+   </td>
+   <td>Grace Fleming
+   </td>
+   <td>1h45m
+   </td>
+   <td>Changed to a periodic task to process audio. Integrated JLibrosa and used FLOAT_PCM to collect audio values so they could be fed to Librosa. Ran into some significant memory issues.
+   </td>
+   <td><a href="https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/issues/45">Spike: Mood lighting & Mobile as a Artificial Intelligence Computation Platform</a>
+   </td>
+   <td>msoe-sisbot
+   </td>
+  </tr>
+</table>
+
+
 
 ## Wojciechowski, Andrew
 * Hours: 8h
