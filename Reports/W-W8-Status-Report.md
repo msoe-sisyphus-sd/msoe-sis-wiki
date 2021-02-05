@@ -68,4 +68,4 @@ Insert Summary Here
 * Do you like snow? :snowflake: 
 
 # Conclusion
-We are sick of righting conclusions 4 u bud - get offf our backs - we r doing werk and wii r louving it... :kissing: :heart: :computer:
+The team feels engaged with the sprint, and despite having a heavy week coming up is ready to take on any challenges!
