@@ -263,6 +263,7 @@ I was able to finally finish fixing the broken eslint code (there was one issue 
 
 ## Successes
 * Integrating volume as a feature appears to be relatively trivial and should require minimum integration with the current implementation via RMS
+* We got a response from the creator of the original algorithm we adapted with directions on how to recreate his dataset!
 
 ## Risk Updates
 * Audio capture on Android is really "fricken-chicken" hard
