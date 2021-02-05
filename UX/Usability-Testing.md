@@ -75,7 +75,7 @@ _Please note that this is a general structure of a testing session and the quest
 | --- | --- |
 | Enable/Disable Music-Color Mode (1) | 10 |
 | Understand Grid Visualization (2) | 5 |
-| Change Grid Colors (2) | 19 |
+| Change Grid Colors (2) | 10 |
 | Change Analysis Features (3) | 7 |
 | Enable/Disable Beat Mode (4) | 10 |
 
@@ -157,7 +157,7 @@ Subject checked box without issue.
 | --- | --- |
 | Enable/Disable Music-Color Mode (1) | 6.7 |
 | Understand Grid Visualization (2) | 5.7 |
-| Change Grid Colors (2) | 7.7 |
+| Change Grid Colors (2) | 8 |
 | Change Analysis Features (3) | 7 |
 | Enable/Disable Beat Mode (4) | 10 |
 
