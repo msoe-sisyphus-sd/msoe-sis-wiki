@@ -116,7 +116,7 @@ She quickly found and clicked the pulse lights with audio checkbox.
 
 ## User
 * Testing Date: **2021-02-02**
-* Facilitator: **Grace Flemingr**
+* Facilitator: **Grace Fleming**
 
 ### Notes
 > "How would you enable the new music-light color mode"
