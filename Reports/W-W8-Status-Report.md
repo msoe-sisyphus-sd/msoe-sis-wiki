@@ -18,11 +18,20 @@ Recorded at 2021-02-04 08:37 so there might be a dip by 2021-02-05 morning
 Insert Summary Here
 
 ## Casper, Joseph
-* Hours: X
-* Rating (0-10): X
-* Summary:
+* Hours: 8.75
+* Rating (0-10): 7
+* Summary: 
 
-Insert Summary Here
+
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-01-20 | casperjm | 15m | Met with Dr. Taylor  | #7 | msoe-sisbot |
+| 2021-02-01 | casperjm | 30m | Weekly stand up with team | #7 | msoe-sisbot |
+| 2021-02-01 | casperjm | 2h | Started to investigate eslint bug. I did this by individually linting files one by one to see when it breaks | #34 | msoe-sisbot |
+| 2021-02-01 | casperjm | 5h | Finished eslint PBI | #34 | msoe-sisbot |
+| 2021-02-01 | casperjm | 1h | Met with team to write status report | #7 | msoe-sisbot |
+
+I was able to finally finish fixing the broken eslint code (there was one issue in one file where a variable was declared twice, and that broke the entire app). Now that the eslint ticket is finished, I'll be able to start working on adding the new buttons to the app. 	
 
 ## Enters, Stuart
 * Hours: X
