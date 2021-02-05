@@ -114,3 +114,38 @@ She quickly found and clicked the pulse lights with audio checkbox.
 | Change Analysis Features (3) | 7 |
 | Enable/Disable Beat Mode (4) | 10 |
 
+## User
+* Testing Date: **2021-02-02**
+* Facilitator: **Grace Flemingr**
+
+### Notes
+> "How would you enable the new music-light color mode"
+
+Subject moved towards the controls for track and said "well, I'd control the music from here, right?" I said, "Well, the lights respond to the audio being played in the room. The app doesn't necessarily play the music." The subject said, "That's so confusing." I eventually guided the subject to the settings screen.
+
+> "How would you see the current color as it relates to the music?"
+
+The subject was very confused about what this meant. The subject expected the ball to be draggable and the app to pick a color for the music based on how he dragged the ball (a polarity of mood offset?). Assumes that the colors respond to the mood of the person and not the mood of the music.
+
+> "How might you change the possible colors that the music could map to?"
+
+See above--this was a similar conversation. The subject found the correct checkbox to enable the mode, but struggled greatly to correlate the colors to a mood. Asked why they would change a color to match a mood.
+
+> "Currently the table uses the music's emotion and energy to change the color but, there are additional music features that can be used to change the color. How might you enable one of those other features instead of emotion?"
+
+ _Ended not being able to test due to the course of the conversation, as the subject enabled the next check and said "well this makes a lot more sense!"_
+
+> "How might you enable the lights to pulse with the beat of the music of the table?"
+
+Subject checked box without issue.
+
+### Rating
+
+| Workflow (number matching above) | Score (1-10 with 10 being high/no issues) |
+| --- | --- |
+| Enable/Disable Music-Color Mode (1) | 3 |
+| Understand Grid Visualization (2) | 2 |
+| Change Grid Colors (2) | 4 |
+| Change Analysis Features (3) | - |
+| Enable/Disable Beat Mode (4) | 10 |
+
