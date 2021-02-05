@@ -34,11 +34,17 @@ Insert Summary Here
 I was able to finally finish fixing the broken eslint code (there was one issue in one file where a variable was declared twice, and that broke the entire app). Now that the eslint ticket is finished, I'll be able to start working on adding the new buttons to the app. 	
 
 ## Enters, Stuart
-* Hours: X
-* Rating (0-10): X
+* Hours: 8.5
+* Rating (0-10): 5
 * Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2020-02-1 | @enterss | 30m | Standup w/ Team | #7 | msoe-sisbot |
+| 2020-02-1 | @enterss | 2h | Working on various dev environment issues | #48 | msoe-sisbot |
+| 2020-02-4 | @enterss | 2h | Looked into existing algorithm and determined how to change the brightness based on the audio input | #48 | msoe-sisbot |
+| 2020-02-4 | @enterss | 2h | Wrote out rough draft of section of Tech Report | #46 | msoe-sisbot |
+| 2020-02-4 | @enterss | 2h | Standup w/ Team | #7 | msoe-sisbot |
 
 ## Fleming, Grace
 * Hours: 12.25
