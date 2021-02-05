@@ -11,11 +11,19 @@ Recorded at 2021-02-04 08:37 so there might be a dip by 2021-02-05 morning
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours: X
-* Rating (0-10): X
+* Hours: 7.5
+* Rating (0-10): 8
 * Summary:
 
-Insert Summary Here
+| Date | Hours Spent | Description | Issue / MR | Repository |
+| --- | --- | --- | --- | --- |
+| 2021-01-29 | 0.25h | Weekly status report with Dr. Taylor | #7 | msoe-sisbot | 
+| 2021-02-01 | 0.25h | Standup with the team, discussion on the usability outcome assessment, and the tech report due in a few weeks. | #7 | msoe-sisbot | 
+| 2021-02-04 | 1h | Standup with the team, discussion about usability testing results and wrote status report | #7 | msoe-sisbot |
+| 2021-02-01 | 2h | Wrote out basic persona, workflow, and user testing document for the Usability test. The team decided to re-orient the UX test to be around the new audio-lights mode. The plan is that I would write out the tests and build a quick prototype that the rest of the team could review and use to conduct the test. I ran into some weird Adobe Cloud issues on my computer (couldn't log in since MSOE disabled my access and that broke everything) so I was only able to create a first pass of the mocks (seen in the Wiki history) Acessible here: https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/UX/Usability-Testing| #7 | msoe-sisbot |
+| 2021-02-02 | 2h | Finished the usability prototype with revisions from the team. The prototype is published in Adobe XD and can be accessed online via: https://xd.adobe.com/view/c5914d8a-b905-46e8-be44-17fd03f059f3-90c2/?fullscreen&hints=off The goal of the prototype is to see if users are able to turn on and off the lighting controls and change colors and feature axis | #7 | msoe-sisbot |
+| 2021-02-03 | 1h | Worked on getting volume feature data to determine colors to be displayed on the table. I had to correct a couple of library things on my Pi as I shuffled configs around but the main chunk of this time was figuring out what pyAudioAnalysis could offer interms of juding volume. I went a foot deep in the rabbit hole of singal process and found to naive metrics RMS (root mean square) and peak. I think these are a good start and python provides a built-in module to calculate them (via audioop). The issue is that these are boundless metrics ranging from 0 to Inf. so normalization is an issue when plotting it along 0-255 for alpha values. There are a couple different ways to correct for this - the first being normalize as more measurements are taken, the second is to have a preset value to normalize against (hopefully generated from measurements) | #48 | msoe-sisbot |
+| 2021-02-04 | 1+h | Began implementing the volume metric via RMS (root mean square) - I decided that for now the best way to normalize the audio is to normalize as values are taken since I don't have a good base line measurment. I hope to perform some manual testing by sending the new colors to the Sisyphus table. Please note I continued to work on this after filling out the report so the times might be a little bit off... | #49 | msoe-sisbot | 
 
 ## Casper, Joseph
 * Hours: 8.75
