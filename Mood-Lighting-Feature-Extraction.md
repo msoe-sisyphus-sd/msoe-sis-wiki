@@ -281,7 +281,7 @@ chroma_std_mean
 [0.02982593 0.02724974 0.02856257 0.02810332 0.02723233 0.02705129]
 
 # Sample Mean MFCC values in jlibrosa
-The following in sample MFCC mean values calculated in jlibrosa for each of the 12 MFCC coefficents using the chopin_waltz.wav file
+The following in sample MFCC mean values calculated in jlibrosa for each of the 12 MFCC coefficients using the chopin_waltz.wav file
 
 | MFCC Value |
 |---------------| 
