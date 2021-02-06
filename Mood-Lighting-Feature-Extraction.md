@@ -1,7 +1,6 @@
-# Introduction
+# Feature Names in pyAudioAnalysis
 The following is the names of each feature in the audio feature vector provided by pyAudioAnalysis. A description of what each of these features are is provided by the pyAudioAnalysis [here](https://github.com/tyiannak/pyAudioAnalysis/wiki/3.-Feature-Extraction). Note that the calculation of all of these features is done in the ShortTermFeature.py file [here](https://github.com/tyiannak/pyAudioAnalysis/blob/master/pyAudioAnalysis/ShortTermFeatures.py)
 
-# Feature Names
 | Feature Names |
 |---------------| 
 | zcr_mean |
@@ -281,3 +280,20 @@ chroma_std_mean
 
 [0.02982593 0.02724974 0.02856257 0.02810332 0.02723233 0.02705129]
 
+# Sample Mean MFCC values in jlibrosa
+The following in sample MFCC mean values calculated in jlibrosa using the chopin_waltz.wav file
+
+| MFCC Value |
+|---------------| 
+| -414.651398 |
+| 186.649185 | 
+| -3.702853 |
+| -6.326721 |
+| 4.770495 |
+| -7.433555 |
+| -7.014105 |
+| -7.439324 |
+| -5.799428 |
+| -6.266812 |
+| -12.352530 |
+| -13.289808 |
