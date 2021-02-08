@@ -13,8 +13,11 @@ The Sisproxy codebase is not in the most maintanable shape. The team has thought
 
 
 ## Role of Sisbot
+Sisbot is responsible for serving as one end of the websocket communication. Responsible for communicating with the table's rolling ball (over serial) and the python lights module (via inter-process socket).
 
+While the `sisbot.js` file is gigantic in size and has too much responsibility, this is an area that might prove suitable to inject a module for audio listening, if a final design dictates having a microphone on the pi. Alternatively, this might just serve as an example of how we could set up a socket to communicate with the audio recorder.
 
+If I were Sisyphus industries, I would STRONGLY recommend having broken this section down into smaller bits of functionality -- a module for communicating with the table over serial, a module for talking to the lights, etc. Such division would've made the existing implementation significantly more extensible.
 
 
 # Integration of New Features
