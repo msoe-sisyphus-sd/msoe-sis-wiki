@@ -1,10 +1,21 @@
 # Current Architecture Understanding
 
+## Role of Sisproxy
+Sisproxy uses a set of configuration objects to set up service directories (sisbot/siscloud) to start services. The sisproxy repo also checks the current table state and is able to run a series of git commands to re-orient each repository if they are judged to be out of sync. 
+
+It's theorized that if a new audio service were created, the listening process could be spawned from this project (similar to sisbot and siscloud). Proposed names include sisaudio and sislisten. 
+
+The Sisproxy codebase is not in the most maintanable shape. The team has thoughts of cleaning the space up if they chose to implement new functionality stemming from here.
+
+
 ## Role of Siscloud
 
-## Role of Sisproxy
+
 
 ## Role of Sisbot
+
+
+
 
 # Integration of New Features
 We anticipate the following modules, or areas of functionality:
