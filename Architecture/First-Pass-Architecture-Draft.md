@@ -38,7 +38,7 @@ We anticipate the following modules, or areas of functionality:
 * Configure ALSA, etc.
 * Install python, load modules, etc.
 
-[Alogrithm]
+[Algorithm]
 
 * What are the features
 * Agnostic to colors
@@ -49,9 +49,9 @@ We anticipate the following modules, or areas of functionality:
 
 * Takes in output vector
 * Translates to color
-* Recieves changes from app
+* Receives changes from app
 
 [Communication Layer]
 
 * Take color from mapping
-* Send to table (supra fast)
+* Send to table (latency important)
