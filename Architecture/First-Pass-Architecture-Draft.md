@@ -10,6 +10,42 @@ The Sisproxy codebase is not in the most maintainable shape. The team has though
 
 ## Role of Siscloud
 
+Siscloud is, very simply, a boring old web app. It presents itself on port 3001 of the raspberry pi in both development and `sisbot` environments. For porting to mobile, a cordova project is used, but at least right now we don't need to worry too much about this.
+
+Flow of siscloud
+sisbot -> siscloud/server.js - which returns index.html to the user.
+index.html includes a variety of scripts that start executing--`cordovajs.`, `js/app.js`, `prod/libs.js`, `prod.gen.js`, `prod/models.js` and `prod/templates.js`.
+
+Visually, 
+```mermaid
+graph TD;
+  sisproxy/server.js-->siscloud/server.js;
+  siscloud/server.js-->index.html;
+  index.html-->app.js;
+  app.js--> templates;
+    
+```
+Siscloud loads on clientside primarily through `js/app.js`. This file is responsible for setting up everything on the interface, primarily through templates. Templates are stored in the repo under the 'tmp/' folder, but are processed into files placed under /prod by the `regenerateIndexPage()` method in `siscloud/server.js`.
+````
+	// TODO: make list of all templates (for preloading)
+	var files  = fs.readdirSync(config.dir + '/tmp', 'utf-8');
+	var templates = [];
+	_.each(files, function(filename) {
+		templates.push(filename.replace(/.html$/i, ''));
+	});
+	// console.log("Templates:", JSON.stringify(templates));
+	fs.writeFileSync(config.dir + '/prod/templates.js', 'app.tmps='+JSON.stringify(templates)+';');
+
+	var index_tmp	= _.template(index_page);
+	var new_index   = index_tmp({
+	    base_url			: config.dir,
+	    all_scripts_link	: ''
+	});
+````
+
+
+
+Siscloud's main job is to provide an interface for controlling the table. 
 
 
 ## Role of Sisbot
