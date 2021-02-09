@@ -12,7 +12,7 @@ The Sisproxy codebase is not in the most maintainable shape. The team has though
 
 Siscloud is, very simply, a boring old web app. It presents itself on port 3001 of the raspberry pi in both development and `sisbot` environments. For porting to mobile, a cordova project is used, but at least right now we don't need to worry too much about this.
 
-## Flow of siscloud
+### Flow of siscloud
 sisproxy -> siscloud/server.js - which returns index.html to the user.
 
 index.html includes a variety of scripts that start executing--`cordova.js`, `js/app.js`, `prod/libs.js`, `prod.gen.js`, `prod/models.js`, `js/app.config.js` and `prod/templates.js`.
