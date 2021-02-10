@@ -10,7 +10,7 @@ The Sisproxy codebase is not in the most maintainable shape. The team has though
 
 ## Role of Siscloud
 
-Siscloud is, very simply, a boring old web app. It presents itself on port 3001 of the raspberry pi in both development and `sisbot` environments. For porting to mobile, a cordova project is used, but at least right now we don't need to worry too much about this.
+Siscloud is, very simply, a vanilla web app. It presents itself on port 3001 of the raspberry pi in both development and `sisbot` environments. For porting to mobile, a cordova project is used, but at least right now we don't need to worry too much about this.
 
 ### Flow of siscloud
 sisproxy -> siscloud/server.js - which returns index.html to the user.
@@ -54,8 +54,7 @@ Sisbot is responsible for serving as one end of the websocket communication. Res
 
 While the `sisbot.js` file is gigantic in size and has too much responsibility, this is an area that might prove suitable to inject a module for audio listening, if a final design dictates having a microphone on the pi. Alternatively, this might just serve as an example of how we could set up a socket to communicate with the audio recorder.
 
-If I were Sisyphus industries, I would STRONGLY recommend having broken this section down into smaller bits of functionality -- a module for communicating with the table over serial, a module for talking to the lights, etc. Such division would've made the existing implementation significantly more extensible.
-
+It is noteworthy that the `sisbot.js` file is quite large, at 30K+ lines. For this reason, making edits to the file introduces significant risk without regression tests. 
 
 # Integration of New Features
 We anticipate the following modules, or areas of functionality:
