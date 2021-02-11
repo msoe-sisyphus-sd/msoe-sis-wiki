@@ -98,9 +98,12 @@ We anticipate the following modules, or areas of functionality:
 Pros: 
 * Using a model that does not utilize heavy audio processing to generate a color would greatly reduce performance requirements.
 * Reduced performance requirements would greatly increase the platform options for deploying and running our algorithm.
+* Using a minimalist approach for feature extraction would greatly reduce the number of external libraries required
+
 Cons: 
-* STAURT_TODO
-* Predicting the mood of music based on readily extractable features to is difficult at best
+* Using a model that does not require complex audio features would produce very accurate results
+* The decision tree for determining the emotion - which would be based on the valence and arousal that would be calculated from the audio features - would require tuning, likely via regression training of the K-Nearest Neighbor algorithm (discussion on whether KNN counts as an ML approach, and thus out of the scope of this spike is not addressed here), which may take a long time
+* There isn't a clear advantage to compensate the risks of taking on this approach
 
 References: #43
 
