@@ -48,6 +48,7 @@ We continued having Good team communication this sprint showcased by the many jo
 * Create weekly report documents before meetings to speed meetings up (person managing team bonding will also create these)
 * Because we're approaching a more consistent in implementation we should start more testing efforts.
 * Exposing members to all areas of the project.
+* Closing old issues in GitLab that are no longer relevant. (@enters is take the lead on this)
 
 ## What to Stop Doing
 * Forgetting to put carryover PBIs in the sprint plan
