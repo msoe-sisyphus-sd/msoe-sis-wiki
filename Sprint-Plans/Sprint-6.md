@@ -17,6 +17,7 @@ The table below are the Sprint's PBIs ordered by priority
 
 | PBI Number | Business Value | Story-points | Time Estimates | 
 | ---------- | -------------- | ------------ | -------------- |
+| #49 | Investigate alternative method of accepting audio | Carry Over | 2h |
 | #41 | Create a user-reachable toggle to enable new table functionality | 5 | 12h |
 | #55 | Create a comprehensive and visual architecture document to organize implementation effort and promote maintainability | 3 | 15h |
 | #56 | Ensure optimal table operation | 3 | 5h |
