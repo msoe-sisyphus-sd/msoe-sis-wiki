@@ -4,6 +4,8 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 
 # Burndown Chart
 
+![image](uploads/3d1082061d8d29ac4d48c4e7f7682bdf/image.png)
+
 # Team Commitment
 
 ## Burkhardt, Robert
