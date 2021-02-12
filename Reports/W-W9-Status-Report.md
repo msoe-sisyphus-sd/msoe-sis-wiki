@@ -31,12 +31,19 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 This week, I spent all my time trying to finihs up my ticket to add a checkbox to the app that will let the user turn on the mood lighting mode. I met with Stuart, Grace, and George for help, but the four of us could not get the function to be called. 
 
 ## Enters, Stuart
-* Hours: 8.5
-* Rating (0-10): 5
+* Hours: 10.5
+* Rating (0-10): 7
 * Summary:
 
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
-|------|------|-------------|-------------|----------|------------|
+|--|--|--|--|--|--|
+| 2021-02-05 | Stuart Enters | 0.50h| Meeting with Dr. Taylor |Group Meetings Time Log | msoe-sisbot |
+| 2021-02-08 | Stuart Enters | 1.50h| Standup & Sprint 6 planning | Group Meetings Time Log | msoe-sisbot |
+| 2021-02-09 | Stuart Enters | 2h | Fleshed out assigned sections of Tech Report | Group Meetings Time Log | msoe-sisbot |
+| 2021-02-09 | Stuart Enters | 2h | Reviewed and revised Grace's initial diagram | Create First-Pass Architecture Draft | msoe-sisbot |
+| 2021-02-10 | Stuart Enters | 1h | Worked on rough draft of winter presentation | Group Meetings Time Log | msoe-sisbot |
+| 2021-02-10 | Stuart Enters | 1h | Helped George finish compile and format Tech Report | Group Meetings Time Log | msoe-sisbot |
+| 2021-02-10 | Stuart Enters | 2h | Helped Joe debug the mess that is cordova data binding to actually add mood lighting option to mobile app. Also solved his initial problem in practically no time. | Spike: Mood Lighting & Integration | msoe-sisbot |
 
 ## Fleming, Grace
 * Hours: 13.92
