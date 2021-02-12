@@ -65,12 +65,20 @@ This week, I spent all my time trying to finihs up my ticket to add a checkbox t
 | 2021-02-10 | Grace Fleming  | 30m         | Provided 2nd pair of eyes, tailed logs, etc - worked async with Andy/George                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Spike: Mood Lighting: Stream Audio to AI Service                                | msoe-sisbot |
 
 ## Wojciechowski, Andrew
-* Hours: 8h
+* Hours: 12.59h
 * Rating (0-10): 8
 * Summary:
-
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
 |------|------|-------------|-------------|----------|------------|
+| 2021-02-05 | @wojciechowskia | 0.5h | Meeting with Dr. Taylor | #7 | msoe-sisbot |
+| 2021-02-05 | @wojciechowskia | 1.50h | Got the android demo up and running on an emulator. Fixed a NullReferenceException that was getting thrown if the concurrent queue was empty. Also, spent a while getting the demo runnable on my actual Android phone | #45 | msoe-sisbot |
+| 2021-02-06 | @wojciechowskia | 1h | Did some comparison between the MFCC values calculated between pyAudioAnalysis and jliborsa using chopin_waltz.wav. They are very different values and I"m not sure why. I looked into a bit into the calculations and they are very different from each other. | #45 | msoe-sisbot |
+| 2021-02-06 | @wojciechowskia | 0.5h | Verified that when I run the demo on my physical devices that we get non-0 audio samples | #45 | msoe-sisbot |
+| 2021-02-06 | @wojciechowskia | 1.67h | Hopped a call with Grace to discuss progress made on the mobile demo. Discussed the performance on my phone where it seemed to be running better. Discussed differences between the MFCC calculations between jlibrosa and pyAudioAnalysis and tried to normalize the audio samples like pyAudioAnalysis did but the MFCC values were still very different. Also, discussed some potentially simpler ways to implement this directly on the PI with keeping this all in Python on the PI instead of having to deal with differences with libraries in different languages. Let the team know that we don't think mobile will be feasible to accomplish by the end of this sprint or by the end of the year. | #45 | msoe-sisbot |
+| 2021-02-08 | @wojciechowskia | 1.42h | Standup with the team. Had a long discussion about the architecture and we sketched out a high level architecture. Also, did some sprint planning with the team.| #7 | msoe-sisbot |
+| 2021-02-09 | @wojciechowskia | 4h | Converted the ML to be run in a flask server and return the color as hex. Also, deployed the server to heroku so we can test streaming to an external service. | #49 | msoe-sisbot |
+| 2021-02-11 | @wojciechowskia | 2h | Standup with the team, put together sprint plan for next sprint, sprint retrospective, and wrote status report with the team. | #7 | msoe-sisbot |
+
 
 
 # Discussion
