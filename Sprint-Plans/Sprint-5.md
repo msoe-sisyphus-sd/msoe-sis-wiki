@@ -17,7 +17,7 @@ The table below are the Sprint's PBIs ordered by priority
 
 | PBI Number | Business Value | Story-points | Time Estimates | Completed |
 | ---------- | -------------- | ------------ | -------------- | --------- |
-| #49 | Investigate alternative method of accepting audio | 5 | 15h | Y |
+| #49 | Investigate alternative method of accepting audio | 5 | 15h | N |
 | #45 | Investigate using a mobile phone as a platform for running audio-color algorithm | 8 | 27h| Y |
 | #46 | Good systems begin with good architecture | 13 | 50h | Y |
 | #48 | This adds volume sensitivity to the algorithm, important for matching the ambience of a room | 3 | 7h | Y |
