@@ -7,12 +7,20 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours: 7.5
+* Hours: 9.42
 * Rating (0-10): 8
 * Summary:
 
 | Date | Hours Spent | Description | Issue / MR | Repository |
 | --- | --- | --- | --- | --- |
+| 2021-02-05 | 0.5h | Meeting with Dr. Taylor | #7 | msoe-sisbot |
+| 2021-02-08 | 1.42h | Standup with the team. Had a long discussion about the architecture and we sketched out a high level architecture. Also, did some sprint planning with the team. | #7 | msoe-sisbot |
+| 2021-02-11 | 2h | End of sprint documents and status reports plug some ad-hoc grooming | #7 | msoe-sisbot |
+| 2021-02-10 | 0.5h | Made changes as per MR review and merged into master | #49 | msoe-sisbot |
+| 2021-02-09 | 1h | Begin building out client to gather audio data ("forked" from existing spikes) | #49 | msoe-sisbot |
+| 2021-02-10 | 3h | Build out networking functionality for client script that sends audio data to pi. I added a couple of flags that allow for different endpoints to be hit so it can be tested against Andy's Heroku app or local server and can update the colors on local setups or the Sisyphus table in the senior design lab. I ran into 503 errors so I couldn't get data back - will have to futher investigate. | #49 | msoe-sisbot |
+| 2021-02-11 | 1h | Spent time debugging network calls (with the Help of Grace) and attempted to update colors on the Sisyphus lab table (ran into DNS issues with VPN) | #49 | msoe-sisbot |
+| 2021-02-11 | ?h | In an attempt to get latency measurements I tried tackling the VPN issues but hit a wall. I consluted both Grace and Andy but still haven't found a fix yet. I don't feel comfortable logging time for this since no actual work was completed, but nearing the 11pm deadline I was not able to take measurments with Andy so the PBI is incomplete | #49 | msoe-sisbot |
 
 ## Casper, Joseph
 * Hours:11.5
@@ -68,6 +76,7 @@ This week, I spent all my time trying to finihs up my ticket to add a checkbox t
 * Hours: 12.59h
 * Rating (0-10): 8
 * Summary:
+
 | Date | User | Hours Spent | Description | Issue/MR | Repository |
 |------|------|-------------|-------------|----------|------------|
 | 2021-02-05 | @wojciechowskia | 0.5h | Meeting with Dr. Taylor | #7 | msoe-sisbot |
