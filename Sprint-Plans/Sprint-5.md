@@ -15,14 +15,15 @@ Determine where the modified (volume-sensitive) algorithm for translating audio 
 The table below are the Sprint's PBIs ordered by priority
 
 
-| PBI Number | Business Value | Story-points | Time Estimates | 
-| ---------- | -------------- | ------------ | -------------- |
-| #49 | Investigate alternative method of accepting audio | 5 | 15h | 
-| #45 | Investigate using a mobile phone as a platform for running audio-color algorithm | 8 | 27h|
-| #46 | Good systems begin with good architecture | 13 | 50h |
-| #48 | This adds volume sensitivity to the algorithm, important for matching the ambience of a room | 3 | 7h |
+| PBI Number | Business Value | Story-points | Time Estimates | Completed |
+| ---------- | -------------- | ------------ | -------------- | --------- |
+| #49 | Investigate alternative method of accepting audio | 5 | 15h | Y |
+| #45 | Investigate using a mobile phone as a platform for running audio-color algorithm | 8 | 27h| Y |
+| #46 | Good systems begin with good architecture | 13 | 50h | Y |
+| #48 | This adds volume sensitivity to the algorithm, important for matching the ambience of a room | 3 | 7h | Y |
+| #41 | Create a user-reachable toggle to enable new table functionality | 5 | 12h | N |
 
 *_note that all team members will be participating in #46; as such the point value and time estimate reflect this effort._
 
 ## Velocity Analysis
-29 points
+29 points completed out of 34 points planned
