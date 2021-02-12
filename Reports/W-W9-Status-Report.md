@@ -39,7 +39,7 @@ This week, I spent all my time trying to finihs up my ticket to add a checkbox t
 |------|------|-------------|-------------|----------|------------|
 
 ## Fleming, Grace
-* Hours: 12.25
+* Hours: 13.92
 * Rating (0-10): 9
 * Summary: I tried to be useful ¯¯\_(ツ)_/¯¯
 
