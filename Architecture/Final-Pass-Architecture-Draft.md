@@ -29,4 +29,4 @@
 2. Place new project (server) on pi.
    * Assume that eventually, `sisproxy` will start `sislisten`.
    * `sisproxy` will be built to run on any machine that can run python. It will not be architecture-bound to a raspberry pi.
-
+https://msoe365-my.sharepoint.com/personal/wojciechowskia_msoe_edu/Documents/Microsoft%20Teams%20Chat%20Files/Architecture.PNG
