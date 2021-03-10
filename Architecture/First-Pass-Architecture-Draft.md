@@ -175,3 +175,6 @@ Additionally, the following points were considered:
   * For our purposes, a Heroku service can be used. Is this feasible long-term? Probably not.
 * An NVIDIA Jettison device running on the Sisyphus table would easily handle the audio processing and could host a web server. Is this a viable future option for customer rollout?
 
+
+# Updated Architecture 2021-03-09
+![architecture](uploads/58da94527e83a97382e8d7db667018c4/architecture.png)
