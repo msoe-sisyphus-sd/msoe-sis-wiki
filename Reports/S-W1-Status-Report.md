@@ -13,9 +13,21 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 * Summary:
 
 ## Casper, Joseph
-* Hours:
-* Rating (0-10): 
+* Hours: 4
+* Rating (0-10): 2
 * Summary: 
+
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-02-25 | casperjm | 1h | Met with Bruce for sprint review | #59 | msoe-sisbot |
+| 2021-03-08 | casperjm | 1h | Weekly team stand up | #59 | msoe-sisbot |
+| 2021-03-11 | casperjm | 1h | Met with team for status report | #59 | msoe-sisbot |
+| 2021-03-11 | casperjm | 1h | More UI debugging, researched Backbone to see if there was anything that we were missing, but couldn't tell if that was the issue or not | #59 | msoe-sisbot |
+
+
+I didn't get much work done this week. I was spending a lot of time getting set up for my new classes for the quarter. Also, I had a second round of interviews with a company, and my current job interviewed me to hire me full time, so I've had to spend time preparing for those. I don't have any more job related things to do on my radar, so I should be able to get more senior design work done next week. 
+
+In senior design this week, I spent a little time trying to get to the bottom of the checkbox ticket. I've figured more out about why it isn't being called, but have yet to figure out how it isn't being called. Starting next week, I'll start working on sisbot code instead of the UI code to get me more acquainted with the system. 
 
 
 ## Enters, Stuart
