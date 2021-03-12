@@ -31,10 +31,18 @@ In senior design this week, I spent a little time trying to get to the bottom of
 
 
 ## Enters, Stuart
-* Hours: 
-* Rating (0-10): 
+* Hours: 7
+* Rating (0-10): 4
 * Summary:
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|--|--|--|--|--|--|
+| 2021-02-12 | Stuart Enters | 2h | Team meeting & end of sprint work (Review, Plan, Status Report) | Group Meetings Time Log | msoe-sisbot |
+| 2021-03-09 | Stuart Enters | 1h | Team sync meeting | Q3 Ceremonies | msoe-sisbot |
+| 2021-03-11 | Stuart Enters | 1h | Status report with team | Q3 Ceremonies | msoe-sisbot |
+| 2021-03-11 | Stuart Enters | 1h | Reviewed Andy's MR | Q3 Ceremonies | msoe-sisbot |
+| 2021-03-11 | Stuart Enters | 2h | Worked on resolving UI bug where it doesn't call endpoint | Spike: Mood Lighting & Integration | msoe-sisbot |
 
+As with most everyone else, I wasn't super productive this week. I did try to put some good time in today, and am hoping to get an effective headstart over the weekend to get back in the swing of things
 
 ## Fleming, Grace
 * Hours: 
