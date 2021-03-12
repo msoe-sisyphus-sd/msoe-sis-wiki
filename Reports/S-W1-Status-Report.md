@@ -8,9 +8,19 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours: 
-* Rating (0-10): 
+* Hours: 4.5h
+* Rating (0-10): 6 
 * Summary:
+
+|       Date | Hours Spend | Description                                                                                                                                                                                                                                                                                                                                                                  | Issue | Repository  |
+|------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| 2021-02-25 | 1h          | Met with Bruce for sprint review                                                                                                                                                                                                                                                                                                                                             | #59   | msoe-sisbot |
+| 2021-03-09 | 0.25h       | Weekly team stand up                                                                                                                                                                                                                                                                                                                                                         | #59   | msoe-sisbot |
+| 2021-03-09 | 0.75h       | Met with team to further discuss architecture and refined our understanding of the architecture.  See wiki article https://gitlab.com/groups/msoe.edu/sdl/sd21/sisyphus/-/wikis/Architecture/First-Pass-Architecture-Draft for updated diagram.                                                                                                                              | #55   | msoe-sisbot |
+| 2021-03-11 | 1h          | Met with team to write up status report and review Andy's MR                                                                                                                                                                                                                                                                                                                 | #59   | msoe-sisbot |
+| 2021-03-11 | 1.5h        | Began map colors against songs playing to get a better idea of spread across songs and to verify that different colors are being produced for different audio emotions and valences. Additionally, located the part of sisbot that requires change for smoothing between two colors: https://gitlab.com/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/blob/master/sisbot.js#L1276 | #58   | msoe-sisbot |
+
+
 
 ## Casper, Joseph
 * Hours: 4
