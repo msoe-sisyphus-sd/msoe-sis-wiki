@@ -51,10 +51,19 @@ As with most everyone else, I wasn't super productive this week. I did try to pu
 
 
 ## Wojciechowski, Andrew
-* Hours: 
-* Rating (0-10): 
+* Hours: 7h
+* Rating (0-10): 8
 * Summary:
 
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2021-02-16 | @wojciechowskia | 0.5h | Discussion with Grace about design decisions needed for our PBIs. We need to discuss these with the team. | #55 | msoe-sisbot |
+| 2021-02-25 | @wojciechowskia | 1h | Sprint review meeting with Bruce | #59 | msoe-sisbot |
+| 2021-03-08 | @wojciechowskia | 1h | Moved some code over to msoe-sislisten and shelled out that repository more. Implemented calling the ai service as a application/x-www-form-urlencoded request which I think will allow us to send both the stream along with custom options in the future. Need to talk with Grace about coordinating future work on the sislisten repo. | #56 | msoe-sisbot |
+| 2021-03-09 | @wojciechowskia | 0.5h | Discussed potential designs for sislisten with Grace. Came up with a list of points to talk about with the team. | #55 | msoe-sisbot |
+| 2021-03-09 | @wojciechowskia | 1h | Discussed designs for sislisten with the team and came up with an architecture diagram with the team. | #55 | msoe-sisbot |
+| 2021-03-11 | @wojciechowskia | 2h | Finalized the code need to make a request to the AI Service by changing the type to be an octet-stream and added raising an error when a HTTP error is returned. I also moved the periodic tasks into their own module and tweaked a few command line arguments for the sislisten server. I also wrote an integration test verifying that we can make a request to the ai service via sislisten and verify that we get a valid response. Finally I setup GitLab CI for sislisten to run any automated tests on very commit. | #56 | msoe-sisbot |
+| 2021-03-11 | @wojciechowskia | 1h | Reviewed and made changes to the MR made for the audio streaming request MR that I created and wrote the status report with the team. | #59 | msoe-sisbot |
 
 # Discussion
 
