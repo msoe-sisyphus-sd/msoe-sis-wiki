@@ -67,5 +67,3 @@ Insert Questions here
 # Conclusion
 
 Insert Conclusion here
-
-# Don't forget the special sauce
