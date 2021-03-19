@@ -4,7 +4,7 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 
 # Burndown Chart
 
-Link Chart Here
+![image](uploads/c19488ddf806375b9f69c750a8113f60/image.png)
 
 # Team Commitment
 
@@ -53,17 +53,21 @@ Insert Summary Here
 # Discussion
 
 ## Key Meetings
+* Meeting with Dr. Taylor (3/12), discussed admin information related to senior design show, poster competition, and paperwork plan
+* Tuesday team sync (3/15) standup, brief grooming, team bonding
 
 ## Findings
+* Team discussed languages appropriate for this problem (namely python vs c++) and chose to stick with python _for now_.
+* Python's 'periodic tasks' are basically just while loops, so the thread pool pattern might make more sense.
 
 ## Successes
+* Merged #57
 
 ## Risk Updates
+* Siscloud is still cantankerous; everyone on the team has looked at it but we still can't determine why the change implementation isn't effective (we will be getting in touch with Matt).
 
 # Questions
-
-Insert Questions here
+* Were we switching paperwork after this sprint, or right now? (this only matters for next week at this point)
 
 # Conclusion
-
-Insert Conclusion here
+The team made some progress with issues, but does have concerns about whether there will be time to integrate siscloud into the setup. The team theorizes that if this part of left out of the sprint goal we have a decent shot at meeting the goal. Bigger picture, the team has some apprehension about accomplishing everything they want to (particularly beat detection and user settings) by the end of the quarter, but is committed to giving it their best shot.
