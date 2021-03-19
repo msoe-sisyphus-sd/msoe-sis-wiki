@@ -31,11 +31,17 @@ Insert Summary Here
 This week I started work on the smoothing PBI. At first I was unsure of exactly what was supposed to be accomplished by this ticket, but I have a much clearer idea of what to do after talking about it with the team.
 
 ## Enters, Stuart
-* Hours: X
-* Rating (0-10): X
+* Hours: 6.5
+* Rating (0-10): 4
 * Summary:
 
-Insert Summary Here
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-03-12 | enterss | 1h | Weekly meeting with Dr. Taylor | #59 | msoe-sisbot |
+| 2021-03-12 | enterss | 4h | Worked on getting the server running locally, had to deal with a bunch of install issues. I think I'm just going to flash a new image and start over | #61 | msoe-sisbot |
+| 2021-03-18 | enterss | 1.5h | Met with team to review merge request, standup, and status report | #59 | msoe-sisbot |
+
+I unfortunately had a lot going on this week personally and with other classes, so I could not perform as well as I wanted to. Hopefully I can get my Pi imaged tomorrow, then complete the endpoint PBI, which shouldn't take too long. Depending on the response we get from Matt, I may or may not make good headway on that PBI.
 
 ## Fleming, Grace
 * Hours: 9.5
