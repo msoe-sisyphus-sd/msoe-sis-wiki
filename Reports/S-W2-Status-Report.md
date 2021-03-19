@@ -9,11 +9,17 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 # Team Commitment
 
 ## Burkhardt, Robert
-* Hours: X
-* Rating (0-10): X
+* Hours: 6
+* Rating (0-10): 7.23
 * Summary:
 
-Insert Summary Here
+|       Date | Hours Spent | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Issue | Repository  |
+|------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------------|
+| 2021-03-12 | 1h          | Met with Dr. Taylor to discuss week outcomes and potential changes to process. It was decided to move to two week sprints (after the current one closes out) and reduce the amount of documentation put into status reports.                                                                                                                                                                                                                                           | #59   | msoe-sisbot |
+| 2021-03-16 | 1h          | Met with team to do weekly standup and discuss issues with our current architecture (consideration was made to adjust to C++ rather than python - but this still requires further discussion). The team has decided to stay the course with Python for the remainder of this sprint                                                                                                                                                                                    | #59   | msoe-sisbot |
+| 2021-03-16 | 1h30m       | Continued to map music to colors to get a baseline understanding of variance and how the colors are being generated.                                                                                                                                                                                                                                                                                                                                                   | #58   | msoe-sisbot |
+| 2021-03-17 | 1h          | Began considering how to best implement color smoothing as it relates to the coordinate system. My initial thought is to change the continuous color spectrum to a more discrete spectrum and force similar colors to default into a certain bucket (thus mitigating drastic changes). This also has the benefit of allowing the algorithm to easily switch to a different color when a completely different type of song begins to play. Code is still forthcoming... | #58   | msoe-sisbot |
+| 2021-03-18 | 1h30m       | Weekly status report meeting, merge request review, and standup.                                                                                                                                                                                                                                                                                                                                                                                                       | #59   | msoe-sisbot |
 
 ## Casper, Joseph
 * Hours: 6.5
