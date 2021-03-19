@@ -16,11 +16,19 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 Insert Summary Here
 
 ## Casper, Joseph
-* Hours: X
-* Rating (0-10): X
+* Hours: 6.5
+* Rating (0-10): 5
 * Summary:
 
-Insert Summary Here
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-03-12 | casperjm | 1h | Weekly meeting with Dr. Taylor | #59 | msoe-sisbot |
+| 2021-03-12 | casperjm | 1h | Met with Stuart to try to diagnose why sisproxy wasn't running on his Pi. We managed to fix some of the issues, but he ended up running into an issue with his Python distribution. | #41 | msoe-sisbot |
+| 2021-03-17 | casperjm | 2h | Reviewed the code that I'll be modifying in the smoothing PBI, began working on an implementation | #58 | msoe-sisbot |
+| 2021-03-17 | casperjm | 1h | Weekly stand up | #59 | msoe-sisbot |
+| 2021-03-18 | casperjm | 1.5h | Met with team to do merge request reviews and to write the status report | #59 | msoe-sisbot |
+
+This week I started work on the smoothing PBI. At first I was unsure of exactly what was supposed to be accomplished by this ticket, but I have a much clearer idea of what to do after talking about it with the team.
 
 ## Enters, Stuart
 * Hours: X
