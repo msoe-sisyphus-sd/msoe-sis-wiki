@@ -44,11 +44,19 @@ Insert Summary Here
 | 2021-03-17 | Grace Fleming | 1h          | Standup with team & grooming. Also did some team bonding, which was surprisingly not that bad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Q3 Ceremonies                                  | msoe-sisbot |
 
 ## Wojciechowski, Andrew
-* Hours: X
-* Rating (0-10): X
+* Hours: 9.16
+* Rating (0-10): 7
 * Summary:
 
-Insert Summary Here
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2021-03-15 | @wojciechowskia | 0.33h | Filled in some details in some of the future PBIs in the backlog | #59 | msoe-sisbot |
+| 2021-03-16 | @wojciechowskia | 2h | Setup siscloud on my local setup and started looking into the issue with the checkbox. I think there is an issue with how the model is instantiated. I'm going to continue looking into the issue. | #41 | msoe-sisbot |
+| 2021-03-16 | @wojciechowskia | 1h | Standup with the team and did a little bit of grooming with the team. | #59 | msoe-sisbot |
+| 2021-03-17 | @wojciechowskia | 3h | Looked into issues with setting up the checkbox in siscloud. I think I understand what the issue where the change event for the mood lighting toggle is not working properly. I'm not sure why but if I can't figure it out soon we should email Matt | #41 | msoe-sisbot |
+| 2021-03-09 | @wojciechowskia | 1h | Discussed designs for sislisten with the team and came up with an architecture diagram with the team. | #55 | msoe-sisbot |
+| 2021-03-18 | @wojciechowskia | 0.5h | Looked into this and I am completely stumped. I am going to ask the team if we ever emailed Matt about this issue | #41 | msoe-sisbot |
+| 2021-03-18 | @wojciechowskia | 1.33h | Standup with the team, reviewed Grace's MR, and wrote status report with the team. | #59 | msoe-sisbot |
 
 # Discussion
 
