@@ -18,7 +18,7 @@ The table below are the Sprint's PBIs ordered by priority
 | PBI Number | Business Value | Story-points | Time Estimates | 
 | ---------- | -------------- | ------------ | -------------- |
 | #62 | Deploy the AI service on a platform where performance and availability can be maximized | TODO | 15h |
-| #63 | Have the table have the most optimal hardware needed for the mood lighting feature | TODO | TODO |
+| #63 | Production table should be able to run mood lighting with added hardware package. | TODO | TODO |
 
 ## Velocity Analysis
 TODO
