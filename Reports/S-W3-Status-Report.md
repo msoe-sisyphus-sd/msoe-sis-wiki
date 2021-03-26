@@ -50,9 +50,19 @@ This week I finished up the smoothing PBI, with some help with George. Nothing e
 | 2021-03-25 | Grace Fleming | 1h          | Sislisten final touches (cut out translator for now)                                                                                                                                                                                                                                                                                                                                                                                                      | Add Audio Light Settings Controls to Sisbot | msoe-sisbot |
 
 ## Wojciechowski, Andrew
-* Hours: 
-* Rating (0-10): 
+* Hours: 7.58
+* Rating (0-10): 8
 * Summary:
+
+| Date | User | Hours Spent | Description | Issue/MR | Repository |
+|------|------|-------------|-------------|----------|------------|
+| 2021-03-22 | @wojciechowskia | 1h | Made changes that Matt suggested in an email and they did not work. Verified that some event handlers could be hit with breakpoints and the toggle_mood_lighting function could not be hit with a breakpoint and I responded to Matt. | #59 | msoe-sisbot |
+| 2021-03-23 | @wojciechowskia | 1.25h | Hopped on a call with Matt to fix the mood lighting checkbox issue. Ended up merging with upstream and fixing the location of where the checkbox should be where the current model matches the sisbot model | #41 | msoe-sisbot |
+| 2021-03-23 | @wojciechowskia | 0.5h | Standup, I explained siscloud to the team and discussed planning for next sprint | #59 | msoe-sisbot |
+| 2021-03-24 | @wojciechowskia | 0.33h | Hooked up calling sislisten from siscloud | #61 | msoe-sisbot |
+| 2021-03-24 | @wojciechowskia | 1h | Looked at issues we were seeing with the thread pools. It seemed to be working better if we didn't raise an error and I changed it to just print out an error to the console. It also seems like there's a potential issue either in sislisten or the AI Service that prevents struct.unpack from working. | #61 | msoe-sisbot |
+| 2021-03-25 | @wojciechowskia | 0.25h | Shelled out the sprint 7 plan | #59 | msoe-sisbot |
+| 2021-03-25 | @wojciechowskia | 3.25h | Standup, reviewing MRs, sprint planning, retro, writing status report and planning out demo with the team | #59 | msoe-sisbot |
 
 # Discussion
 
