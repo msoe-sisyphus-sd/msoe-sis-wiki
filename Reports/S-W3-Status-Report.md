@@ -40,10 +40,15 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 This week I finished up the smoothing PBI, with some help with George. Nothing else besides that
 
 ## Enters, Stuart
-* Hours: 
-* Rating (0-10): 
+* Hours: 8
+* Rating (0-10): 6 
 * Summary:
 
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-03-19 | enterss | 1h | Weekly meeting with Dr. Taylor | #59 | msoe-sisbot |
+| 2021-03-25 | enterss | 4h | Worked on getting the spawning endpoint set up for siscloud to call | #61 | msoe-sisbot |
+| 2021-03-25 | enterss | 3h | End of sprint meeting with team| #59 | msoe-sisbot |
 
 ## Fleming, Grace
 * Hours: 8.0
