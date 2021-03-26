@@ -29,7 +29,13 @@
 2. Place new project (server) on pi.
    * Assume that eventually, `sisproxy` will start `sislisten`.
    * `sisproxy` will be built to run on any machine that can run python. It will not be architecture-bound to a raspberry pi.
+
 https://msoe365-my.sharepoint.com/personal/wojciechowskia_msoe_edu/Documents/Microsoft%20Teams%20Chat%20Files/Architecture.PNG
 
 # Updated Architecture 2021-03-09
 ![architecture](uploads/58da94527e83a97382e8d7db667018c4/architecture.png)
+
+
+# Notes On Updated Architecture:
+* Audio is collected in `sislisten` via a periodic task. This periodic task is kicked off by the `Scheduler` class, which is a wrapper on the native python `threading.timer()` task. 
+* After `sislisten` collects audio (an `audio_stream`) then the audio is passed to a separate thread to be sent to the AI server and communicated back to the table. Eventually, translation capabilities involving user settings will be added to this. The tasks of calling the AI service with the audio sample, translating (in future) and communicating the color to the table are collectively known as the "pipeline." Pipelines are run by threads from a thread pool. The thread pool object is part of the native python implementation (`ThreadPoolExecutor`).
