@@ -29,12 +29,21 @@ In order to facilitate a better user experience the team implemented 2 color smo
 ![image](uploads/02fdf84f8cf6fa11d436461fb4353d33/image.png)
 
 ## Interpretation
+In the pre-smoothing image we can see that there's lot of small variances between colors to match the flow of the songs. In the post-smoothing image we can see that there's more "blocks" of the same color generated with bigger changes in the music more apparent.
+
+There is an unfortunate side-effect of the colors all becoming blended and kinda similar but this can be adjusted with the different hyper-parameters (and eventually hopefully set by the user themselves).
 
 ## Songs Used
 * Clair D' Lune
 * Here Comes the Sun
 * Halo
 * Killing in the Name Of
+* DARE
+* Mr. Blue Sky
+* Carnival of the Animals (Cuckoo)
+* Electric Daisy Violin
+* He's a Pirate
+* Driver's License
 
 ## Notes
 Raw results and `html` files may be found in the `mood-lighting-server` repository.
