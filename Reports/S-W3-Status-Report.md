@@ -15,9 +15,19 @@ A user will be able to enable mood lighting and see its effects on the lab Sisyp
 
 
 ## Casper, Joseph
-* Hours: 
-* Rating (0-10):
+
+* Hours: 9
+* Rating (0-10): 8.5
 * Summary:
+
+| Date | User |	Hours Spent | Description | Issue | Repository |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 2021-03-19 | casperjm | 1h | Weekly meeting with Dr. Taylor | #59 | msoe-sisbot |
+| 2021-03-24 | casperjm | 4h | Made good progress on smoothing light colors, met with George the following day to finalize it | #58 | msoe-sisbot |
+| 2021-03-25 | casperjm | 2h | Met with George to finish up the smoothing light PBI | #58 | msoe-sisbot |
+| 2021-03-25 | casperjm | 2.5h | Met with team to write sprint documents and have a merge party | #59 | msoe-sisbot |
+
+This week I finished up the smoothing PBI, with some help with George. Nothing else besides that
 
 ## Enters, Stuart
 * Hours: 
