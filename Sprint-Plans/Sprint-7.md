@@ -1,7 +1,7 @@
 ## Sprint 7 Plan
 
 ### Sprint Goal:
-TODO
+Expand functional proof-of-concept mood lighting to production-ready prototype.
 
 ### Sprint Assumptions
 
@@ -21,4 +21,4 @@ The table below are the Sprint's PBIs ordered by priority
 | #63 | Production table should be able to run mood lighting with added hardware package. | 5 | 11h |
 
 ## Velocity Analysis
-TODO
+13 points planned for this sprint (note this will be our first 2-week sprint :smile: )
