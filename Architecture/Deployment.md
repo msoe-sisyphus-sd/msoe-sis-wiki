@@ -75,5 +75,50 @@ Cons:
 
 From the 3 services we were able to test, it appears that AWS is the fastest although this is probably due to the lack of TLS. 
 
+Script for latency gathering:
+````
+from listener import call_mood_lighting_ai_service
+import wave
+import datetime
+import requests
+
+ai_service_gcloud = 'https://sisbot-ai-service.uc.r.appspot.com/get_mood_color_from_audio_stream'
+
+ai_service_heroku = 'https://sisyphus-mood-lighting-server.herokuapp.com/get_mood_color_from_audio_stream'
+
+ai_service_aws = 'http://sisyphus-mood-lighting-ai-service-env.eba-pv7u2crr.us-east-2.elasticbeanstalk.com/get_mood_color_from_audio_stream'
+def audio_sample():
+    with wave.open('test/count.wav', 'r') as audio_file:
+        return audio_file.readframes(audio_file.getnframes())
+
+
+def latency_for_service(ai_service):
+    t = 0
+
+    for i in range(0, 10):
+        t_1 = datetime.datetime.now()
+
+        request_headers = { 'Content-Type': 'application/octet-stream' }
+        data = { 'audioSample': audio_sample() }
+        response = requests.post(ai_service, headers=request_headers, data=data)
+        t_2 = datetime.datetime.now()
+        if response.status_code != requests.codes.ok:
+            print(f'Error in sending AI request - code: {response.status_code}')
+            print(response.text)
+            return -1
+
+        elapsed = t_2 - t_1
+        t = t + elapsed.total_seconds()
+
+    print(f'Average of ten calls: {t / 10.0}s')
+
+print('Heroku time: ')
+latency_for_service(ai_service_heroku)
+print('Gcloud time: ')
+latency_for_service(ai_service_gcloud)
+print('AWS time:')
+latency_for_service(ai_service_aws)
+````
+
 ## Final Decision
 #### TODO
