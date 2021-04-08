@@ -17,6 +17,18 @@ The team evaluated the following service providers for deployment platforms:
 ## Pros and Cons
 
 ### AWS
+Deploying to AWS went smoothly due to the extensive documentation available for AWS. The service was deployed on Andy's personal account and it was deployed using ElasticBeantalk
+
+Endpoint was exposed on
+`http://sisyphus-mood-lighting-ai-service-env.eba-pv7u2crr.us-east-2.elasticbeanstalk.com/get_mood_color_from_audio_stream`
+
+Pros
+* Easy setup
+* Good performance
+
+Cons
+* Lots of pricing options and it's confusing
+* A custom domain is needed in order to enable https
 
 ### Google Cloud
 Gcloud setup was not terribly difficult due to extensive documentation. Service was deployed under Grace's person account for starting out, for free in keeping with Google's "Always Free" tier:
@@ -56,6 +68,7 @@ Pros:
 * Https by default
 
 ### Python Anywhere
+We could not deploy the server on PythonAnywhere. PythonAnywhere gives you a linux shell that you can use to deploy the server but with the free tier you are only limited to 512 MB of space on the server. As a result we could not install all of the pip dependencies needed for the AI service. As a result we choose not to explore PythonAnywhere further.
 
 ### ROSIE 
 The team spoke with Gagan on 4/05/2021 about using ROSIE as a deployment platform. For longterm deployment, this project must get passed off to another MSOE team, as ROSIE is not defined for longtime development. Furthermore, if deployed on ROSIE, the endpoint will not be accessible from beyond campus.
