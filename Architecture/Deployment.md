@@ -25,6 +25,15 @@ Gcloud setup was not terribly difficult due to extensive documentation. Service 
 Endpoint was exposed on 
 `https://sisbot-ai-service.uc.r.appspot.com/get_mood_color_from_audio_stream`.
 
+Pros:
+* Easy setup
+* Good monitoring
+* Transparent pricing
+* Https by default
+
+Cons:
+* Possibility of going over free tier limits may mean that a formal production would cost money
+* Not nearly as fast as AWS
 
 ### Azure Cloud
 Azure cloud has widespread report of poor availability:
@@ -42,6 +51,10 @@ Pros: Completely, absolutely free.
 
 Cons: Apps in the free tier are put to sleep when not in use, and this wakeup time can cause first-in-awhile-requests to exceed 20 seconds.
 
+Pros:
+* Completely free
+* Https by default
+
 ### Python Anywhere
 
 ### ROSIE 
@@ -50,6 +63,12 @@ The team spoke with Gagan on 4/05/2021 about using ROSIE as a deployment platfor
 For development purposes, the host is `h-mgmt3.hpc.msoe.edu`, and the team folder is located `/data/sdp/ratsm`. The conda environment set aside for the team is `ratsm-flask` and can be activated with `conda activate ratsm-flask`.
 
 Note that as of 04/08/2021, there is an issue with ports not being accessible from outside of the management node. 
+
+Pros:
+-- TODO
+
+Cons:
+-- TODO
 
 ## Latency Results
 ![image](uploads/e27ebd35f3c7a5080a1756b520f7cbb2/image.png)
