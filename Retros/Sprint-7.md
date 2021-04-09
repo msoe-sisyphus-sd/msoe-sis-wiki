@@ -65,6 +65,9 @@ In this sprint, I worked on adding sislisten to the sisproxy startup script. Now
 
 ## Stuart:
 
+Issues: #63
+
+For this sprint I found myself doing a lot of background activities. I worked a lot on getting the OWASP analysis done, as well as performing some sysadimn activities (installing dependencies, getting sisproxy running on my setup). I had written an addition to sisbot last sprint to spawn sisproxy, but didn't understand some architecture decisions, and so I had to move it to sisproxy. Joe was already working on that, so I just wrote a simple bash script to spawn it, which would be a bit easier to modify (they already used bash scripts for things like restarting the table, so I didn't see this as unprecedented). I also spent some time reviewing MRs from the team, and discussions with the team about how we were going to implement our architecture decisions.
 
 ## Grace:
 
