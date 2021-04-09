@@ -49,6 +49,14 @@ Some of the team feels like they are sliding, others do not
 
 ## George:
 
+Issues: #62, #63
+
+This sprint I primarily focused on the hardware setup for the group table. I first needed to consider how an additional USB device could be integrated with a single-port Raspberry Pi, in addition to how adding an audio device would effect current table functionality (primarily the LED strip which requires PCM which is typically used for audio). After a bit of research, I came away with the conclusion that a powered USB hub would be necessary to ensure all peripherals had ample power. Next, I spent time in lab reconfiguring the Pi with a USB hub as well as a USB microphone. I ran into some issue where the table would lose connection with the Arduino motor controller, but after a bit of plug-play-reboot I was able to get the system to recognize the hub, the microphone, and the Arduino controller. I also discovered that the hub I used would power devices even without a parent connection and thus cause undefined behavior in the system. By removing the external power I was able to get all devices powered and communicating properly (seems the microphone is low-enough power but this may not hold true for other models - further testing is needed if we use a different microphone in the future).
+
+This sprint I also accompanied Andy and Grace when the met with Gagan to talk about deploying the AI service on Rosie. For any external dealings a contract would be necessary between Sisyphus Industries and MSOE but so long as the project relates to student activities or some type of function for Direks Hall then resources can be allocated (ON THE CONDITION that a maintenance plan is put into place - maybe an SDL team will take up the project?)
+
+Lastly, I worked with Joe to integrate the software and hardware changes on the table a drafted a set of instructions for demo and setup replication - we ran into some dependency install issues (binaries being incorrect or installing deps. against a wrong version of python). After a bit of tooling around (remotely on Linux - something I'm not super good at but was aided by my knowledge acquisition outcome) we were able to get things working!
+
 
 ## Joe:
 
