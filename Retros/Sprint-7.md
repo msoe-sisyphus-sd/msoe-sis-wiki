@@ -44,3 +44,20 @@ Some of the team feels like they are sliding, others do not
 * Team bonding after meetings
 * Async grooming
 * Not contributing to the police state
+
+# Personal Contributions
+
+## George:
+
+
+## Joe:
+
+
+## Stuart:
+
+
+## Grace:
+
+
+## Andy:
+
