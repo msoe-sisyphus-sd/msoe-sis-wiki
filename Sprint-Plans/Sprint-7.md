@@ -15,10 +15,12 @@ Expand functional proof-of-concept mood lighting to production-ready prototype.
 The table below are the Sprint's PBIs ordered by priority
 
 
-| PBI Number | Business Value | Story-points | Time Estimates | 
-| ---------- | -------------- | ------------ | -------------- |
-| #62 | Deploy the AI service on a platform where performance and availability can be maximized | 8 | 15h |
-| #63 | Production table should be able to run mood lighting with added hardware package. | 5 | 11h |
+| PBI Number | Business Value | Story-points | Time Estimates | Completed | 
+| ---------- | -------------- | ------------ | -------------- | --------- |
+| #62 | Deploy the AI service on a platform where performance and availability can be maximized | 8 | 15h | N |
+| #63 | Production table should be able to run mood lighting with added hardware package. | 5 | 11h | N |
 
 ## Velocity Analysis
 13 points planned for this sprint (note this will be our first 2-week sprint :smile: )
+
+0 out of 13 points completed :cry: 
