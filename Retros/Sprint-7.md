@@ -64,3 +64,7 @@ This sprint I worked on deployment of the table service. First, I researched ava
 
 
 ## Andy:
+
+Issues: #62
+
+In this sprint I looked into deploying the AI service on an optimal platform. I spent the first part of the sprint researching how people deploy Flask AI services and found that people use the standard cloud providers and I found an additional service called PythonAnywhere. I was able to get the service deployed to AWS ElasticBeanstalk pretty easily using the CLI but I found that https is not enabled by default and that you need to own a custom domain in order to enable https. I also explored PythonAnywhere but eliminated it pretty quickly since the free tier is limited to 512 MB of space on the server. I also attended the meeting to potentially deploy this on Rosie with Grace, Gagan, and George. Finally, I got performance statistics for AWS and I discussed the results with Grace and we decided that Google Cloud is the winner if we can't deploy it on Rosie.
