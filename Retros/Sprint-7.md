@@ -29,3 +29,18 @@ Some of the team feels like they are sliding, others do not
 
 > Doing asynchronous backlog grooming
  We did our grooming asynchronously
+
+## What to Start Doing
+
+* Daily asynchronous stand ups 
+* Marking subtasks as "done" as soon as the subtask is finished
+
+## What to Stop Doing
+
+* Procrastinating 
+
+## What We Should Continue Doing - New/Current
+
+* Team bonding after meetings
+* Async grooming
+* Not contributing to the police state
