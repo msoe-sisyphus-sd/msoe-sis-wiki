@@ -52,6 +52,8 @@ Some of the team feels like they are sliding, others do not
 
 ## Joe:
 
+In this sprint, I worked on adding sislisten to the sisproxy startup script. Now, when the table boots up, sislisten will automatically start as well. I tried to do this by adding it to the configs.js file in sisproxy, but it got really messy really fast due to how incohesive the current code is, so Stuart wrote a shell script to start sislisten, and I added this script to run on startup. After getting this running locally, George and I added sislisten to the table. We ran into a lot of issues downloading dependencies, but we got it running and ready for demo tomorrow.  
+
 
 ## Stuart:
 
