@@ -67,6 +67,10 @@ Pros:
 * Completely free
 * Https by default
 
+Cons:
+* Falls asleep 
+* Slower
+
 ### Python Anywhere
 We could not deploy the server on PythonAnywhere. PythonAnywhere gives you a linux shell that you can use to deploy the server but with the free tier you are only limited to 512 MB of space on the server. As a result we could not install all of the pip dependencies needed for the AI service. As a result we choose not to explore PythonAnywhere further.
 
