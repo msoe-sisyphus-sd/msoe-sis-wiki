@@ -21,3 +21,4 @@ On line 1 of this file the current model is the sisyphus manager model which is 
 # Debugging Tips
 
 * To determine the current model you can do something like this to output the current model id to the screen ` <div>{{= model.id }}</div>`
+* To enable debug output to the dev tools console you can either set app.config.is_debug = 'true' via the dev tools console and refresh the page. Or you can edit the is_debug property before you start siscloud in js/app.config.js
