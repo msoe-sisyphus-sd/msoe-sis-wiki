@@ -73,3 +73,4 @@ We hope that during our final retrospective and team meeting that we only need t
 ## Grace Fleming
 
 ## Andy Wojciechowski
+In this sprint I assisted with implementing the user settings feature in sislisten. I wrote a lot of automated test cases for that feature and I added a lot of additional validation for this feature to make sure that the data sent and used by the server is valid. I also did a lot of manual testing with this feature and I looked at the colors be translated by sislisten. I found that the colors were not what I was expecting given a song and I found that the further a point is the way from a certain center point for an emotion the more interpolated it's going to be with the other emotion colors. We ended up writing that up for an additonal PBI to be tackled next sprint. I also wrote a wiki article this sprint detailing how the code in siscloud works using the information I got from Matt at the beginning of the spring.
