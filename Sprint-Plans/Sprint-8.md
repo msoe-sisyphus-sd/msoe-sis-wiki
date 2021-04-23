@@ -16,14 +16,14 @@ The table below are the Sprint's PBIs ordered by priority
 
 
 | PBI Number | Business Value | Story-points | Time Estimates | Done ? |
-| ---------- | -------------- | ------------ | -------------- | 
-| #62 | Deploy the AI service on a platform where performance and availability can be maximized | 8 | 15h | | 
-| #64 | Maintain the customizability of the table with new services | 8 | 12h | 
-| #65 | Maintain the customizability of the table with new services | 3 | 4h |
-| #47 | Support custom colors for moods in the user interface | 5 | 12h |
+| ---------- | -------------- | ------------ | -------------- |  --- |
+| #62 | Deploy the AI service on a platform where performance and availability can be maximized | 8 | 15h |Y | 
+| #64 | Maintain the customizability of the table with new services | 8 | 12h | |
+| #65 | Maintain the customizability of the table with new services | 3 | 4h | Y |
+| #47 | Support custom colors for moods in the user interface | 5 | 12h |  |
 
 ## Velocity Analysis
 
 8 points carried over (these PBIs are very close to done), 16 points being added, for a total of 24 points.
 
-TODO - status of finished points
+Completed 11 of 24 points (2 carryover PBI's worth a collective 13 points)
