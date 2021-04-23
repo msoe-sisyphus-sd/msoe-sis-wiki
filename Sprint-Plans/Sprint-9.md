@@ -18,10 +18,9 @@ THESE ARE OLD :
 
 | PBI Number | Business Value | Story-points | Time Estimates | 
 | ---------- | -------------- | ------------ | -------------- |
-| #62 | Deploy the AI service on a platform where performance and availability can be maximized | 8 | 15h |
 | #64 | Maintain the customizability of the table with new services | 8 | 12h |
-| #65 | Maintain the customizability of the table with new services | 3 | 4h |
 | #47 | Support custom colors for moods in the user interface | 5 | 12h |
+| #66 | Improve user settings functionality | 5 | 12h | 
 
 ## Velocity Analysis
  TODO
