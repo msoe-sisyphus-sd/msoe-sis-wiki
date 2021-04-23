@@ -79,6 +79,7 @@ In this sprint I was working on the back of the frontend, getting siscloud to ca
 
 ## Grace Fleming
 * Issues: #64
+
 I started off by implementing the translator and a new endpoint to accept user settings. This was accompanied by writing some tests (although Andy wrote the bulk of them), and adding extra validation based on both of us test's output. Later, I integrated the translator back into the pipeline for sislisten, and added logging to the thread pool so that when threads terminate due to an exception, those exceptions are logged instead of disappearing into the ether. Previously this had been a problem while debugging. 
 
 Outside of my normal issue work, I helped out Joe a tiny bit with getting the AI service to return coordinates, and did the deploy for his work to gcloud after he was done. I also spent an hour or so on Tuesday night week 7 assisting George with getting the raspberry pi working with Bluetooth; this was mostly a google scavenger hunt but we did end up getting it working.
