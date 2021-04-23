@@ -18,9 +18,9 @@ The table below are the Sprint's PBIs ordered by priority
 | PBI Number | Business Value | Story-points | Time Estimates | Done ? |
 | ---------- | -------------- | ------------ | -------------- |  --- |
 | #62 | Deploy the AI service on a platform where performance and availability can be maximized | 8 | 15h |Y | 
-| #64 | Maintain the customizability of the table with new services | 8 | 12h | |
+| #64 | Maintain the customizability of the table with new services | 8 | 12h | N |
 | #65 | Maintain the customizability of the table with new services | 3 | 4h | Y |
-| #47 | Support custom colors for moods in the user interface | 5 | 12h |  |
+| #47 | Support custom colors for moods in the user interface | 5 | 12h | N |
 
 ## Velocity Analysis
 
