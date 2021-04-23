@@ -68,6 +68,8 @@ We hope that during our final retrospective and team meeting that we only need t
 
 ## Joe Casper
 
+In this sprint, I converted the mood lighting server to return map coordinates instead of colors.   These coordinates are used when setting colors on the color map. After finishing this, I tested out various songs and how their color coordinates look in several runs to see if they are consistent. 
+
 ## Stuart Enters
 
 ## Grace Fleming
