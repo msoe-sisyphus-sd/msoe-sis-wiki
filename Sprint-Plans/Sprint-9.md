@@ -10,11 +10,11 @@
 * Git flow will be followed as posted
 * PBI's will only be moved to completion when they satisfy the [Definition of Done](/msoe.edu/sdl/sd21/sisyphus/msoe-sisbot/-/wikis/Process/Definition%20of%20Done)
 * The table in the Cybersecurity lab is set up for remote development.
+* We will not be doing another sprint after this one :sob: 
 
 ### Selected PBI's (ordered by priority)
 
-THESE ARE OLD : 
-
+Ambitious but let's go:
 
 | PBI Number | Business Value | Story-points | Time Estimates | 
 | ---------- | -------------- | ------------ | -------------- |
