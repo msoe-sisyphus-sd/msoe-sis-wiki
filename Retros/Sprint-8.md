@@ -73,7 +73,7 @@ In this sprint, I converted the mood lighting server to return map coordinates i
 ## Stuart Enters
 In this sprint I was working on the back of the frontend, getting siscloud to call the proper endpoints in sislisten. I was not as productive as I wanted to be due to not being able to see what I was working on (due to a borked local setup). I was in charge of team bonding activities last week, and did some administrative behind-the-scenes activities. I also was involved in the merge party + debugging blowout that was our final night of this sprint. 
 
-tl;dr spent more time debugging than developing
+**tl;dr** spent more time debugging than developing
 
 ## Grace Fleming
 
