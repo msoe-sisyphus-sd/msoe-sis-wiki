@@ -16,12 +16,12 @@
 
 Ambitious but let's go:
 
-| PBI Number | Business Value | Story-points | Time Estimates | 
-| ---------- | -------------- | ------------ | -------------- |
-| #64 | Maintain the customizability of the table with new services | 8 | 12h |
-| #47 | Support custom colors for moods in the user interface | 5 | 12h |
-| #66 | Improve user settings functionality | 5 | 12h | 
-| #50 | Explore beat detection as an option for users | 8 | 11h |
+| PBI Number | Business Value | Story-points | Time Estimates | Completed? |
+| ---------- | -------------- | ------------ | -------------- |------------|
+| #64 | Maintain the customizability of the table with new services | 8 | 12h | |
+| #47 | Support custom colors for moods in the user interface | 5 | 12h | |
+| #66 | Improve user settings functionality | 5 | 12h |  |
+| #50 | Explore beat detection as an option for users | 8 | 11h | |
 
 ## Velocity Analysis
 26 points (including 13 carryover)
