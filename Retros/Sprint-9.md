@@ -58,6 +58,8 @@ People (including Andy, Andy's Parents, Dolly Parton - but not Grace), (and thos
 
 ## Joe Casper
 
+This sprint, I tried to implement beat detection for the table with Stuart. PyAudioAnalysis has a built in beat detection function, and we tried to make it work. However, there were error reading in the file, and it didn't work. We tried looking up how to fix it, but there is no documentation or examples of anyone using this, and the one question on stack overflow did not have an answer.
+
 
 ## Stuart Enters
 
