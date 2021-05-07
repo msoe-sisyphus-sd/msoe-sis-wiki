@@ -1,8 +1,10 @@
 ## Sprint 9 Plan :tada: :mortar_board: :fire: 
 
 ### Sprint Goal:
+Finalize mood lighting color settings and smoothing and enable beat detection.
 
-
+#### Did We Meet Our Goal?
+No, we were only able to polish mood lighting but ran into library issues (i.e. lack of documentation,  buggy implementation loading files) with PyAudioAnalysis' beat detection module. Seems like this part of the library has not been used by others - there was a distinct lack of examples online.
 
 ### Sprint Assumptions
 
