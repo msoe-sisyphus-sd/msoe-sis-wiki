@@ -1,33 +1,57 @@
-# Retrospective Sprint 8 :eyeglasses: 
+# Retrospective Sprint 9 :eyeglasses: 
 
 
 ## What We Wanted to Get Better At - Did it Happen?
 > Daily Asynchronous Standup (for real this time)
 
+Improvements were made as we did this more during the sprint than in previous sprints, however during the second week we reverted to our previous communication style.
+
 > Test changes in a table environment sooner
 
-> Senior Sprinting :checkered_flag: :runner:  We are _totally_ going to be so _fully engaged_ with this final sprint - just you see. Like we're gonna rewrite the whole project from scratch in Rust and Clojure. You may have you'rre doubts, but we're v speedy bois. :fish: 
+Yes, despite coming out of last sprint needing to essentially rebuild the Pi image on a newer Raspbian version, the team did deploy and test changes on the table sooner in the sprint. In fact, a couple of defects/bugs were caught and corrected due to this change in process.
+
+> Senior Sprinting :checkered_flag: :runner:  We are _totally_ going to be so _fully engaged_ with this final sprint - just you see. Like we're gonna rewrite the whole project from scratch in Rust and Clojure. You may have you'rre doubts, but we're v speedy bois. :fish:
+
+_Someone_ downloaded Kyrgyzstanian botnet software which corrupted our complete rewrite so we've lost all progress made on this front :cry:
+
+The responsible party knows who they are...
 
 ## What We Wanted to Stop - Did it stop?
 > Attempting to mark sub-tasks done. It doesn't fit with our flow and it is honestly a hinderance on our process. Daily Asynchronous Standup should solve the issue of tracking and understanding low-level work completion
 
+Sub-tasks who? We don't know her...
+
 > Merge Parties - They crept back in during last sprint and we wanted to send them to kingdom come in this final sprint
 
+No big merge parties this sprint - we did have 2 MRs open at once but that was due to last sprint carry over (which had already been reviewed).
+
 > Last-minute Sprint Work. We hope that during our final retrospective and team meeting that we only need to meet to fill out paper work and all sprint work is completed well before the deadline.
+
+Nope, work was completed without procrastination.
 
 ## What we should continue doing - How We Did
 >  Communication
 
-> Vaccinations :syringe: 
+The members of the team don't hate each other so we're all still on talking terms (for now).
+
+> Vaccinations :syringe:
+
+People (including Andy, Andy's Parents, Dolly Parton - but not Grace), (and those who got Moderna :nauseated_face:) have gotten vaccines and full immunity.
+
+![image](uploads/df56be974a5a518d14f978f5d4212a01/image.png)
 
 ## What to Start Doing
-
+* Relaxing
+* Facing our existential dread
 
 ## What to Stop Doing
-
+* Doing Grooming
+* Doing Sprint Work
+* Deferring our existential dread
 
 ## What We Should Continue Doing - New/Current
-
+* Being Amazing
+* Bullying those who received the Moderna or Johnson-and-Johnson vaccine
 
 
 ## George Burkhardt
