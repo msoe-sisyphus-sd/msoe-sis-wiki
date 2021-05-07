@@ -55,6 +55,10 @@ People (including Andy, Andy's Parents, Dolly Parton - but not Grace), (and thos
 
 
 ## George Burkhardt
+* Issues: #47, #50, Audio Script
+
+This sprint I spent some time looking into the underlying implementation of beat detection to gain a better understanding of it. Additionally, I very briefly assisted Grace in trying to upgrade the image to one more suitable for running Python 3.7. Additionally, I spent a bit of time developing a script that allows team members to play music via the bluetooth speaker in lab (although that's not super helpful at this point). Finally, once the new table image was up and going (all due in part to Grace's hard work), I briefly manually tested the changes to the web app to ensure everything was in working order. Essentially, I kinda performed a grab bag of activities this sprint.
+
 
 ## Joe Casper
 
