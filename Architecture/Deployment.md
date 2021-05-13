@@ -31,7 +31,7 @@ Cons
 * A custom domain is needed in order to enable https
 
 ### Google Cloud
-Gcloud setup was not terribly difficult due to extensive documentation. Service was deployed under Grace's person account for starting out, for free in keeping with Google's "Always Free" tier:
+Gcloud setup was not terribly difficult due to extensive documentation. Service was deployed under Grace's personal account for starting out, for free in keeping with Google's "Always Free" tier:
 * https://cloud.google.com/free/docs/gcp-free-tier
 
 Endpoint was exposed on 
@@ -81,11 +81,7 @@ For development purposes, the host is `h-mgmt3.hpc.msoe.edu`, and the team folde
 
 Note that as of 04/08/2021, there is an issue with ports not being accessible from outside of the management node. 
 
-Pros:
--- TODO
-
-Cons:
--- TODO
+*Not pursued due to setup difficulties*
 
 ## Latency Results
 ![image](uploads/e27ebd35f3c7a5080a1756b520f7cbb2/image.png)
@@ -138,4 +134,4 @@ latency_for_service(ai_service_aws)
 ````
 
 ## Final Decision
-#### TODO
+We ended up deciding on using Google Cloud as the final host for the server
